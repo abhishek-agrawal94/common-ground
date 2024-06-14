@@ -1,0 +1,412 @@
+file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+ID_14;9;;; (Abdellah);3, 2, 1... C'est parti.; 3, 2, 1... Here we go.;;;;;;;
+ID_14;9;;; child;Euh, je pense... C'est bon.; Um, I think... It's okay.;;;;;;;
+ID_14;9;;; parent;Est-ce que tu penses à une chose ?; Are you thinking of something?;;;;;;;
+ID_14;9;Photo of a baby; parent; child;Oui, enfin... ; Yes finally...;;;;;1;;
+ID_14;9;Photo of a baby; parent; parent;C'est une chose ?; It's a thing ?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;C'est quoi, une chose ?; What is a thing?;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent; Bah, c'est pas vivant.; Well, it's not alive.;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Une chose, c'est-à-dire un objet, je sais pas, un plastique, une matière... ; A thing, that is to say an object, I don't know, a plastic, a material...;;;;;;;
+ID_14;9;Photo of a baby; parent; parent;Ah, mais c'est toi qui as choisi le mot, là ?; Ah, but it was you who chose the word there?;;;;;;;
+ID_14;9;Photo of a baby; parent; child;Oui.; Yes.;;;;;;;
+ID_14;9;Photo of a baby; parent; parent;D'accord.; All right.;;;;;;;
+ID_14;9;Photo of a baby; parent; parent;Bah, est-ce que c'est un objet, oui ?; Well, is it an object, yes?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que ça se trouve dans la maison ?; Is it in the house?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que ça se trouve sur toi ?; Is this on you?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent; Est-ce que ça se trouve sur moi ?; Is this on me?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que... Est-ce que... Donc ça se trouve dans la maison ou est-ce que ça se trouve dans le salon ?; Is... Is... So is it in the house or is it in the living room?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que c'est un miroir ?; Is it a mirror?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que c'est une table ?; Is this a table?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que on l'utilise pendant les repas ?; Do we use it during meals?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;D'accord.; All right.;;;;;1;;
+ID_14;9;Photo of a baby; parent; parent; Est-ce que c'est un objet de décoration ?; Is it a decorative object?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que moi je peux le voir maintenant là ?;Can I see it now?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Ah.; Oh.;;;;;1;;
+ID_14;9;Photo of a baby; parent; parent;C'est un problème.; It is a problem.;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Tu peux tourner la tête hein.; You can turn your head, huh?;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Ah oui ?; Oh yes ?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Oui.; Yes.;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;C'est pour ça qu'il y a une caméra, pour que tu tournes la tête et ben ça voit où tu vois.; That's why there's a camera, so that you turn your head and it sees where you see.;;;;;1;;
+ID_14;9;Photo of a baby; parent; parent;Est-ce que c'est une sculpture ?; Is it a sculpture?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Non. Mais regarde !; No. But look!;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Est-ce que c'est une photo ?; Is this a photo?;;;;;1;;
+ID_14;9;Photo of a baby; parent; parent;Je sais ce qu'il y a là-bas.; I know what's there.;;;;;1;;
+ID_14;9;Photo of a baby; parent; parent;Un cadre ?; A frame ?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;T'étais plus proche photos, mais c'est laquelle la photo ?; You were closer to the photos, but which photo is it?;;;;;1;1;1
+ID_14;9;Photo of a baby; parent; parent;Ah !; Ah!;;;;;1;;
+ID_14;9;Photo of a baby; parent; parent;Et bien, il y a la photo de... ; Well, there is the photo of...;;;;;;;
+ID_14;9;Photo of a baby; parent; child;Parce qu'il y a tout ça; Because there is all that;;;;;;;
+ID_14;9;Photo of a baby; parent; parent;Oui, mais une photo, donc, là-bas, parce que tu regardes là-bas.; Yes, but a photo, therefore, over there, because you are looking over there.;;;;;;;
+ID_14;9;Photo of a baby; parent; parent;La photo de toi quand t'es bébé ?; The photo of you when you were a baby?;;;;;1;;
+ID_14;9;Photo of a baby; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;;; child;Ah, en fait, tu veux voir dans le miroir ?; Ah, actually, do you want to see in the mirror?;;;;;;;
+ID_14;9;;; parent;Non, mais je connais tout ce qu'il y a là-bas, moi.; No, but I know everything there is there.;;;;;;;
+ID_14;9;A watch; child; parent;À mon tour.; My turn.;;;;;1;;
+ID_14;9;A watch; child; parent;Ça y est.; That's it.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que tu penses à un objet ?; Are you thinking of an object?;;;;;1;;
+ID_14;9;A watch; child; parent; Oui.; Yes.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que c'est dans la maison ?; Is it in the house?;;;;;1;1;1
+ID_14;9;A watch; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce qu'on s'en sert pour faire des plats ?; Do we use it to make dishes?;Do we use it to cook dishes?;;;1;1;1;1
+ID_14;9;A watch; child; parent;Non.; No.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que je le porte ?;Do I wear it?;;;;;1;1;1
+ID_14;9;A watch; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que c'est des habits ?; Are these clothes?;;;;;1;1;1
+ID_14;9;A watch; child; parent;Non.; No.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que c'est des lunettes ?; Are these glasses?;;;;;1;1;1
+ID_14;9;A watch; child; parent;Non.; No.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que c'est une caméra ?; Is it a camera?;;;;;1;1;1
+ID_14;9;A watch; child; parent;Non.; No.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que c'est... ; Is it...;;;;;;;
+ID_14;9;A watch; child; parent; Enlève tes cheveux, Mathilde... Enlève tes cheveux.; Take off your hair, Mathilde... Take off your hair.;;;;;;;
+ID_14;9;A watch; child; parent;Enlève tes cheveux.; Take off your hair.;;;;;;;
+ID_14;9;A watch; child; child;Est-ce que... Est-ce que... T'es sûre que c'est pas des habits ?; Is... Is... Are you sure it's not clothes?;;;;;1;1;1
+ID_14;9;A watch; child; parent;Non.; No.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que c'est une partie du corps ?; Is it a body part?;;;;;1;1;0
+ID_14;9;A watch; child; parent;Non.; No.;;;;;1;;
+ID_14;9;A watch; child; child;Est-ce que tu le portes ?; Are you wearing it?;;;;;1;1;1
+ID_14;9;A watch; child; parent; Non.; No.;;;;;1;;
+ID_14;9;A watch; child; child;Ah, c'est une montre.; Ah, it's a watch.;;;;;1;1;1
+ID_14;9;A watch; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;;; parent;A ton tour; Your turn;;;;;;;
+ID_14;9;;; child;C'est bon.; It's good.;;;;;;;
+ID_14;9;;; parent;Ok.; OK.;;;;;;;
+ID_14;9;;; parent;Est-ce que c'est une personne?; Is it a person?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent; Est-ce que c'est dans la maison ?; Is it in the house?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Est-ce que c'est une chose ?; Is that a thing?;;;;;;;
+ID_14;9;;; child;C'est quoi une chose pour toi ?; What is one thing to you?;;;;;;;
+ID_14;9;;; parent;Un objet ?; An object ?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Est-ce que c'est une plante ?; Is it a plant?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Est-ce que c'est... donc c'est pas une personne, c'est pas une plante, est-ce que c'est vivant ?; Is it... so it's not a person, it's not a plant, is it alive?;;;;;;;
+ID_14;9;;; child;Je sais pas trop comment te dire.; I don't really know how to tell you.;;;;;;;
+ID_14;9;;; parent;Est-ce que c'est un animal ?; Is it an animal?;;;;;;;
+ID_14;9;;; child; Non.; No.;;;;;;;
+ID_14;9;;; child;Tu peux me demander si ça a un rapport avec... ; You can ask me if this has anything to do with...;;;;;;;
+ID_14;9;;; parent;Est-ce que ça a un rapport avec l'école ?;Does this have anything to do with school?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Avec la poterie ?; With pottery?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Avec le tennis ?; With tennis?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Une activité ?; An activity ?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Avec la voiture ?; With the car ?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent; Euh... Est-ce que... Est-ce qu'on s'en... Est-ce que c'est pendant les vacances ?; Um... Are we... Are we... Is it during the holidays?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Est-ce qu'on s'en... Est-ce que c'est... Donc c'est une chose ou pas ?; Do we care... Is this... So is it a thing or not?;;;;;;;
+ID_14;9;;; child;Bah, attends.; Well, wait.;;;;;;;
+ID_14;9;;; child;Ça a un peu rapport avec le cours de poterie, mais presque rien.; It has a little to do with the pottery class, but almost nothing.;;;;;;;
+ID_14;9;;; parent;Est-ce que c'est le judo ?; Is it judo?;;;;;;;
+ID_14;9;;; child;Pense pas trop à la poterie parce que ça a presque rien à voir.; Don't think too much about pottery because it has almost nothing to do with it.;;;;;;;
+ID_14;9;;; parent; Donc c'est dans le quartier ?; So it's in the neighborhood?;;;;;;;
+ID_14;9;;; child;Je sais pas.; I don't know.;;;;;;;
+ID_14;9;;; parent;Bon, j'ai aucune idée.; Well, I have no idea.;;;;;;;
+ID_14;9;;; parent;Est-ce que tu peux me donner un indice ?; Can you give me a hint?;;;;;;;
+ID_14;9;;; child;C'est un rapport avec une fille que tu connais et que je connais.; It's something to do with a girl you know and I know.;;;;;;;
+ID_14;9;;; parent;Qui est à l'école ?; Who is at school?;;;;;;;
+ID_14;9;;; child;Oui.; Yes.;;;;;;;
+ID_14;9;;; parent;Est-ce que c'est Lou ?; Is it Lou?;;;;;;;
+ID_14;9;;; child; Rappelle-toi que la potrice a un petit peu de rapport.; Remember that the potter has a little connection.;;;;;;;
+ID_14;9;;; parent;Lou ?; Lou?;;;;;;;
+ID_14;9;;; parent;Donc c'est pas au sujet de Lou ?; So it's not about Lou?;;;;;;;
+ID_14;9;;; child;{L'enfant secoue la tête}; {The child shakes his head};;;;;;;
+ID_14;9;;; parent;Est-ce que c'est Romane ?; Is it Romane?;;;;;;;
+ID_14;9;;; child;{L'enfant secoue la tête}; {The child shakes his head};;;;;;;
+ID_14;9;;; parent;Ah, Fanny ?;Oh, Fanny?;;;;;;;
+ID_14;9;;; parent;Bah quoi, c'est une fille adulte ou enfant ?; Well, is it an adult girl or a child?;;;;;;;
+ID_14;9;;; child;Enfant.; Child.;;;;;;;
+ID_14;9;;; child;Tu la connais bien.; You know her well.;;;;;;;
+ID_14;9;;; child;Enfin, assez bien peut-être.; Well, quite well perhaps.;;;;;;;
+ID_14;9;;; parent; Donc on parle d'une fille qui fait de la poterie avec toi.; So we're talking about a girl who makes pottery with you.;;;;;;;
+ID_14;9;;; child;Ça a rapport avec la poterie.; It has to do with pottery.;;;;;;;
+ID_14;9;;; parent;Je peux avoir un deuxième indice ?; Can I have a second clue?;;;;;;;
+ID_14;9;;; child;Ah !; Ah!;;;;;;;
+ID_14;9;;; child;C'est...; It is...;;;;;;;
+ID_14;9;;; child; Euh... Ben, écoutez... Enfin, euh... Attends, je sais pas... Euh... ; Uh... Well, listen... Well, uh... Wait, I don't know... Uh...;;;;;;;
+ID_14;9;;; parent;Bon, j'y arrive pas Madeleine; Well, I can't do it Madeleine;;;;;;;
+ID_14;9;;; child;Euh, attends... Attends, attends... ; Uh, wait... Wait, wait...;;;;;;;
+ID_14;9;;; parent;Arrête de gratter; Stop scratching;;;;;;;
+ID_14;9;;; parent;Oui.; Yes.;;;;;;;
+ID_14;9;;; child;Euh...; Uh...;;;;;;;
+ID_14;9;;; child; C'est pour ça qu'elle a raté les cours de poterie.; That's why she missed pottery class.;;;;;;;
+ID_14;9;;; parent;Un bras cassé, non ?; A broken arm, right?;;;;;;;
+ID_14;9;;; parent;C'est pour ça qu'elle a raté le bébé de Fanny ?; Is that why she missed Fanny's baby?;;;;;;;
+ID_14;9;;; child;C'est pas une adulte, c'est une enfant, on avait dit.; She's not an adult, she's a child, we said.;;;;;;;
+ID_14;9;;; parent;Ah !; Ah!;;;;;;;
+ID_14;9;;; parent;Zoé, donc la fille de Zoé, Violette ou... Violette et...; Zoé, therefore Zoé's daughter, Violette or... Violette and...;;;;;;;
+ID_14;9;;; child; Diane.; Diane.;;;;;;;
+ID_14;9;;; parent;Donc c'est Violette qui a fait un film.; So it was Violette who made a film.;;;;;;;
+ID_14;9;;; child;{L'enfant secoue la tête}; {The child shakes his head};;;;;;;
+ID_14;9;;; parent;Et quoi ?; And what ?;;;;;;;
+ID_14;9;;; child;Elle n'a pas fait de film.; She hasn't made a film.;;;;;;;
+ID_14;9;;; parent;Elle a été actrice.; She was an actress.;;;;;;;
+ID_14;9;;; child;Oui, mais ce n'était pas un film.; Yes, but it wasn't a film.;;;;;;;
+ID_14;9;;; parent;Une série télévisée.; TV series.;;;;;;;
+ID_14;9;;; child;Ça, c'est la série télévisée que je pensais.; This is the TV series I was thinking of.;;;;;;;
+ID_14;9;;; parent;Wow, compliqué.; Wow, complicated.;;;;;;;
+ID_14;9;;; child;Oui.; Yes.;;;;;;;
+ID_14;9;;; parent;OK.; OK.;;;;;;;
+ID_14;9;;; child;Oui, je voulais te faire compliqué.; Yes, I wanted to make it complicated for you.;;;;;;;
+ID_14;9;;; child;À mon tour.; My turn.;;;;;;;
+ID_14;9;;; child; Non, à ton tour.; No, your turn.;;;;;;;
+ID_14;9;Paddle board; child; parent;Oui, à mon tour.; Yes, my turn.;;;;;1;;
+ID_14;9;Paddle board; child; parent;Ok.; OK.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que c'est un objet ?; Is it an object?;;;;;1;;
+ID_14;9;Paddle board; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que c'est dans la maison ?; Is it in the house?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Pas dans l'appartement.; Not in the apartment.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que c'est... Attends, t'avais dit quoi ?; Is that... Wait, what did you say?;;;;;1;;
+ID_14;9;Paddle board; child; child;C'est dans l'appartement ?; Is it in the apartment?;;;;;1;;
+ID_14;9;Paddle board; child; parent;Pas dans l'appartement, c'est dans la maison, mais c'est pas dans l'appartement.; Not in the apartment, it's in the house, but it's not in the apartment.;;;;;1;;
+ID_14;9;Paddle board; child; child; On n'a pas de maison.; We don't have a house.;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Oui, c'est pas dans l'appartement, c'est dans l'immeuble, mais pas dans l'appartement.; Yes, it's not in the apartment, it's in the building, but not in the apartment.;;;;;1;;
+ID_14;9;Paddle board; child; child;C'est ici là ?; Is it here?;;;;;1;1;0
+ID_14;9;Paddle board; child; parent;C'est dans l'immeuble.; It's in the building.;;;;;1;;
+ID_14;9;Paddle board; child; parent;Une chose dans l'immeuble.; One thing in the building.;;;;;1;;
+ID_14;9;Paddle board; child; parent;Il n'y a pas que la cage d'escalier.; It's not just the stairwell.;;;;;1;;
+ID_14;9;Paddle board; child; child;L'immeuble c'est le truc... ; The building is the thing...;;;;;1;;
+ID_14;9;Paddle board; child; parent;Oui, il y a tous les appartements, le jardin, le cabanon de fond.; Yes, there are all the apartments, the garden, the back shed.;;;;;1;;
+ID_14;9;Paddle board; child; child;Des escaliers ?; Stairs ?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Paddle board; child; child;Une barrière ?; A barrier?;;;;;;;
+ID_14;9;Paddle board; child; child; Est-ce que c'est un objet ?; Is it an object?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que c'est…; Is it…;;;;;;;
+ID_14;9;Paddle board; child; parent; Vas-y pose la question.;Go ahead and ask the question.;;;;;;;
+ID_14;9;Paddle board; child; child;Est-ce que ça a un rapport avec toi ?; Does this have anything to do with you?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Ouais.; Yeah.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que c'est Cédric ?; Is it Cedric?;;;;;1;1;0
+ID_14;9;Paddle board; child; parent;Non, c'est pas une personne.; No, it's not a person.;;;;;1;;
+ID_14;9;Paddle board; child; child;Ah oui, c'est un objet.; Oh yes, it's an object.;;;;;1;1;1
+ID_14;9;Paddle board; child; child;Est-ce que c'est l'endroit où vit Cédric ?; Is this where Cedric lives?;;;;;1;1;0
+ID_14;9;Paddle board; child; child;Un immeuble, ou je sais pas quoi; A building, or I don't know what;;;;;1;1;0
+ID_14;9;Paddle board; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Paddle board; child; parent;L'appartement, non.; The apartment, no.;;;;;1;;
+ID_14;9;Paddle board; child; child;La maison du... rez de chaussée ?; The house on... the ground floor?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Paddle board; child; child; La cage d'escalier ?; The staircase ?;;;;;;;
+ID_14;9;Paddle board; child; child;La cave ?; The cave ?;The cellar?;;;1;1;1;1
+ID_14;9;Paddle board; child; parent;C'est dans la cave.; It's in the cellar.;;;;;1;;
+ID_14;9;Paddle board; child; child;Un vélo ?; A bike ?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Paddle board; child; child;Des guirlandes ?; Garlands ?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que ça a un rapport avec Noël ?; Does this have anything to do with Christmas?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Je sais pas... Non, pas vraiment.; I don't know... No, not really.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que c'est quelque chose pour le sport ?; Is this something for sport?;;;;;1;1;1
+ID_14;9;Paddle board; child;parent;Ça a un rapport avec le sport.; It has to do with sport.;;;;;1;;
+ID_14;9;Paddle board; child; child; Est-ce que c'est des vélos ?; Are these bikes?;;;;;1;1;0
+ID_14;9;Paddle board; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que c'est des rollers ?; Are these roller skates?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Paddle board; child; child;Est-ce que... Ah, est-ce que c'est du surf ?; Is that... Ah, is that surfing?;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Non, mais tu te rapproches.; No, but you're getting closer.;;;;;1;;
+ID_14;9;Paddle board; child; child;Du... Ah, je sais, je sais !; Du... Ah, I know, I know!;;;;;1;;
+ID_14;9;Paddle board; child; child;Du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du,;Du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du, du du, du, du, du, du,;;;;;;;
+ID_14;9;Paddle board; child; child;Le truc ou tu rames; The thing where you row;;;;;1;1;1
+ID_14;9;Paddle board; child; child;T'es debout, comme ça.; You're standing like this.;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Attention.; Attention.;;;;;;;
+ID_14;9;Paddle board; child; parent;Ça s'appelle un... Il y en avait un chez Sophie.; It's called a... There was one at Sophie's.;;;;;1;;
+ID_14;9;Paddle board; child; child;Oui, je sais.; Yes I know.;;;;;1;;
+ID_14;9;Paddle board; child; child;T'en as aussi un orange.; You also have an orange one.;;;;;1;1;1
+ID_14;9;Paddle board; child; child;Mais je ne sais plus comment ça s'appelle.; But I don't know what it's called anymore.;;;;;1;;
+ID_14;9;Paddle board; child; child;C'est du... ; It's...;;;;;1;;
+ID_14;9;Paddle board; child; parent;Pas.; Not.;;;;;;;
+ID_14;9;Paddle board; child; parent;Pas.; Not.;;;;;;;
+ID_14;9;Paddle board; child; parent;Pas.; Not.;;;;;;;
+ID_14;9;Paddle board; child; child; Pas.; Not.;;;;;;;
+ID_14;9;Paddle board; child; child;Paddle; Paddle;;;;;1;1;1
+ID_14;9;Paddle board; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;;; child;Tu veux un compliqué ou un facile ou on arrête ?; Do you want a complicated one or an easy one or shall we stop?;;;;;;;
+ID_14;9;;; parent;Bah tout à l'heure c'était difficile.; Well, earlier it was difficult.;;;;;;;
+ID_14;9;;; parent;Un peu moins difficile quand même.; A little less difficult though.;;;;;;;
+ID_14;9;;; child;Un peu moins difficile.; A little less difficult.;;;;;;;
+ID_14;9;;; child;Très difficile.; Very difficult.;;;;;;;
+ID_14;9;;; child;Enfin non, très facile.; Well no, very easy.;;;;;;;
+ID_14;9;;; parent;Non, moyen.; No, average.;;;;;;;
+ID_14;9;;; child;Moyen.; AVERAGE.;;;;;;;
+ID_14;9;;; parent; Mais regarde pas ce que tu choisis parce que sinon je vais le savoir.; But don't look at what you choose because otherwise I'll find out.;;;;;;;
+ID_14;9;;; child;Je regarde... ; I watch...;;;;;;;
+ID_14;9;;; parent;Tu réfléchis dans ta tête.;You think in your head.;;;;;;;
+ID_14;9;;; parent;A. Si tu fais A comme ça là, je veux dire BD.; A. If you do A like that, I mean BD.;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Non ?; No ?;;;;;;;
+ID_14;9;;; child;Non.; No.;;;;;;;
+ID_14;9;;; parent;Ok, t'es plus maligne que ça.; Okay, you're smarter than that.;;;;;;;
+ID_14;9;A guitar cover?; parent; parent; bon donc est-ce que c'est dans l'appartement ?; Okay so is it in the apartment?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Oui; Yes;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;est-ce que c'est dans le salon ?; is it in the living room?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Oui; Yes;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;est-ce que c'est sur l'échelle ?; is it on the scale?;;;;1;1;;
+ID_14;9;A guitar cover?; parent; child;Non; No;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;est-ce que c'est sur les étagères là-bas ?; is it on the shelves over there?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non; No;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;est-ce que c'est par terre ?; is it on the floor?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non; No;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;est-ce que c'est vivant ?; is it alive?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non; No;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;est-ce que c'est un souvenir ?; is this a memory?;Is it a souvenir?;;;1;1;;
+ID_14;9;A guitar cover?; parent; child; Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Une photo ?; A photo ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Est-ce que ça t'appartient ?; Does this belong to you?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Donc c'est dans le salon mais ça t'appartient pas ?; So it's in the living room but it doesn't belong to you?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Est-ce que ça m'appartient ?; Does this belong to me?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Ah bon ?; Ah good ?;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Est-ce que ça appartient à quelqu'un de la famille ?; Does this belong to anyone in the family?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Est-ce que ça appartient à Gislain ?; Does it belong to Gislain?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;A papa ?; To Dad ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Oui.; Yes.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; child;C'est trop facile.; It's too easy.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent; Ah la guitare !; Ah the guitar!;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;{L'enfant secoue la tête}; {The child shakes his head};;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Parce que ça c'est à moi.; Because it's mine.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Quoi ?; What ?;;;;;;;
+ID_14;9;A guitar cover?; parent; child;C'est pas la guitare.; It's not the guitar.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Piano ?; Piano?;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Les statues ?; Statues ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Je sais pas ce qu'il peut y avoir là.; I don't know what could be there.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent; Tu regardes, tu m'induis en erreur en regardant là-bas.;You look, you're misleading me by looking over there.;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Donc il y a quelque chose dans le salon qui est à papa.; So there's something in the living room that's Dad's.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;C'est pas la guitare.; It's not the guitar.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Il y a des plantes.; There are plants.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Une plante verte.; A green plant.;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non..; No..;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Hum...; Hmm...;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent; Est-ce que... Est-ce que je m'en sers ?; Do... Do I use it?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;{L'enfant secoue la tête}; {The child shakes his head};;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Non ?; No ?;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Est-ce que... Donc c'est un objet à papa et je m'en sers pas.; Is... So it's Dad's item and I don't use it.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Et c'est dans le salon, c'est ça ?; And it's in the living room, right?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;{L'enfant hoche la tête}; {The child nods};;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent; Je ne sais pas... Est-ce que... Est-ce que c'est noir?; I don't know... Is... Is it black?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;{L'enfant fait un pouce en l'air}; {Child gives a thumbs up};;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Oui?; Yes?;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Est-ce que ce sont les enceintes?; Are these the speakers?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;{L'enfant secoue la tête}; {The child shakes his head};;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;La télé?; TV?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;{L'enfant secoue la tête}; {The child shakes his head};;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Je ne sais pas.; I don't know.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Il y a un truc que tu peux voir là-bas?; Is there anything you can see there?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Oui !; Yes !;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent; C'est à moi aussi ou pas ?; Is it mine too or not?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;{L'enfant secoue la tête} Je pense pas non; {The child shakes his head} I don't think so, no;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;C'est pas sur les étagères là-bas tu m'as dit ?; It’s not on the shelves over there you told me?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Est-ce que c'est le parapluie ?; Is that the umbrella?;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Le parasol ?; The parasol?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;L'ombrelle ?; The umbrella?;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Donne-moi un indice parce que je sais pas, je vois pas.; Give me a clue because I don't know, I don't see.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Un bateau ?; A boat ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non..; No..;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent; Vas-y, donne-moi un indice.;Go ahead, give me a hint.;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Papa s'en sert souvent.; Dad uses it often.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; child;Enfin, il s'en sert fin... Voilà.; Finally, he uses it... That's it.;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Aucune idée.; No idea.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Je sais pas.; I don't know.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Faut que tu me donnes un autre indice.; You need to give me another clue.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent; Le meuble ?; A piece of furniture ?;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Bon, je sais pas, je donne ma langue au chat alors.; Well, I don't know, I'll give my tongue to the cat then.;;;;;;;
+ID_14;9;A guitar cover?; parent; child;Quoi ?; What ?;;;;;;;
+ID_14;9;A guitar cover?; parent; child;Attends, je cherche d'autres choses.; Wait, I'm looking for other things.;;;;;;;
+ID_14;9;A guitar cover?; parent; child;Euh, comment ?; Uh, how?;;;;;;;
+ID_14;9;A guitar cover?; parent; child;Euh...; Uh...;;;;;;;
+ID_14;9;A guitar cover?; parent; child; C'est un très très gros.; It's a very, very big one.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; child;Ça a rapport avec la passion de papa.; It has to do with dad's passion.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; child;Enfin, je pense que c'est sa passion.; Well, I think it's his passion.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;L'architecture ?; Architecture?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;La voile ?; Sailing ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;J'ai aucune idée.; I have no idea.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Je vois pas du tout de quoi tu parles.; I don't know at all what you're talking about.;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Ça prend un peu de place.; It takes up a little space.;;;;;;;
+ID_14;9;A guitar cover?; parent; child;Non, en vrai non.; No, actually no.;;;;;;;
+ID_14;9;A guitar cover?; parent; child;Enfin...; Finally...;;;;;;;
+ID_14;9;A guitar cover?; parent; parent; Est-ce que je peux le voir d'ici ?; Can I see it from here?;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Non ?; No ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Si je regarde dans le miroir ?; What if I look in the mirror?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Je ne sais pas.; I don't know.;;;;;1;;
+ID_14;9;A guitar cover?; parent; parent;Bon, je donne ma langue au chat là, je ne trouve pas.; Well, I give the cat my tongue there, I can't find it.;;;;;;;
+ID_14;9;A guitar cover?; parent; child; C'est euh... Ah !; It's uh... Ah!;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Kangourou ?; Kangaroo ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Non.; No.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; child;C'est euh... C'est... C'est... C'est... C'est... C'est...; It's uh... It's... It's... It's... It's... It's...;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Allez Madeleine !; Come on Madeleine!;;;;;;;
+ID_14;9;A guitar cover?; parent; child;Ça... ; That...;;;;;;;
+ID_14;9;A guitar cover?; parent; parent;Enlève ton bras; Take your arm away;;;;;;;
+ID_14;9;A guitar cover?; parent; child;C'est à côté du canapé, voilà.;It's next to the sofa, that's it.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; child;C'est ça, très très gros truc.; That's it, very very big thing.;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Bah, je t'ai dit la guitare.; Well, I told you the guitar.;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Qu'est-ce qu'il y a avec la guitare ?; What's with the guitar?;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; child; Là, tu vois pas une guitare, tu vois ?; There, you don't see a guitar, you see?;;;;;1;1;1
+ID_14;9;A guitar cover?; parent; parent;Une housse ?; A cover ?;;;;;1;;
+ID_14;9;A guitar cover?; parent; child;Oui !; Yes !;;;;;1;1;1
+ID_14;9;;; parent;Oh là là là là !; Oh la la la la !;;;;;;;
+ID_14;9;;; child;Mais elle était énorme !; But it was huge!;;;;;;;
+ID_14;9;;; parent;Je t'avais dit un truc facile !; I told you something easy!;;;;;;;
+ID_14;9;;; child;Non, t'as dit un truc moyen !; No, you said something average!;;;;;;;
+ID_14;9;;; parent;La housse, ok.; The cover, ok.;;;;;;;
+ID_14;9;;; child;Bah oui !; Yeah !;;;;;;;
+ID_14;9;;; (Abdellah);C'est qui qui a commencé, c'est toi ou maman ?; Who started it, was it you or mom?;;;;;;;
+ID_14;9;;; child;Moi.; Me.;;;;;;;
+ID_14;9;;; parent;Ouais.; Yeah.;;;;;;;
+ID_14;9;;; parent; Je sais plus combien on en a fait; I don't know how many we made;;;;;;;
+ID_14;9;;; parent;Donc encore un moi peut-être ?; So another me maybe?;;;;;;;
+ID_14;9;;; child;Oui.; Yes.;;;;;;;
+ID_14;9;;; child;En plus ça va ! C'était grand !; Plus it’s okay! It was big!;;;;;;;
+ID_14;9;;; parent;Alors... Attention à tes genoux !; So... Watch your knees!;;;;;;;
+ID_14;9;;; child;Mais là je t'ai induit en erreur; But there I misled you;;;;;;;
+ID_14;9;;; child;J'ai regardé là, alors qu'en fait c'était là !; I looked there, when in fact it was there!;;;;;;;
+ID_14;9;;; parent;Ben oui, fais attention à tes bras.; Well yes, watch your arms.;;;;;;;
+ID_14;9;Pillows; child; parent;Ok, ça y est.; Okay, that's it.;;;;;1;;
+ID_14;9;Pillows; child; child;Euh... Ton jean.; Um... Your jeans.;;;;;1;1;0
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; child;Est-ce que c'est un objet ?; Is it an object?;;;;;1;1;1
+ID_14;9;Pillows; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;Pillows; child; child;Est-ce que c'est dans le salon ?; Is it in the living room?;;;;;1;1;1
+ID_14;9;Pillows; child; parent; Il y en a dans le salon mais... Oui.; There are some in the living room but... Yes.;;;;;1;;
+ID_14;9;Pillows; child; child;Est-ce que c'est sur moi ?; Is it on me?;;;;;1;1;1
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; child;Est-ce que c'est des plantes ?; Are they plants?;;;;;1;1;0
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; child;Est-ce que c'est un pot ?;Is it a jar?;;;;;1;1;1
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; child;Est-ce que c'est un téléphone ?; Is it a phone?;;;;;1;1;1
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; child;Enfin des téléphones ?; Finally phones?;;;;;;;
+ID_14;9;Pillows; child; child;Est-ce que c'est des lunettes ?; Are these glasses?;;;;;1;1;1
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; child;Est-ce que c'est vivant ?; Is it alive?;;;;;1;1;0
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; parent;Oui.; Yes.;;;;;;;
+ID_14;9;Pillows; child; child; Est-ce que c'est... Est-ce qu'il y en a beaucoup ?; Is it... Are there a lot?;;;;;;;
+ID_14;9;Pillows; child; child;Est-ce que c'est du bois ?; Is it wood?;;;;;1;1;1
+ID_14;9;Pillows; child; parent;Non.; No.;;;;;1;;
+ID_14;9;Pillows; child; parent;Il y en a au moins... Là, autour de moi, il y en a peut-être 8.; There are at least... There, around me, there are maybe 8.;;;;;1;;
+ID_14;9;Pillows; child; child;Des coussins ?; Pillows ?;;;;;1;1;1
+ID_14;9;Pillows; child; parent;Oui.; Yes.;;;;;1;;
+ID_14;9;;; child;8 autour de toi ?; 8 around you?;;;;;;;
+ID_14;9;;; parent;Il y en a dehors, au moins 5.; There are at least 5 of them outside.;;;;;;;
