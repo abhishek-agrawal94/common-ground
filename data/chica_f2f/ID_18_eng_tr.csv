@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_18;11;;; Fourtassi;3, 2, 1, c'est parti !; 3, 2, 1, here we go!;;;;;;;
 ID_18;11;;; parent;Vas-y.; Go ahead.;;;;;;;
 ID_18;11;;; child;Ok, j'ai réfléchi un mot.; Ok, I thought about it a bit.;;;;;;;

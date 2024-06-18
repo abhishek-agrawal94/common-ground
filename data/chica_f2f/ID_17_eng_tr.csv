@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_17;11;;; parent; Alors, c'est moi qui commence à deviner, d'accord ?; So, I'm the one who starts guessing, okay?;;;;;;;
 ID_17;11;;; parent;C'est ça ou tu préfères que je commence moi à choisir un mot ?; Is that that or would you prefer that I start choosing a word?;;;;;;;
 ID_17;11;;; parent;C'est pareil ?; It's the same ?;;;;;;;

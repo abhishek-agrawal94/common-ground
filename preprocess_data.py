@@ -28,7 +28,8 @@ def format_data(args):
                      "player 2 doesn't know this word. Player 2 needs to ask questions to player 1 " \
                      "to guess the word correctly. Given the dialog history in terms of the turns taken " \
                      "by player 1 and player 2 and the word picked by player 1, you need to decide whether " \
-                     "the next question asked by player 2 or the object mentioned by player 2 is valid or not. "
+                     "the next question asked by player 2 or the object mentioned by player 2 is valid or " \
+                     "not based on the dialog history until that point. "
     prev_target_word = ""
     for index, row in df.iterrows():
         if row["target_word"] != prev_target_word:

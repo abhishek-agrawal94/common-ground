@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_16;11;;; (Abdellah);3, 2, 1.; 3, 2, 1.;;;;;;;
 ID_16;11;;; (Abdellah);Et après je vous laisse tranquille.; And then I'll leave you alone.;;;;;;;
 ID_16;11;;; child;Je peux démarrer ?; Can I start?;;;;;;;

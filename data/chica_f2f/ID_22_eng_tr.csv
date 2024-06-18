@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_22;11;;;Fourtassi;3, 2, 1, c'est parti.; 3, 2, 1, here we go.;;;;;;;
 ID_22;11;Uranus;parent;child;C'est bon, j'ai trouvé.; It's good I found.;;;;;1;;
 ID_22;11;Uranus;parent;parent;Alors, est-ce que c'est un animal ?; So, is it an animal?;;;;;1;;

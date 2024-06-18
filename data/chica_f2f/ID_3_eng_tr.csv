@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_3;7;A turtle; parent; (Abdellah);3, 2, 1... Action.; 3, 2, 1... Action.;;;;;;;
 ID_3;7;A turtle; parent; parent;Vas-y, c'est toi qui commence.; Go ahead, you start.;;;;;;;
 ID_3;7;A turtle; parent; child;Alors... C'est un animal... ; So... It's an animal...;;;;;1;1;1

@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_13;9;;; (Abdellah);3, 2, 1, c'est parti !;3, 2, 1, here we go!;;;;;;;
 ID_13;9;Fairytale (Manga); parent; child;Ok, alors, j'ai trouvé.; Ok, so I found it.;;;;;1;;
 ID_13;9;Fairytale (Manga); parent; parent;T'as déjà trouvé ?; Have you already found it?;;;;;1;;

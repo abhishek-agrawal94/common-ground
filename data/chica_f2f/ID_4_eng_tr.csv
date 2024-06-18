@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_4;7;;; (Abdellah);Allez, 3, 2, 1, c'est parti !; Come on, 3, 2, 1, let's go!;;;;;;;
 ID_4;7;;; child;C'est bon, je ne vois pas quoi.; It's okay, I don't see what's wrong.;;;;;;;
 ID_4;7;A drying rack; parent; parent;C'est bon ?; It's good ?;;;;;;;

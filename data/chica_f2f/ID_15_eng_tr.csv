@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_15;11;Motorbike;parent;parent; Est-ce que c'est un objet?; Is it an object?;;;;;1;;
 ID_15;11;Motorbike;parent;child;Oui mais non.; Yes but no.;;;;;1;1;0
 ID_15;11;Motorbike;parent;parent;Il y en a dans la maison?; Are there any in the house?;;;;;1;;

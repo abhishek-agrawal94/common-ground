@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_5;7;;; (Abdellah);3, 2, 1, c'est parti !; 3, 2, 1, here we go!;;;;;;;
 ID_5;7;The sun; parent; child;Je sais; I know;;;;;1;;
 ID_5;7;The sun; parent; parent;Alors, est-ce que c'est un objet de la maison ?; So, is this a household item?;;;;;1;;

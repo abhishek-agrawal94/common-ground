@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_7;9;;; parent; Et là on y va pour de vrai là ?; And are we going there for real?;;;;;;;
 ID_7;9;;; parent;C'est parti.; Let's go.;;;;;;;
 ID_7;9;;; parent;Tu commences ?; You start ?;;;;;;;

@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_2;7;eggs; parent; (Abdellah);Allez, 3, 2, 1, c'est parti.;Come on, 3, 2, 1, here we go.;;;;;;;
 ID_2;7;eggs; parent; child;C'est bon.; It's good.;;;;;;;
 ID_2;7;eggs; parent; parent;C'est bon, t'as le mot ?; It's okay, do you have the word?;;;;;;;

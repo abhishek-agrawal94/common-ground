@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_11;9;;;(Abdellah);3, 2, 1, c'est parti.; 3, 2, 1, here we go.;;;;;;;
 ID_11;9;;;child;C'est bon, j'ai trouvé.; It's good I found.;;;;;;;
 ID_11;9;Alexa (device);parent;parent;C'est bon, t'as trouvé ?; It's good, did you find it?;;;;;1;;

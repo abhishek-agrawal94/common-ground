@@ -1,4 +1,4 @@
-file_id;child_age;target_word;guesser_type; speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
+file_id;child_age;target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;is_valid
 ID_14;9;;; (Abdellah);3, 2, 1... C'est parti.; 3, 2, 1... Here we go.;;;;;;;
 ID_14;9;;; child;Euh, je pense... C'est bon.; Um, I think... It's okay.;;;;;;;
 ID_14;9;;; parent;Est-ce que tu penses à une chose ?; Are you thinking of something?;;;;;;;
