@@ -289,7 +289,7 @@ ID_1;7;;parent;parent;Bien joué !; Good game !;;;;;;;
 ID_1;7;;parent;parent;Non non !; No no !;;;;;;;
 ID_1;7;;parent;parent;C'est bien joué !; Well done!;;;;;;;
 ID_1;7; A country;child;parent;Alors vas-y, moi j'ai trouvé !; So go ahead, I found it!;;;;;;;
-ID_1;7; A country;child;child;C'est un animal !; It's an animal !;;;;;1;1;1
+ID_1;7; A country;child;child;C'est un animal !; It's an animal !;;;;;1;;
 ID_1;7; A country;child;parent;Non !; No !;;;;;1;;
 ID_1;7; A country;child;child;C'est un objet !; It's an object!;;;;;1;1;1
 ID_1;7; A country;child;parent;Pas du tout !; No way !;;;;;1;;
