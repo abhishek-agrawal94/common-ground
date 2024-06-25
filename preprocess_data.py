@@ -5,10 +5,10 @@ import json
 import numpy as np
 from tqdm import tqdm
 import glob
+from json.decoder import JSONDecodeError
 
 template = {
-    "valid": "",
-    "reason": ""
+    "valid": ""
 }
 
 def check_text_end(text):
@@ -20,24 +20,23 @@ def check_text_end(text):
 def test_model(args):
     prompt = "Two people are playing a word guessing game where player 1 picks a word and player 2 doesn't know this word. Player 2 needs to ask questions to player 1 to guess the word correctly. Given the dialog history in terms of the turns taken by player 1 and player 2 and the word picked by player 1, you need to decide whether the next question asked by player 2 or the object mentioned by player 2 is valid or not based on the dialog history until that point. You need to give a binary response whether" \
                      " the question is valid or not and provide a reason for the same. Use the following template: " \
-                     "{json.dumps(template)}. Word picked by player 1: A rocket. Dialog history: player 2 turn: Is it another living thing? player 1 turn: No. player 2 turn: Is it an object? player 1 turn: No. player 2 turn: What's the point ? player 1 turn: To move very, very quickly and very, very far. player 2 turn: Is it a plane? player 1 turn: A plane? player 1 turn: No. player 2 turn: Does it have a motor? player 1 turn: Yes. player 1 turn: I'm not sure. player 1 turn: It has thrusters, but I don't know if it's a motor. player 2 turn: Ah, you gave me a clue, with your mister thrusters. Next question: Can it go to sea?"
-    # prompt = "Why is the sky blue?"
+                     "{\"valid\": \"\", \"reason\": \"\"}. Word picked by player 1: An elephant. Dialog history: player 2 turn: OK, so, is it an animal? player 1 turn: Yes. player 2 turn: Is it domestic? player 1 turn: It can. player 1 turn: It can. player 2 turn: OK then... player 1 turn: It doesn't live in a house, but on the other hand, we can... It can live in the wild or it can live with human beings. player 2 turn: Is it a shell? player 1 turn: No. player 2 turn: Does it live in water? player 1 turn: No. player 2 turn: Does it have whiskers? player 1 turn: No. player 2 turn: Can we take him on a leash? player 1 turn: That would be a funny idea, but why not. player 2 turn: Does it fly? player 1 turn: So no. player 2 turn: Alright. player 2 turn: Are there any in Marseille? player 1 turn: No. player 2 turn: Is there any at Aunt Pascale’s? player 1 turn: Neither. player 2 turn: Or ? player 2 turn: Where does it live? player 1 turn: That's you asking... You can't answer. player 1 turn: I answer yes or no. player 2 turn: Uh... player 1 turn: Ask me questions uh... You can ask me lots of questions about an animal. player 1 turn: There are still plenty left. player 2 turn: Yes. player 2 turn: I thought of the parrot, I thought of the dog, I thought of the cat, I thought of lots of things. player 1 turn: But ask more general questions. player 2 turn: Does it eat kibble or seeds? player 1 turn: So, it eats... maybe it can eat kibble, but it would eat... it eats plants. player 1 turn: It is herbivorous. player 2 turn: OK. player 2 turn: So, if it's herbivorous, what will it eat? player 2 turn: Does it eat grass? player 1 turn: Yes. player 1 turn: Yes, it must eat some. player 1 turn: leaves, you see, on the trees. player 2 turn: Does the first letter start with an E? player 1 turn: By a what? player 2 turn: Is it a squirrel? player 1 turn: No, it's not a squirrel. player 2 turn: Are they found in Africa? player 1 turn: Yes. player 2 turn: OK. player 1 turn: There are lots of questions to... Ask me general questions. player 1 turn: General. player 2 turn: It's very hard to find... player 1 turn: Think about characteristics. player 1 turn: Animals are not all the same, anyway. player 2 turn: Does he have a tail? player 1 turn: Yes ! player 2 turn: Can you ever see them in movies? player 1 turn: Yes. player 1 turn: in films, in cartoons... player 2 turn: Is it hairy? player 1 turn: No. player 2 turn: Okay, so it has feathers and it's... player 1 turn: Feathers ? player 1 turn: I didn't say feathers. player 2 turn: But if it's not hairy, how... player 1 turn: Wait, it might just have leather on the skin. player 2 turn: Leather. player 1 turn: Well, just skin. player 2 turn: Like us ? player 1 turn: Well yes like us yeah. player 2 turn: But we are not domestics. player 1 turn: No, but no. player 1 turn: My my my. player 1 turn: Could you ask me some questions about... player 2 turn: It can't be an elephant, it can't be a giraffe. player 1 turn: Wait, can't that be what did you say? player 2 turn: It can't be an elephant. Next question: An elephant is not domesticated."
+    #prompt = "say hi"
     data = {
         "prompt": prompt,
         "model": args.model,
-        "format": "json",
         "stream": False,
-        "options": {"temperature": 0, "seed": 42},
+        "options": {"seed": 42}
     }
-    print(f"Generating a sample user")
     response = requests.post("http://localhost:11434/api/generate", json=data, stream=False)
     json_data = json.loads(response.text)
+    print(json_data)
     #json.loads(json_data["response"])['valid']
     print(json.dumps(json.loads(json_data["response"]), indent=2))
 
 
 def prompt_model(args):
-    df = pd.read_csv("./data/chica_f2f/ID_1_eng_tr.csv", delimiter=';')
+    df = pd.read_csv("./data/chica_f2f/ID_22_eng_tr.csv", delimiter=';')
     df[args.model] = np.nan
     df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
     initial_prompt = f"Two people are playing a word guessing game where player 1 picks a word and " \
@@ -46,8 +45,8 @@ def prompt_model(args):
                      "by player 1 and player 2 and the word picked by player 1, you need to decide whether " \
                      "the next question asked by player 2 or the object mentioned by player 2 is valid or " \
                      "not based on the dialog history until that point. You need to give a binary response whether" \
-                     " the question is valid or not and provide a reason for the same. Use the following template: " \
-                     "{json.dumps(template)}."
+                     " the question is valid or not. Use the following template: " \
+                     "{\"valid\": \"\"}."
     prev_target_word = ""
     for index, row in tqdm(df.iterrows()):
         if row["is_relevant"] != row["is_relevant"]:
@@ -80,13 +79,15 @@ def prompt_model(args):
                         df.loc[index, args.model] = 1
                     else:
                         df.loc[index, args.model] = 0
-                except KeyError:
+                except (KeyError, JSONDecodeError):
                     df.loc[index, args.model] = 3
                     print(initial_prompt + prev_context + "Next question: " + text)
+                    print(json_data)
+                    #print(json.dumps(json.loads(json_data["response"]), indent=2))
 
             prev_context += "player 2 turn: " + text + " "
 
-    df.to_csv("./data/prompts/ID_1_child_guesser_test.csv", index=False)
+    df.to_csv("./data/prompts/ID_22_child_guesser.csv", index=False)
 
 
 def format_data(args):
@@ -160,6 +161,6 @@ if __name__ == "__main__":
     )
     args = argparser.parse_args()
     #format_data(args)
-    #prompt_model(args)
-    test_model(args)
+    prompt_model(args)
+    #test_model(args)
 
