@@ -112,7 +112,7 @@ def prompt_model(args):
                 if not (row["validity_check"] != row["validity_check"]):
                     is_bool = lambda x: string_to_bool.get(x.strip().lower(), None) if isinstance(x, str) else x
                     if args.model == "gpt4o:def":
-                        client = OpenAI(api_key="sk-proj-fXSY9Bkrw8yzIlIWNWwET3BlbkFJMV5cTcsguF8Fyr4dFCNt")
+                        client = OpenAI(api_key="Enter your key")
                         response = client.chat.completions.create(
                             model="gpt-4o",
                             response_format={"type": "json_object"},
