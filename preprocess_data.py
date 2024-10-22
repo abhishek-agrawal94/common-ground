@@ -23,7 +23,7 @@ def check_text_end(text):
 
 def test_model(args):
     if args.model == "gpt4o":
-        client = OpenAI(api_key="sk-proj-fXSY9Bkrw8yzIlIWNWwET3BlbkFJMV5cTcsguF8Fyr4dFCNt")
+        client = OpenAI(api_key="Enter your key")
         sys_prompt = "Two people are playing a word guessing game where player 1 picks a word and player 2 doesn't know this word. Player 2 needs to ask questions to player 1 to guess the word correctly. Given the dialog history in terms of the turns taken by player 1 and player 2 and the word picked by player 1, you need to decide whether the next question asked or statement made by player 2 or the object mentioned by player 2 is valid or not based on the dialog history until that point. For a question to be valid, it should be relevant or useful in trying to narrow down the search space to correctly guess the word by taking into account the questions asked in the past dialog history and their corresponding answers. You need to give a boolean binary response (True or False) whether" \
                  " the question is valid or not in JSON format. Use the following template: " \
                  "{\"valid\": \"\"}."
