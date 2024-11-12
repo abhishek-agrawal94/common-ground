@@ -180,14 +180,14 @@ ID_13,9,ardes sur couze,child,child,C'est...,It is...,,,,,,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,parent,C'est plus simple que ça.,It's simpler than that.,,,,,,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,L'écorce de la planète.,The crust of the planet.,,,,,1.0,1.0,0.0,0.0,"1,4",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 ID_13,9,ardes sur couze,child,parent,"Non, mais bon, c'est sur l'écorce.","No, but hey, it's on the bark.",,,,1.0,1.0,,,,,,,,,,,,
-ID_13,9,ardes sur couze,child,child,Est-ce que... C'est la terre.,Is... This is the earth.,,,,,1.0,1.0,1.0,0.0,1,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+ID_13,9,ardes sur couze,child,child,Est-ce que... C'est la terre.,Is... This is the earth.,,,,,1.0,1.0,0.0,0.0,1,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
 ID_13,9,ardes sur couze,child,parent,C'est sur la terre.,It's on earth.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,"Oui, non, mais la terre.","Yes, no, but the earth.",,,,,1.0,1.0,0.0,0.0,"1,4",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
 ID_13,9,ardes sur couze,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,"Crotte, c'est un des éléments naturels.",Dung is one of the natural elements.,,,,,,,,,,,,,,,,,
-ID_13,9,ardes sur couze,child,child,"Est-ce que c'est... Ah, du béton.","Is this... Ah, concrete.",,,,,1.0,1.0,1.0,0.0,"1,4",0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0
+ID_13,9,ardes sur couze,child,child,"Est-ce que c'est... Ah, du béton.","Is this... Ah, concrete.",,,,,1.0,1.0,0.0,0.0,"1,4",0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0
 ID_13,9,ardes sur couze,child,parent,"Il y a du béton, oui.","There is concrete, yes.",,,,,1.0,,,,,,,,,,,,
-ID_13,9,ardes sur couze,child,child,Est-ce que c'est un poteau ?,Is it a pole?,,,,1.0,1.0,1.0,1.0,0.0,1,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0
+ID_13,9,ardes sur couze,child,child,Est-ce que c'est un poteau ?,Is it a pole?,,,,1.0,1.0,1.0,0.0,0.0,1,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0
 ID_13,9,ardes sur couze,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,Est-ce que c'est de l'électricité ?,Is it electricity?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0
 ID_13,9,ardes sur couze,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
@@ -206,9 +206,9 @@ ID_13,9,ardes sur couze,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,Un bout de terre ?,A piece of land?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0
 ID_13,9,ardes sur couze,child,parent,Ah oui.,Oh yes.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,Oh mais c'est pas possible !,Oh but that's not possible!,,,,,,,,,,,,,,,,,
-ID_13,9,ardes sur couze,child,child,Une montagne ?,A mountain ?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
+ID_13,9,ardes sur couze,child,child,Une montagne ?,A mountain ?,,,,,1.0,1.0,0.0,0.0,1,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
 ID_13,9,ardes sur couze,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_13,9,ardes sur couze,child,child,De la neige ?,Snow ?,,,,,,,,,,,,,,,,,
+ID_13,9,ardes sur couze,child,child,De la neige ?,Snow ?,,,,,1.0,1.0,0.0,0.0,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,"Non, bah non du coup.","No, well no then.",,,,,,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,parent,C'est une ville.,It's a city.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,ardes sur couze,child,child,Une maison ?,A house ?,,,,,1.0,1.0,0.0,1.0,"1,4",0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0
@@ -469,11 +469,11 @@ ID_13,9,Binoculars,child,child,Est-ce que c'est le bac d'Oslo ?,Is this the Oslo
 ID_13,9,Binoculars,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
 ID_13,9,Binoculars,child,child,Est-ce que c'est un coussin ?,Is it a cushion?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0
 ID_13,9,Binoculars,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
-ID_13,9,Binoculars,child,child,Est-ce que c'est un oreiller ?,Is this a pillow?,,,,,1.0,1.0,0.0,0.0,"1,4",1.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
+ID_13,9,Binoculars,child,child,Est-ce que c'est un oreiller ?,Is this a pillow?,,,,,1.0,1.0,1.0,0.0,"1,4",1.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
 ID_13,9,Binoculars,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
-ID_13,9,Binoculars,child,child,Est-ce que c'est une vitre ?,Is it a window?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0
+ID_13,9,Binoculars,child,child,Est-ce que c'est une vitre ?,Is it a window?,Is it a window pane?,,,1.0,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0
 ID_13,9,Binoculars,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
-ID_13,9,Binoculars,child,child,Est-ce que c'est une fenêtre ?,Is that a window?,,,,,1.0,1.0,0.0,0.0,"1,4",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+ID_13,9,Binoculars,child,child,Est-ce que c'est une fenêtre ?,Is that a window?,,,,,1.0,1.0,1.0,0.0,"1,4",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
 ID_13,9,Binoculars,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
 ID_13,9,Binoculars,child,child,Est-ce que c'est un rideau ?,Is it a curtain?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0
 ID_13,9,Binoculars,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
@@ -536,7 +536,7 @@ ID_13,9,Binoculars,child,parent,"Non, pour les habits, pour s'habiller.","No, fo
 ID_13,9,Binoculars,child,child,Est-ce qu'on s'en sert pour manger ?,Do we use it to eat?,,,,,1.0,1.0,0.0,0.0,"1,4",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
 ID_13,9,Binoculars,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,Binoculars,child,child,Est-ce que ce serait une…,Would this be a…,,,,,,,,,,,,,,,,,
-ID_13,9,Binoculars,child,child,Est-ce que Oslo ?,Is Oslo?,,,,,1.0,1.0,0.0,0.0,2,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+ID_13,9,Binoculars,child,child,Est-ce que Oslo ?,Is Oslo?,Is it Oslo?,,,1.0,1.0,1.0,0.0,0.0,2,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
 ID_13,9,Binoculars,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
 ID_13,9,Binoculars,child,child,Est-ce que c'est un jouet ?,Is this a toy?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0.0
 ID_13,9,Binoculars,child,parent,"Non, pas du tout.",No not at all.,,,,,1.0,,,,,,,,,,,,

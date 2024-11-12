@@ -246,8 +246,8 @@ ID_18,11,Boat governor (steering wheel of boat),child,parent,"En fait, cet endro
 ID_18,11,Boat governor (steering wheel of boat),child,parent,L'objet se trouve dans quelque chose qui sert à se déplacer.,The object is in something that is used to move.,,,,,1.0,,,,,,,,,,,,
 ID_18,11,Boat governor (steering wheel of boat),child,child,Est-ce que cet objet est un avion ?,Is this object a plane?,,,,,1.0,1.0,0.0,1.0,"1,4",1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
 ID_18,11,Boat governor (steering wheel of boat),child,parent,"Non, non, l'endroit.","No, no, the place.",,,,,1.0,,,,,,,,,,,,
-ID_18,11,Boat governor (steering wheel of boat),child,parent,"Non, c'est un objet qui est dans un... quelque chose qui s'est rasé-passé.","No, it's an object that is in a... something that has been shaved.",,,,1.0,1.0,,,,,,,,,,,,
-ID_18,11,Boat governor (steering wheel of boat),child,child,"Le truc qui s'est rasé-passé, c'est un avion ?","The thing that crashed, was it a plane?",,,,1.0,1.0,1.0,1.0,0.0,1,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+ID_18,11,Boat governor (steering wheel of boat),child,parent,"Non, c'est un objet qui est dans un... quelque chose qui sert à se déplacer","No, it's an object that is in a... something that is used to move around",,,,,1.0,,,,,,,,,,,,
+ID_18,11,Boat governor (steering wheel of boat),child,child,"Le truc qui sert à se déplacer, c'est un avion ?",The thing that is used to move is an airplane?,,,,,1.0,1.0,0.0,0.0,1,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
 ID_18,11,Boat governor (steering wheel of boat),child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
 ID_18,11,Boat governor (steering wheel of boat),child,child,Un train ?,A train ?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
 ID_18,11,Boat governor (steering wheel of boat),child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,

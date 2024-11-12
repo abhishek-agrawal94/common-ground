@@ -117,7 +117,7 @@ ID_4,7,An elephant,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
 ID_4,7,An elephant,child,child,Est-ce qu'il y en a chez Tante [NAME-2] ?,Is there any at Aunt [NAME-2]’s?,,,,,1.0,1.0,1.0,0.0,2,1.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0
 ID_4,7,An elephant,child,parent,Non plus.,Neither.,,,,,1.0,,,,,,,,,,,,
 ID_4,7,An elephant,child,child,Où ?,Or ?,,,,,1.0,,,,,,,,,,,,
-ID_4,7,An elephant,child,child,Ça vit où ?,Where does it live?,,,,,1.0,1.0,0.0,1.0,"1,5,9",1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0
+ID_4,7,An elephant,child,child,Ça vit où ?,Where does it live?,,,,,1.0,1.0,1.0,0.0,"1,5,9",1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0
 ID_4,7,An elephant,child,parent,"Ça, c'est toi qui pose... Tu peux pas répondre.",That's you asking... You can't answer.,,,,,1.0,,,,,,,,,,,,
 ID_4,7,An elephant,child,parent,Je réponds par oui ou par non.,I answer yes or no.,,,,,1.0,,,,,,,,,,,,
 ID_4,7,An elephant,child,child,Euh...,Uh...,,,,,1.0,,,,,,,,,,,,
