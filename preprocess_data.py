@@ -21,62 +21,22 @@ def check_text_end(text):
         text += "."
     return text
 
-def test_model(args):
-    if args.model == "gpt4o":
-        client = OpenAI(api_key="Enter your key")
-        sys_prompt = "Two people are playing a word guessing game where player 1 picks a word and player 2 doesn't know this word. Player 2 needs to ask questions to player 1 to guess the word correctly. Given the dialog history in terms of the turns taken by player 1 and player 2 and the word picked by player 1, you need to decide whether the next question asked or statement made by player 2 or the object mentioned by player 2 is valid or not based on the dialog history until that point. For a question to be valid, it should be relevant or useful in trying to narrow down the search space to correctly guess the word by taking into account the questions asked in the past dialog history and their corresponding answers. You need to give a boolean binary response (True or False) whether" \
-                 " the question is valid or not in JSON format. Use the following template: " \
-                 "{\"valid\": \"\"}."
-        user_prompt = "Word picked by player 1: An elephant. Dialog history: player 2 turn: OK, so, is it an animal? player 1 turn: Yes. player 2 turn: Is it domestic? player 1 turn: It can. player 1 turn: It can. player 2 turn: OK then... player 1 turn: It doesn't live in a house, but on the other hand, we can... It can live in the wild or it can live with human beings. player 2 turn: Is it a shell? player 1 turn: No. player 2 turn: Does it live in water? player 1 turn: No. player 2 turn: Does it have whiskers? player 1 turn: No. player 2 turn: Can we take him on a leash? player 1 turn: That would be a funny idea, but why not. player 2 turn: Does it fly? player 1 turn: So no. player 2 turn: Alright. player 2 turn: Are there any in Marseille? player 1 turn: No. player 2 turn: Is there any at Aunt Pascale’s? player 1 turn: Neither. player 2 turn: Or ? player 2 turn: Where does it live? player 1 turn: That's you asking... You can't answer. player 1 turn: I answer yes or no. player 2 turn: Uh... player 1 turn: Ask me questions uh... You can ask me lots of questions about an animal. player 1 turn: There are still plenty left. player 2 turn: Yes. player 2 turn: I thought of the parrot, I thought of the dog, I thought of the cat, I thought of lots of things. player 1 turn: But ask more general questions. player 2 turn: Does it eat kibble or seeds? player 1 turn: So, it eats... maybe it can eat kibble, but it would eat... it eats plants. player 1 turn: It is herbivorous. player 2 turn: OK. player 2 turn: So, if it's herbivorous, what will it eat? player 2 turn: Does it eat grass? player 1 turn: Yes. player 1 turn: Yes, it must eat some. player 1 turn: leaves, you see, on the trees. player 2 turn: Does the first letter start with an E? player 1 turn: By a what? player 2 turn: Is it a squirrel? player 1 turn: No, it's not a squirrel. player 2 turn: Are they found in Africa? player 1 turn: Yes. player 2 turn: OK. player 1 turn: There are lots of questions to... Ask me general questions. player 1 turn: General. player 2 turn: It's very hard to find... player 1 turn: Think about characteristics. player 1 turn: Animals are not all the same, anyway. player 2 turn: Does he have a tail? player 1 turn: Yes ! player 2 turn: Can you ever see them in movies? player 1 turn: Yes. player 1 turn: in films, in cartoons... player 2 turn: Is it hairy? player 1 turn: No. player 2 turn: Okay, so it has feathers and it's... player 1 turn: Feathers ? player 1 turn: I didn't say feathers. player 2 turn: But if it's not hairy, how... player 1 turn: Wait, it might just have leather on the skin. player 2 turn: Leather. player 1 turn: Well, just skin. player 2 turn: Like us ? player 1 turn: Well yes like us yeah. player 2 turn: But we are not domestics. player 1 turn: No, but no. player 1 turn: My my my. player 1 turn: Could you ask me some questions about... player 2 turn: It can't be an elephant, it can't be a giraffe. player 1 turn: Wait, can't that be what did you say? player 2 turn: It can't be an elephant. Next question: An elephant is not domesticated."
-        response = client.chat.completions.create(
-            model="gpt-4o",
-            response_format={"type":"json_object"},
-            messages=[
-                {"role": "system", "content": sys_prompt},
-                {"role": "user", "content": user_prompt}
-            ]
-        )
-
-        print(response)
-        json_data = json.loads(response.choices[0].message.content)
-        print(json_data)
-        # json.loads(json_data["response"])['valid']
-        #print(json.dumps(json.loads(json_data["response"]), indent=2))
-
-    else:
-        prompt = "Two people are playing a word guessing game where player 1 picks a word and player 2 doesn't know this word. Player 2 needs to ask questions to player 1 to guess the word correctly. Given the dialog history in terms of the turns taken by player 1 and player 2 and the word picked by player 1, you need to decide whether the next question asked or statement made by player 2 or the object mentioned by player 2 is valid or not based on the dialog history until that point. For a question to be valid, it should be relevant or useful in trying to narrow down the search space to correctly guess the word by taking into account the questions asked in the past dialog history and their corresponding answers. You need to give a boolean binary response (True or False) whether" \
-                 " the question is valid or not. Use the following template: " \
-                 "{\"valid\": \"\"}. Word picked by player 1: An elephant. Dialog history: player 2 turn: OK, so, is it an animal? player 1 turn: Yes. player 2 turn: Is it domestic? player 1 turn: It can. player 1 turn: It can. player 2 turn: OK then... player 1 turn: It doesn't live in a house, but on the other hand, we can... It can live in the wild or it can live with human beings. player 2 turn: Is it a shell? player 1 turn: No. player 2 turn: Does it live in water? player 1 turn: No. player 2 turn: Does it have whiskers? player 1 turn: No. player 2 turn: Can we take him on a leash? player 1 turn: That would be a funny idea, but why not. player 2 turn: Does it fly? player 1 turn: So no. player 2 turn: Alright. player 2 turn: Are there any in Marseille? player 1 turn: No. player 2 turn: Is there any at Aunt Pascale’s? player 1 turn: Neither. player 2 turn: Or ? player 2 turn: Where does it live? player 1 turn: That's you asking... You can't answer. player 1 turn: I answer yes or no. player 2 turn: Uh... player 1 turn: Ask me questions uh... You can ask me lots of questions about an animal. player 1 turn: There are still plenty left. player 2 turn: Yes. player 2 turn: I thought of the parrot, I thought of the dog, I thought of the cat, I thought of lots of things. player 1 turn: But ask more general questions. player 2 turn: Does it eat kibble or seeds? player 1 turn: So, it eats... maybe it can eat kibble, but it would eat... it eats plants. player 1 turn: It is herbivorous. player 2 turn: OK. player 2 turn: So, if it's herbivorous, what will it eat? player 2 turn: Does it eat grass? player 1 turn: Yes. player 1 turn: Yes, it must eat some. player 1 turn: leaves, you see, on the trees. player 2 turn: Does the first letter start with an E? player 1 turn: By a what? player 2 turn: Is it a squirrel? player 1 turn: No, it's not a squirrel. player 2 turn: Are they found in Africa? player 1 turn: Yes. player 2 turn: OK. player 1 turn: There are lots of questions to... Ask me general questions. player 1 turn: General. player 2 turn: It's very hard to find... player 1 turn: Think about characteristics. player 1 turn: Animals are not all the same, anyway. player 2 turn: Does he have a tail? player 1 turn: Yes ! player 2 turn: Can you ever see them in movies? player 1 turn: Yes. player 1 turn: in films, in cartoons... player 2 turn: Is it hairy? player 1 turn: No. player 2 turn: Okay, so it has feathers and it's... player 1 turn: Feathers ? player 1 turn: I didn't say feathers. player 2 turn: But if it's not hairy, how... player 1 turn: Wait, it might just have leather on the skin. player 2 turn: Leather. player 1 turn: Well, just skin. player 2 turn: Like us ? player 1 turn: Well yes like us yeah. player 2 turn: But we are not domestics. player 1 turn: No, but no. player 1 turn: My my my. player 1 turn: Could you ask me some questions about... player 2 turn: It can't be an elephant, it can't be a giraffe. player 1 turn: Wait, can't that be what did you say? player 2 turn: It can't be an elephant. Next question: An elephant is not domesticated."
-        # prompt = "say hi"
-        data = {
-            "prompt": prompt,
-            "model": args.model,
-            "format": "json",
-            "stream": False,
-            "options": {"seed": 42}
-        }
-        response = requests.post("http://localhost:11434/api/generate", json=data, stream=False)
-        json_data = json.loads(response.text)
-        print(json_data)
-        # json.loads(json_data["response"])['valid']
-        print(json.dumps(json.loads(json_data["response"]), indent=2))
-
 
 def prompt_model(args):
     csv_files = glob("data/prompts/*.csv")
     #csv_files = ["data/prompts/ID_18_child_guesser.csv"]
     for file in csv_files:
         df = pd.read_csv(file)
-        df[args.model+"-fewshot"] = np.nan
+        # df[args.model + "-french-replaced"] = np.nan
         df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
-        initial_prompt = f"Two people are playing a word guessing game where player 1 picks a word and " \
-                         "player 2 doesn't know this word. Player 2 needs to ask questions to player 1 " \
-                         "to guess the word correctly. Given the dialog history in terms of the turns taken " \
-                         "by player 1 and player 2 and the word picked by player 1, you need to decide whether " \
-                         "the next question asked or statement made by player 2 or the object mentioned by player 2 is valid or " \
-                         "not based on the dialog history until that point. You need to give a boolean binary response (True or False) whether" \
-                         " the question is valid or not in JSON format. Use the following template: " \
-                         "{\"valid\": \"\"}."
+        # initial_prompt = f"Two people are playing a word guessing game where player 1 picks a word and " \
+        #                  "player 2 doesn't know this word. Player 2 needs to ask questions to player 1 " \
+        #                  "to guess the word correctly. Given the dialog history in terms of the turns taken " \
+        #                  "by player 1 and player 2 and the word picked by player 1, you need to decide whether " \
+        #                  "the next question asked or statement made by player 2 or the object mentioned by player 2 is valid or " \
+        #                  "not based on the dialog history until that point. You need to give a boolean binary response (True or False) whether" \
+        #                  " the question is valid or not in JSON format. Use the following template: " \
+        #                  "{\"valid\": \"\"}."
         initial_prompt_few_shot = f"Two people are playing a word guessing game where player 1 picks a word and " \
                          "player 2 doesn't know this word. Player 2 needs to ask questions to player 1 " \
                          "to guess the word correctly. Given the dialog history in terms of the turns taken " \
@@ -92,64 +52,168 @@ def prompt_model(args):
                          "Example 3: Word picked by player 1: A car. Dialog history: player 2 turn: Is it a living being? " \
                          "player 1 turn: No. Next question: is it an insect? {\"valid\": False} " \
                          "End of examples."
+
+        initial_prompt_few_shot_french = f"Two people are playing a word guessing game in the French language where player 1 picks a word and " \
+                                  "player 2 doesn't know this word. Player 2 needs to ask questions to player 1 " \
+                                  "to guess the word correctly. Given the dialog history in terms of the turns taken " \
+                                  "by player 1 and player 2 and the word picked by player 1, you need to decide whether " \
+                                  "the next question asked or statement made by player 2 or the object mentioned by player 2 is valid or " \
+                                  "not based on the dialog history until that point. You need to give a boolean binary response (True or False) whether" \
+                                  " the question is valid or not in JSON format. Use the following template: " \
+                                  "{\"valid\": \"\"}. Here are some examples to help you out. Example 1: Word picked by " \
+                                  "player 1: Un ballon. Dialog history: player 2 turn: Est-ce que ça un être vivant? player 1 " \
+                                  "turn: Non. player 2 turn: Est-ce que ça un objet? player 1 turn: Oui. Next question: Peux-tu jouer avec ça? {\"valid\": True} " \
+                                  "Example 2: Word picked by player 1: Un chat. Dialog history: player 2 turn: Est-ce que ça un être vivant? player 1 turn: " \
+                                  "Oui. player 2 turn: Est-ce que ça peut être un animal de compagnie? player 1 turn: Oui. Next question: un chat? {\"valid\": True} " \
+                                  "Example 3: Word picked by player 1: Une voiture. Dialog history: player 2 turn: Est-ce que ça un être vivant? " \
+                                  "player 1 turn: Non. Next question: Est-ce que ça un insecte? {\"valid\": False} " \
+                                  "End of examples."
+
+        # initial_prompt_masking_few_shot = f"Two people are playing a word guessing game where player 1 picks a word and " \
+        #                           "player 2 doesn't know this word. Player 2 needs to ask questions to player 1 " \
+        #                           "to guess the word correctly. Given the dialog history in terms of the turns taken " \
+        #                           "by player 1 and player 2 and the word picked by player 1, you need to decide whether " \
+        #                           "the next question asked or statement made by player 2 or the object mentioned by player 2 is valid or " \
+        #                           "not based on the dialog history until that point.Text appearing in between square brackets is anonymised " \
+        #                           "information regarding an individual's name, the name of a place or an object. For instance [NAME-1], " \
+        #                           "[PLACE-1] & [OBJECT-1] refer to a person's name, the name of a place and the name of an object respectively." \
+        #                           " You need to give a boolean binary response (True or False) whether" \
+        #                           " the question is valid or not in JSON format. Use the following template: " \
+        #                           "{\"valid\": \"\"}. Here are some examples to help you out." \
+        #                           " - Example 1: Word picked by player 1: A balloon. Dialog history: player 2 turn: Is it a living being? player 1 " \
+        #                           "turn: No. player 2 turn: Is it an object? player 1 turn: Yes. Next question: Can you play with it? {\"valid\": True} " \
+        #                           " - Example 2: Word picked by player 1: A cat. Dialog history: player 2 turn: Is it a living being? player 1 turn: " \
+        #                           "Yes. player 2 turn: Can it be a pet? player 1 turn: Yes. Next question: a cat? {\"valid\": True} " \
+        #                           " - Example 3: Word picked by player 1: A car. Dialog history: player 2 turn: Is it a living being? " \
+        #                           "player 1 turn: No. Next question: is it an insect? {\"valid\": False}" \
+        #                           " - Example 4: Word picked by player 1: An elephant. Dialog history: player 2 turn: Can you find it in [PLACE-2]? player 1 turn: No. Next question: can it fly? {\"valid\": False}" \
+        #                           "End of examples."
+
+        # gpt_prompt = "You are tasked with evaluating the validity of the next question or statement made by " \
+        #              "Player 2 in a word-guessing game based on the dialog history and the word chosen by Player 1. " \
+        #              "Player 1 picks a word, and Player 2, who does not know the word, asks questions to guess it. " \
+        #              "Player 1 responds to these questions to provide clues about the word. Your job is to decide if " \
+        #              "Player 2's next question, statement, or mentioned object is logically valid given the dialog " \
+        #              "history and the word chosen by Player 1. \n" \
+        #              "### Instructions:\n" \
+        #              "1. The word chosen by Player 1 and the dialog history will be provided.\n" \
+        #              "2. The dialog history contains turns from Player 1 and Player 2.\n" \
+        #              "3. The next question, statement, or object from Player 2 will be presented.\n" \
+        #              "4. You need to determine if Player 2's input is consistent with the dialog history and the chosen word.\n" \
+        #              "5. Return a JSON response with a binary boolean value (`True` or `False`) indicating whether Player 2's input is valid.\n" \
+        #              "### Output Format:\n" \
+        #              "{\"valid\": \"\"}\n" \
+        #              "### Guidelines:\n" \
+        #              "- **True**: The input is logically valid based on the dialog history and chosen word.\n" \
+        #              "- **False**: The input contradicts the dialog history or does not logically follow from it.\n" \
+        #              "### Notes:\n" \
+        #              "- Text in square brackets (`[NAME-1]`, `[PLACE-1]`, `[OBJECT-1]`) refers to anonymized information such as names, places, or objects.\n" \
+        #              "- Use the dialog history and the chosen word to evaluate the consistency of Player 2's input.\n" \
+        #              "### Examples:\n" \
+        #              "1. **Word picked by Player 1:** A balloon \n" \
+        #              " **Dialog history:** \n" \
+        #              " - Player 2: Is it a living being? \n" \
+        #              " - Player 1: No. \n" \
+        #              " - Player 2: Is it an object? \n" \
+        #              " - Player 1: Yes. \n" \
+        #              " **Next question:** Can you play with it? \n" \
+        #              " **Output:** \n" \
+        #              " {\"valid\": True}\n" \
+        #              "2. **Word picked by Player 1:** A cat \n" \
+        #              " **Dialog history:** \n" \
+        #              " - Player 2: Is it a living being? \n" \
+        #              " - Player 1: Yes. \n" \
+        #              " - Player 2: Can it be a pet? \n" \
+        #              " - Player 1: Yes. \n" \
+        #              " **Next question:** A cat? \n" \
+        #              " **Output:** \n" \
+        #              " {\"valid\": True}\n" \
+        #              "3. **Word picked by Player 1:** A car \n" \
+        #              " **Dialog history:** \n" \
+        #              " - Player 2: Is it a living being? \n" \
+        #              " - Player 1: No. \n" \
+        #              " **Next question:** Is it an insect? \n" \
+        #              " **Output:** \n" \
+        #              " {\"valid\": False}\n" \
+        #              "4. **Word picked by Player 1:** An elephant \n" \
+        #              " **Dialog history:** \n" \
+        #              " - Player 2: Can you find it in [PLACE-2]? \n" \
+        #              " - Player 1: No. \n" \
+        #              " **Next question:** Can it fly? \n" \
+        #              " **Output:** \n" \
+        #              " {\"valid\": False}\n" \
+        #              "End of instructions.\n" \
+        #              "Now, evaluate the following input: \n"
+
         prev_target_word = ""
         for index, row in tqdm(df.iterrows()):
             if row["is_relevant"] != row["is_relevant"]:
                 continue
             if args.child_as_guesser and row["guesser_type"] == "parent":
                 continue
-            if row["target_word"] != prev_target_word:
-                prev_context = "Word picked by player 1: " + row["target_word"] + ". Dialog history: "
-                prev_target_word = row["target_word"]
-            if row["manual_translation"] != row["manual_translation"]:
-                text = check_text_end(row["auto_translation"])
-            else:
-                text = check_text_end(row["manual_translation"])
+
+            # replace target_word with original_target_word for french in below if
+            if row["original_target_word"] != prev_target_word:
+                prev_context = " Word picked by player 1: " + row["original_target_word"] + " Dialog history: "
+                prev_target_word = row["original_target_word"]
+            # uncomment below if else loop for english text and comment for french text
+            # if row["manual_translation"] != row["manual_translation"]:
+            #     text = check_text_end(row["auto_translation"])
+            # else:
+            #     text = check_text_end(row["manual_translation"])
+            text = check_text_end(row["original_text"])
 
             if row["guesser_type"] != row["speaker"]:
-                prev_context += "player 1 turn: " + text + " "
+                prev_context += " player 1 turn: " + text + " "
             else:
                 if not (row["validity_check"] != row["validity_check"]):
                     is_bool = lambda x: string_to_bool.get(x.strip().lower(), None) if isinstance(x, str) else x
                     if args.model == "gpt4o:def":
-                        client = OpenAI(api_key="Enter your key")
+                        #Add your OpenAI API key below to the client
+                        client = OpenAI()
                         response = client.chat.completions.create(
                             model="gpt-4o",
                             response_format={"type": "json_object"},
                             seed=42,
                             messages=[
-                                {"role": "system", "content": initial_prompt_few_shot},
-                                {"role": "user", "content": prev_context + "Next question: " + text}
+                                {"role": "system", "content": initial_prompt_few_shot_french},
+                                {"role": "user", "content": prev_context + " Next question: " + text}
                             ]
                         )
 
                         json_data = json.loads(response.choices[0].message.content)
-                        json_response = is_bool(json_data['valid'])
+                        #json_response = is_bool(json_data['valid'])
 
                     else:
                         data = {
-                            "prompt": initial_prompt_few_shot + prev_context + "Next question: " + text,
+                            "prompt": initial_prompt_few_shot + prev_context + " Next question: " + text,
                             "model": args.model,
                             "format": "json",
                             "stream": False,
                             "options": {"seed": 42},
                         }
+
+                        # Change the url to your hosted Ollama server
                         response = requests.post("http://localhost:11434/api/generate", json=data, stream=False)
                         json_data = json.loads(response.text)
 
                     try:
-                        json_response = is_bool(json.loads(json_data["response"])['valid'])
+                        # uncomment for non chatgpt
+                        #json_response = is_bool(json.loads(json_data["response"])['valid'])
+                        # uncomment for chatgpt
+                        json_response = is_bool(json_data['valid'])
                         if json_response:
-                            df.loc[index, args.model + "-fewshot"] = 1
+                            df.loc[index, args.model + "-french-replaced"] = 1
                         else:
-                            df.loc[index, args.model + "-fewshot"] = 0
+                            df.loc[index, args.model + "-french-replaced"] = 0
                     except (KeyError, JSONDecodeError):
-                        df.loc[index, args.model + "-fewshot"] = 3
-                        print(initial_prompt_few_shot + prev_context + "Next question: " + text)
+                        df.loc[index, args.model + "-french-replaced"] = 3
+                        print(initial_prompt_few_shot_french + prev_context + "Next question: " + text)
                         print(json_data)
+                        print(file)
                         # print(json.dumps(json.loads(json_data["response"]), indent=2))
 
-                prev_context += "player 2 turn: " + text + " "
+                prev_context += " player 2 turn: " + text + " "
 
         df.to_csv("./data/prompts/"+file.split('/')[-1], index=False)
 
@@ -221,8 +285,8 @@ if __name__ == "__main__":
     argparser.add_argument(
         "--model",
         type=str,
-        help="choose model from amongst foll. list [llama3, gemma:7b, mistral, phi3:medium, gpt4o:def]",
-        default="llama3"
+        help="choose model from amongst foll. list [llama3.1, llama3.2, gemma2, mistral, mistral-nemo, phi3:medium, gpt4o:def]",
+        default="mistral"
     )
     args = argparser.parse_args()
     #format_data(args)
