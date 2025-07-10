@@ -1,424 +1,424 @@
-file_id,child_age,target_word,guesser_type,speaker,original_text,auto_translation,manual_translation,missing_transcript,useful_context,is_dubious,is_relevant,validity_check,is_valid,initiate_repair,error_type,gemma:7b,mistral,llama3,phi3:medium,gpt4o,gpt4o:def,mistral-masked,mistral-fewshot
-ID_2,7,eggs,parent,(INV),"Allez, 3, 2, 1, c'est parti.","Come on, 3, 2, 1, here we go.",,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,C'est bon.,It's good.,,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,"C'est bon, t'as le mot ?","It's okay, do you have the word?",,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,"Alors, est-ce que c'est quelque chose qui est vivant ?","So, is it something that is alive?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Est-ce que c'est un objet ?,Is it an object?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,C'est pas un objet.,It's not an object.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Est-ce que c'est quelque chose qui est dans la maison ?,Is this something in the house?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Dehors ?,Out ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Est-ce que c'est quelque chose qu'on peut utiliser ?,Is this something we can use?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Est-ce qu'on peut le toucher ?,Can we touch it?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,C'est dur ?,It's hard ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Un peu.,A little.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,C'est doux ?,It is soft ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Pas trop.,Not too much.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,C'est râpeux ?,Is it rough?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,"Si c'est râpeux, non.","If it's rough, no.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,C'est mou ?,It's soft ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,"Non, tu m'as dit que c'était dur.","No, you told me it was hard.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Est-ce que c'est chaud ?,Is it hot ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,"S'il fait chaud, ça devient chaud ?","If it's hot, does it get hot?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,"Et s'il fait froid, ça devient froid ?","And if it's cold, does it get cold?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,"Non, je crois pas.",No I think not.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Tu crois pas ?,Do not you believe ?,,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,"Faut que tu regardes ce truc, je pense.","You need to watch this thing, I think.",,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Est-ce que j'en ai déjà vu ?,Have I seen one before?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Je sais pas.,I don't know.,,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,"Oui, t'en as vu.","Yes, you saw it.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,J'en ai déjà vu.,I've seen it before.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,On en voit tous les jours ?,Do we see them every day?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Oui ?,Yes ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,On en touche tous les jours ?,Do we touch it every day?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,On le touche que si vraiment on a décidé d'aller toucher ça ou...,We only touch it if we really decided to go and touch that or...,,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Papa il en touche tous les jours.,Dad gets it every day.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Donc à son travail ?,So at his work?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Papa il en touche tous les jours ?,Does Dad get it every day?,,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Ça a un rapport avec la barbe par exemple ?,Does it have something to do with the beard for example?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Euh... Il en touche tous les jours... tous les matins ?,Um... He touches it every day... every morning?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Oui,Yes,,,[dad has eggs everyday for breakfast],,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Que le matin ?,Only the morning ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Que le matin ?,Only the morning ?,,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Pour faire un exercice ?,To do an exercise?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Pour manger ?,To eat ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Ah !,Ah!,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Euh... des oeufs ?,Um... eggs?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eggs,parent,child,Oui !,Yes !,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eggs,parent,parent,C'est ça !,That's it !,,,,,,,,,,,,,,,,,
-ID_2,7,eggs,parent,parent,Ok !,OK !,,,,,,,,,,,,,,,,,
-ID_2,7,candy,child,parent,"Bon, à moi !","Okay, mine!",,,,,,,,,,,,,,,,,
-ID_2,7,candy,child,parent,Ah ben ok !,Oh well ok!,,,,,,,,,,,,,,,,,
-ID_2,7,candy,child,parent,C'est... donc ça y est !,That's... so that's it!,,,,,,,,,,,,,,,,,
-ID_2,7,candy,child,child,Euh... est-ce que c'est vivant ?,Um... is it alive?,,,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que c'est un objet ?,Is it an object?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,candy,child,parent,"Pas vraiment un objet, mais tu peux le prendre, quoi.","Not really an item, but you can take it.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,"Est-ce que c'est fait par un animal, ou y'a pas quelque chose vivant ?","Was it made by an animal, or is there something alive?",,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,C'est les humains qui fabriquent ça.,Humans make this.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que c'est un tableau ?,Is this a painting?,,,,,1.0,1.0,0.0,0.0,"1,4",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que ça a des couleurs ?,Does it have colors?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,candy,child,parent,"Ah oui, y'en a de plein de couleurs différentes.","Oh yes, there are lots of different colors.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que on mange dessus ?,Do we eat on it?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,On mange dessus ? Ah non...,Shall we eat on it? Oh no...,,,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que c'est…,Is it…,,,,,,,,,,,,,,,,,
-ID_2,7,candy,child,parent,Mais ça a un rapport avec manger par contre,But it has something to do with eating though.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que c'est une assiette ?,Is this a plate?,,,,,1.0,1.0,0.0,0.0,"1,4",0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que ça a des pics ?,Does it have peaks?,,,,1.0,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,"Non, c'est pas quelque chose qu'on utilise Mais ça a un rapport avec manger par contre","No, it's not something we use, but it has something to do with eating though.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce qu'on le boit ?,Do we drink it?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0
-ID_2,7,candy,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce qu'on le mange ?,Do we eat it?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,candy,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Est-ce que c'est un… C'est un plat !,Is it a… It’s a dish!,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0
-ID_2,7,candy,child,parent,C'est pas un plat.,It's not a dish.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Si on mange le plat… C'est un dessert !,If we eat the dish... It's a dessert!,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,"C'est même pas un dessert, mais c'est sucré.","It's not even a dessert, but it's sweet.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Une tarte.. Sucrée,A tart... Sweet,,,,,1.0,1.0,0.0,1.0,"1,4",1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,"Bah non, les tartes c'est des desserts.","Well no, pies are desserts.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,candy,child,child,Des bonbons.,Candy.,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,candy,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,A toi.,Yours.,,,,,,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Et c'est bon.,And it's good.,,,,,,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,C'est bon ?,It's good ?,,,,,,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,"Ok, est-ce que c'est quelque chose qui se mange ?","Ok, is this something that can be eaten?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Non Est-ce que c'est vivant ?,No Is it alive?,"No, is it a living thing?",,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,C'est un animal ?,It's an animal ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,"Ok, c'est un mammifère ?","Ok, is it a mammal?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Un oiseau ?,A bird ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Un poisson ?,A fish ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Un insecte,An insect,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Un reptile ?,A reptile?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,"Un reptile, est-ce que c'est... Est-ce que ça a des pattes ?",Is a reptile... Does it have legs?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Ouais.,Yeah.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Euh... Ok.,HM okay.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Est-ce que ça pique ?,Does it sting?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Euh... Non.,Uh no.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Est-ce que ça mord ?,Does it bite?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Est-ce que ça vit parfois dans les rivières et parfois dans la mer ?,Does it sometimes live in rivers and sometimes in the sea?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Ça vit sur terre ?,Does it live on earth?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Il y en a qui vivait dans l'eau.,There were some who lived in the water.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Il y en a qui vivait dans l'eau ?,Did anyone live in the water?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,C'est ça que t'as dit ?,Is that what you said?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Il y en a qui vit dans l'eau.,There are some that live in the water.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,qui vivent dans l'eau.,that live in water.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Est-ce que ça a une carapace ?,Does it have a shell?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,"Donc ça a des pattes, ça n'a pas de carapace et c'est un reptile.","So it has legs, it doesn't have a shell and it's a reptile.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Est-ce que c'est plus gros qu'un chat ?,Is it bigger than a cat?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,"Bien plus gros, oui.","Much bigger, yes.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,"Il y en a qui étaient bien plus gros, il y en a qui étaient petits.","There were some that were much bigger, there were some that were small.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Mais ça n'existe plus ?,But it no longer exists?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Hum... C'est pour ça que tu disais au passé.,Um... That's why you said in the past tense.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,"Alors, ok.","So, okay.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Est-ce que c'est un dinosaure ?,Is it a dinosaur?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Mais... Atchoum !,But... Sneeze!,,,,,,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,Est-ce qu'il faut deviner le type ou c'était juste un dinosaure ?,Do you have to guess the guy or was it just a dinosaur?,,,,,,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,child,C'était juste un dinosaure.,It was just a dinosaur.,,,,,,,,,,,,,,,,,
-ID_2,7,A dinosaur,parent,parent,"Ah d'accord, ok.","Oh okay, okay.",,,,,,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,"Bon, ça va.",That's OK.,,,,,,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,J'en ai un qui est hyper dur.,I have one that is super hard.,,,,,,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Ooooh,Ooooh,,,,,,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,"Mais vas-y, tu vas trouver.","But go ahead, you'll find it.",,,,,,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,"Allez, vas-y.",Just go.,,,,,,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Est-ce que c'est vivant ?,Is it alive?,,,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Est-ce que c'est un objet ?,Is it an object?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,A bump,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Est-ce qu'on le mange ?,Do we eat it?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0
-ID_2,7,A bump,child,parent,Non,No,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Est-ce que ça a un rapport avec manger ?,Does this have anything to do with eating?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
-ID_2,7,A bump,child,parent,"Pas avec manger, mais c'est un rapport avec le corps humain.","Not with eating, but it is a relationship with the human body.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,"Ou pas humain, mais en général humain.","Or not human, but generally human.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Est-ce que c'est tes lunettes ?,Are those your glasses?,,,,,1.0,1.0,0.0,0.0,"1,4",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_2,7,A bump,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Est-ce que c'est sur la tête ?,Is it on the head?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0
-ID_2,7,A bump,child,parent,Ça peut arriver que ce soit sur la tête.,It could happen that it's on the head.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Des cheveux.,Hair.,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,A bump,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,C'est pas quelque chose qu'on a tout le temps.,It's not something we have all the time.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Des boucles d'oreilles.,Earings.,,,,,1.0,1.0,0.0,1.0,"1,4",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_2,7,A bump,child,parent,"Non, c'est pas quelque chose qu'on met.","No, it's not something you wear.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,C'est quelque chose qui peut arriver.,This is something that can happen.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,parent,Sur notre corps.,On our body.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A bump,child,child,Une bosse.,A bump.,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,A bump,child,parent,Ouais !,Yeah !,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,À toi.,Yours.,,,,,,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,C'est bon.,It's good.,,,,,,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Est-ce que c'est vivant ?,Is it alive?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Est-ce que c'est un objet ?,Is it an object?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,C'est quelque chose qu'on peut tenir dans sa main ?,Is it something you can hold in your hand?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Est-ce que ça se mange ?,Is it edible?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Est-ce que c'est quelque chose qu'on utilise ?,Is this something we use?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Des fois.,Sometimes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Des fois ?,Sometimes ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Pour travailler ?,To work ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,À l'école ?,At school ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,"Des fois, mais pour certaines personnes.","Sometimes, but for certain people.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Pour certaines personnes à l'école.,For some people at school.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,"Et moi, tu penses que j'en utilise à mon travail aussi ?","And me, do you think I use it at my work too?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,"Non, c'est sûr que non ?","No, of course not?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,C'est un truc que les enfants utilisent ?,Is this something kids use?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Et pas les adultes ?,And not adults?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Y'a des adultes qui en ont,There are adults who have them,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,"Ah, d'accord, mais moi non.","Ah, okay, but I don't.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Et papa ?,And dad?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Et toi ?,And you ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,T'en as pas ?,Don't you have any?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,"Ah, d'accord.",Ah OK.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,T'as des copains qui ont un nom ?,Do you have any friends with names?,,,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,C'est un jouet ?,Is it a toy?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,C'est pour les aider ?,Is it to help them?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Euh oui c'est pour les aider..,Um yes it's to help them..,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,C'est pour les aider à mieux travailler ?,Is it to help them work better?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Peut-être ?,Maybe ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,À mieux voir ?,To see better?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,eye-glasses,parent,parent,Des lunettes.,Glasses.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,eye-glasses,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,cactus,child,child,A toi.,Yours.,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,A moi.,To me.,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Ouh, ça y est.","Ooh, that's it.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Non, touche pas, touche pas, touche pas.","No, don't touch, don't touch, don't touch.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Je crois qu'il faut laisser tout.,I believe in leaving everything behind.,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Non, non, mais c'est pas grave.","No, no, but it doesn't matter.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,[NAME-1].,[NAME-1].,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,J'espère que t'as rien fait de...,hope you didn't do anything...,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que… C'est vivant ?,Is... Is it alive?,,,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Ouais.,Yeah.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est un mammifère ?,Is it a mammal?,,,,,1.0,1.0,1.0,0.0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,cactus,child,parent,Ah non,Oh no,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est un animal ?,Is it an animal?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
-ID_2,7,cactus,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est une plante ?,Is it a plant?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,cactus,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que ça vient d'une plante ou c'est un plantain ?,Does it come from a plant or is it a plantain?,,,,1.0,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
-ID_2,7,cactus,child,parent,C'est une plante.,It's a plant.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est du romarin ?,Is it rosemary?,,,,,1.0,1.0,1.0,0.0,"1,7",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_2,7,cactus,child,parent,Ben non.,Well no.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que ça fait des fruits ?,Does it produce fruit?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0
-ID_2,7,cactus,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que ça fait des fleurs ?,Does it make flowers?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,cactus,child,parent,Très rarement.,Very rarely.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Genre.,Gender.,,,,1.0,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Des fois je crois que ça fleurit peut-être une fois par an ou peut-être même pas tous les ans.,Sometimes I think it blooms maybe once a year or maybe not even every year.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que ça fait des légumes ?,Does it make vegetables?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_2,7,cactus,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Je crois que tu peux en manger, par exemple au Mexique tu peux en manger, mais ici t'en manges pas.","I think you can eat it, for example in Mexico you can eat it, but here you don't eat it.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que ça tombe ?,Does it fall?,,,,,1.0,1.0,0.0,0.0,"1,3",0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,cactus,child,parent,Ça tombe ?,It falls ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Je veux dire, est-ce que c'est une plante qui retombe comme ça, là ?","I mean, is that a plant that hangs over like that?",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Ou est-ce que... Non, ça grimpe comme ça, ça monte.","Or is it... No, it goes up like that, it goes up.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Ça pousse vers le haut, quoi.",It pushes upwards.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,"T'as un truc comme ça, et après ça tombe ?","You have something like that, and then it falls?",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Non.,No.,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"T'as un truc comme ça, et après ça fait des fois un peu comme ça.","You have something like that, and then sometimes it's a bit like that.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,child,"Comme ça, et après ça fait ça ?","Like that, and then it does this?",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Bon, en tout cas, ça pousse tout droit, quoi.","Well, in any case, it grows straight on.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,child,"Ah, ok !",Ah OK !,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est un champignon ?,Is it a mushroom?,,,,,1.0,1.0,0.0,1.0,"1,4",0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0
-ID_2,7,cactus,child,parent,"Ah non, un champignon, c'est pas une plante, en vrai.","Oh no, a mushroom is not a plant, really.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est du chou ?,Is it cabbage?,,,,,1.0,1.0,0.0,1.0,"1,4",0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
-ID_2,7,cactus,child,parent,"Non, ça se mange pas.","No, you can't eat it.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Je te dis, ça se mange dans certains pays, mais... Tu peux essayer.","I tell you, it's eaten in some countries, but... You can try.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est vert ?,Is it green?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,cactus,child,parent,"Ouais, c'est vert.","Yeah, it's green.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est... Je sais pas.,Is it... I don't know.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est un peu dur ?,Is it a bit hard?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,cactus,child,parent,"Oui, sauf quand ça pourrit, ça devient tout mou.","Yes, except when it rots, it becomes very soft.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,C'est dur et surtout ça a une caractéristique spéciale.,It's hard and above all it has a special characteristic.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que ça sent bon ?,Does it smell good?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0
-ID_2,7,cactus,child,parent,"Non, pas particulièrement.","No, not particularly.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est dur ?,Is it hard?,,,,,1.0,1.0,0.0,0.0,"1,4",1.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
-ID_2,7,cactus,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que ça... Je sais pas.,Is that... I don't know.,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Je sais pas, demande si on en a ou est-ce que ça pousse, je sais pas moi.","I don't know, ask if we have any or does it grow, I don't know.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce qu'on en a ? Est-ce qu'on en a ?,Do we have any? Do we have any?,,,,,1.0,1.0,1.0,0.0,2,0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0
-ID_2,7,cactus,child,parent,"On en a un tout... Dans une des jardinières, il y en a des tout petits.","We have a whole one... In one of the planters, there are some very small ones.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Et puis je crois qu'au fond du jardin, j'en avais mis un.","And then I think that at the bottom of the garden, I put one.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Mais qu'on voit pas.,But we can't see.,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Est-ce que c'est un palmier ?,Is it a palm tree?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,cactus,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,De tout petits comme ça.,Little ones like that.,,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Et toi, t'en as eu, mais qui sont morts, je crois.","And you had some, but they died, I think.",,,,,,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Les orchidées.,Orchids.,,,,,1.0,1.0,0.0,1.0,"1,4",1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
-ID_2,7,cactus,child,parent,Mais non.,But no.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,C'est pas petit comme ça.,It's not that small.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,"Et sinon, ça pousse pas ici, normalement.","And otherwise, it doesn't normally grow here.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Ça pousse plutôt dans les endroits qui sont désertiques.,It mostly grows in places that are desert.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Si ça peut t'aider.,If that helps you.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,parent,Ça... ça a vraiment pas beaucoup besoin d'eau.,It... it really doesn't need much water.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,cactus,child,child,Des cactus !,Cacti!,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0
-ID_2,7,cactus,child,parent,Oui !,Yes !,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,A toi.,Yours.,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Euh… C'est bon.,Um... It's okay.,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,"Alors, est-ce que c'est vivant ?","So, is it alive?","So, is it a living thing?",,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est un objet ?,Is it an object?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est...,Is it...,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Tu vas pas trouver…,You're not going to find...,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Je vais pas trouver…,I won't find...,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est quelque chose qu'on peut prendre ?,Is this something we can take?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est quelque chose qu'on peut toucher ?,Is this something we can touch?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Oui ?,Yes ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est quelque chose qu'on voit tous les jours ?,Is this something we see every day?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est à l'intérieur ?,Is it inside?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,À l'extérieur ?,Outside ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Il y en a dans le jardin ?,Are there any in the garden?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Mais c'est pas vivant.,But it's not alive.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Il y en a dans la rue ?,Are there any in the street?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Ah bon ?,Ah good ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Il y en a dans tous les jardins en général ?,Are there some in all gardens in general?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Ok.,OK.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Il y en a dans tous les jardins.,There are some in every garden.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce qu'on marche dessus ?,Are we walking on it?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Euh non.,Uh no.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce qu'on peut les... T'as dit qu'on pouvait pas les prendre.,Can we... You said we couldn't take them.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Ok.,OK.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est utile à quelque chose ?,Is it useful for anything?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Non ?,No ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,C'est fait pour faire joli ?,Is it made to look pretty?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,"Ah, c'est décoratif.","Ah, it's decorative.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,"Ouais non c'est pas vrai, c'est pas fait pour faire joli","Yeah no it's not true, it's not made to look pretty",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,C'est pas fait pour faire joli ?,Isn't it meant to look pretty?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que là t'en vois quand tu regardes dehors ?,Do you see any there when you look outside?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui,Yes,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est une matière très dure ?,Is it a very hard material?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,C'est mou ?,It's soft ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non plus.,Neither.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,C'est ni dur ni mou ?,Is it neither hard nor soft?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,"À des endroits, si c'est un peu dur.","In places, if a little hard.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,OK,OK,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,"À des endroits c'est dur, à des endroits c'est mou, ça dépend.","In places it's hard, in places it's soft, it depends.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,child,La terre ?,Earth ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,À des endroits c'est dur.,In places it's hard.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est fait en... Est-ce que c'est fait en bois ?,Is it made of... Is it made of wood?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,"Tu peux me donner un indice, me dire faut que tu demandes ça et du coup…","You can give me a clue, tell me you have to ask that and so...",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,T'as dit quoi ?,What did you say ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Tu peux me donner un indice ?,Can you give me a clue?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est fait en bois ?,Is it made of wood?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est fabriqué par les humains ?,Is it made by humans?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est... Quoi ?,Is this... What?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est fait pour s'asseoir ?,Is it made for sitting?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Pour se tenir debout ?,To stand up?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Pour s'allonger ?,To lie down?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Pour regarder ?,To watch ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que ça nous sert à quelque chose particulièrement ?,Does it serve us any particular purpose?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est fait pour clôturer ?,Is this meant for closure?,,,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non,No,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Donne ta langue au chat.,Give your tongue to the cat.,,,,1.0,,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,T'as vraiment envie que je donne ma langue au chat ?,Do you really want me to give my tongue to the cat?,,,,1.0,,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est blanc ?,Is it white?,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que ça a une couleur particulière ?,Does it have a particular color?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Est-ce que c'est vert ?,Is it green?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Oui… Non.,Yes No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,"À des endroits c'est vert, à des endroits c'est pas vert.","In places it's green, in places it's not green.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,"Ok, marron ?","Ok, brown?",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,"Oui, à des endroits.","Yes, in places.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Noir ?,Black ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,"Bon, bah... À des endroits c'est vert, à des endroits c'est marron, à des endroits c'est blanc, non c'est pas blanc.","Well, well... In places it's green, in places it's brown, in places it's white, no it's not white.",,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,À des endroits c'est gris.,In places it's gray.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Euh... ouais.,Well yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Des dalles ?,Slabs?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Des portes ?,Doors ?,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Euh... Bah franchement je crois que je donne ma langue au chat,Uh... Well honestly I think I'm giving my tongue to the cat,,,,1.0,,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,C'était un jardin.,It was a garden.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_2,7,A garden,parent,parent,Ah !,Ah!,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,parent,"En fait, t'as...","In fact, you have...",,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,T'as dit est-ce que c'est dans le jardin ?,Did you say is it in the garden?,,,,,,,,,,,,,,,,,
-ID_2,7,A garden,parent,child,Mais oui parce que c'est un jardin !,But yes because it’s a garden!,,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,parent,"Bon, est-ce que... Il faut qu'on en fasse un dernier pour qu'on soit à égalité de mots ou pas ?","Well, do we... Do we have to do one last one so that we're on equal terms or not?",,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,parent,Parce que c'est lui qui a commencé.,Because he started it.,,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,parent,"Oui, alors…",Yes so…,,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,(INV),"Oui, parce qu'effectivement à la fin il faut qu'on décide qui a gagné.","Yes, because in the end we have to decide who won.",,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,parent,Eh oui.,Eh yes.,,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,parent,"Bon, allez j'en fais un.","Okay, come on, I'll make one.",,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,parent,"Allez j'en fais un, c'est bon.","Come on, I'll make one, it's good.",,,,,,,,,,,,,,,,,
-ID_2,7,A mammoth,child,child,Est-ce que c'est vivant ?,Is it alive?,,,,1.0,1.0,,,,,,,,,,,,
-ID_2,7,A mammoth,child,parent,C'était vivant.,It was alive.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A mammoth,child,child,OK.,OK.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A mammoth,child,child,Est-ce que ça a vécu dans l'eau ?,Did it live in water?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
-ID_2,7,A mammoth,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A mammoth,child,child,Est-ce que c'est un mammifère ?,Is it a mammal?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,A mammoth,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A mammoth,child,child,Est-ce que c'est un tigre à dents de sabre ?,Is it a saber-toothed tiger?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_2,7,A mammoth,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A mammoth,child,child,Est-ce que ça a des défenses ?,Does it have defenses?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_2,7,A mammoth,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,A mammoth,child,child,C'est un mammouth.,It's a mammoth.,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
-ID_2,7,A mammoth,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_2,7,,,parent,OK.,OK.,,,,,,,,,,,,,,,,,
-ID_2,7,,,parent,Bon.,Good.,,,,,,,,,,,,,,,,,
-ID_2,7,,,child,J'ai gagné.,I won.,,,,,,,,,,,,,,,,,
-ID_2,7,,,parent,"Ouais, t'as gagné du coup.","Yeah, you win.",,,,,,,,,,,,,,,,,
-ID_2,7,,,child,"Allez, c'est bon.","Come on, it's okay.",,,,,,,,,,,,,,,,,
-ID_2,7,,,child,Il faut arrêter.,It has to stop.,,,,,,,,,,,,,,,,,
-ID_2,7,,,(INV),Arrêter ça.,Stop this.,,,,,,,,,,,,,,,,,
-ID_2,7,,,child,Je croyais qu'il fallait que tu fasses prendre un stop.,I thought you had to get a stop sign.,,,,,,,,,,,,,,,,,
+file_id;child_age;target_word;original_target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;agreement;initiate_repair;error_type
+ID_2;7;eggs;des oeufs;parent;(INV);Allez, 3, 2, 1, c'est parti.;Come on, 3, 2, 1, here we go.;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;child;C'est bon.;It's good.;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;parent;C'est bon, t'as le mot ?;It's okay, do you have the word?;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Alors, est-ce que c'est quelque chose qui est vivant ?;So, is it something that is alive?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Est-ce que c'est un objet ?;Is it an object?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;C'est pas un objet.;It's not an object.;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Est-ce que c'est quelque chose qui est dans la maison ?;Is this something in the house?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Dehors ?;Out ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Est-ce que c'est quelque chose qu'on peut utiliser ?;Is this something we can use?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Est-ce qu'on peut le toucher ?;Can we touch it?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;C'est dur ?;It's hard ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Un peu.;A little.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;C'est doux ?;It is soft ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Pas trop.;Not too much.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;C'est râpeux ?;Is it rough?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Si c'est râpeux, non.;If it's rough, no.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;C'est mou ?;It's soft ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Non, tu m'as dit que c'était dur.;No, you told me it was hard.;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Est-ce que c'est chaud ?;Is it hot ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;S'il fait chaud, ça devient chaud ?;If it's hot, does it get hot?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Et s'il fait froid, ça devient froid ?;And if it's cold, does it get cold?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non, je crois pas.;No I think not.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Tu crois pas ?;Do not you believe ?;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Faut que tu regardes ce truc, je pense.;You need to watch this thing, I think.;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Est-ce que j'en ai déjà vu ?;Have I seen one before?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Je sais pas.;I don't know.;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui, t'en as vu.;Yes, you saw it.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;J'en ai déjà vu.;I've seen it before.;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;On en voit tous les jours ?;Do we see them every day?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Oui ?;Yes ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;On en touche tous les jours ?;Do we touch it every day?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;On le touche que si vraiment on a décidé d'aller toucher ça ou...;We only touch it if we really decided to go and touch that or...;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;child;Papa il en touche tous les jours.;Dad gets it every day.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Donc à son travail ?;So at his work?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Papa il en touche tous les jours ?;Does Dad get it every day?;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Ça a un rapport avec la barbe par exemple ?;Does it have something to do with the beard for example?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Euh... Il en touche tous les jours... tous les matins ?;Um... He touches it every day... every morning?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui;Yes;;;[dad has eggs everyday for breakfast];;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Que le matin ?;Only the morning ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Que le matin ?;Only the morning ?;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Pour faire un exercice ?;To do an exercise?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Pour manger ?;To eat ?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;Ah !;Ah!;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Euh... des oeufs ?;Um... eggs?;;;;;1.0;;;;
+ID_2;7;eggs;des oeufs;parent;child;Oui !;Yes !;;;;;1.0;1.0;;;
+ID_2;7;eggs;des oeufs;parent;parent;C'est ça !;That's it !;;;;;;;;;
+ID_2;7;eggs;des oeufs;parent;parent;Ok !;OK !;;;;;;;;;
+ID_2;7;candy;Des bonbons;child;parent;Bon, à moi !;Okay, mine!;;;;;;;;;
+ID_2;7;candy;Des bonbons;child;parent;Ah ben ok !;Oh well ok!;;;;;;;;;
+ID_2;7;candy;Des bonbons;child;parent;C'est... donc ça y est !;That's... so that's it!;;;;;;;;;
+ID_2;7;candy;Des bonbons;child;child;Euh... est-ce que c'est vivant ?;Um... is it alive?;;;;1.0;1.0;;;;
+ID_2;7;candy;Des bonbons;child;parent;Non;No;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que c'est un objet ?;Is it an object?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;Pas vraiment un objet, mais tu peux le prendre, quoi.;Not really an item, but you can take it.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que c'est fait par un animal, ou y'a pas quelque chose vivant ?;Was it made by an animal, or is there something alive?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;C'est les humains qui fabriquent ça.;Humans make this.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que c'est un tableau ?;Is this a painting?;;;;;1.0;1.0;1.0;0.0;1,4
+ID_2;7;candy;Des bonbons;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que ça a des couleurs ?;Does it have colors?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;Ah oui, y'en a de plein de couleurs différentes.;Oh yes, there are lots of different colors.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que on mange dessus ?;Do we eat on it?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;On mange dessus ? Ah non...;Shall we eat on it? Oh no...;Do we eat on it? Oh no…;;;1.0;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que c'est…;Is it…;;;;;;;;;
+ID_2;7;candy;Des bonbons;child;parent;Mais ça a un rapport avec manger par contre;But it has something to do with eating though.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que c'est une assiette ?;Is this a plate?;;;;;1.0;1.0;0.0;0.0;1,4
+ID_2;7;candy;Des bonbons;child;parent;Non;No;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que ça a des pics ?;Does it have peaks?;Does it have spikes or prongs?;;;1.0;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;Non, c'est pas quelque chose qu'on utilise Mais ça a un rapport avec manger par contre;No, it's not something we use, but it has something to do with eating though.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce qu'on le boit ?;Do we drink it?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce qu'on le mange ?;Do we eat it?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Est-ce que c'est un… C'est un plat !;Is it a… It’s a dish!;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;C'est pas un plat.;It's not a dish.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Si on mange le plat… C'est un dessert !;If we eat the dish... It's a dessert!;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;candy;Des bonbons;child;parent;C'est même pas un dessert, mais c'est sucré.;It's not even a dessert, but it's sweet.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Une tarte.. Sucrée;A tart... Sweet;;;;;1.0;1.0;0.0;1.0;1,4
+ID_2;7;candy;Des bonbons;child;parent;Bah non, les tartes c'est des desserts.;Well no, pies are desserts.;;;;;1.0;;;;
+ID_2;7;candy;Des bonbons;child;child;Des bonbons.;Candy.;;;;;1.0;1.0;1.0;0.0;1,6
+ID_2;7;candy;Des bonbons;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;A toi.;Yours.;;;;;;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Et c'est bon.;And it's good.;;;;;;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;C'est bon ?;It's good ?;;;;;;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Ok, est-ce que c'est quelque chose qui se mange ?;Ok, is this something that can be eaten?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Non Est-ce que c'est vivant ?;No Is it alive?;No, is it a living thing?;;;1.0;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;C'est un animal ?;It's an animal ?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Ok, c'est un mammifère ?;Ok, is it a mammal?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Un oiseau ?;A bird ?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Un poisson ?;A fish ?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Un insecte;An insect;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Un reptile ?;A reptile?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Un reptile, est-ce que c'est... Est-ce que ça a des pattes ?;Is a reptile... Does it have legs?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Ouais.;Yeah.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Euh... Ok.;HM okay.;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Est-ce que ça pique ?;Does it sting?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Euh... Non.;Uh no.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Est-ce que ça mord ?;Does it bite?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Est-ce que ça vit parfois dans les rivières et parfois dans la mer ?;Does it sometimes live in rivers and sometimes in the sea?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Ça vit sur terre ?;Does it live on earth?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Il y en a qui vivait dans l'eau.;There were some who lived in the water.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Il y en a qui vivait dans l'eau ?;Did anyone live in the water?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;C'est ça que t'as dit ?;Is that what you said?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Il y en a qui vit dans l'eau.;There are some that live in the water.;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;qui vivent dans l'eau.;that live in water.;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Est-ce que ça a une carapace ?;Does it have a shell?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Donc ça a des pattes, ça n'a pas de carapace et c'est un reptile.;So it has legs, it doesn't have a shell and it's a reptile.;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Est-ce que c'est plus gros qu'un chat ?;Is it bigger than a cat?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Bien plus gros, oui.;Much bigger, yes.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Il y en a qui étaient bien plus gros, il y en a qui étaient petits.;There were some that were much bigger, there were some that were small.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Mais ça n'existe plus ?;But it no longer exists?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Hum... C'est pour ça que tu disais au passé.;Um... That's why you said in the past tense.;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Alors, ok.;So, okay.;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Est-ce que c'est un dinosaure ?;Is it a dinosaur?;;;;;1.0;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Mais... Atchoum !;But... Sneeze!;;;;;;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Est-ce qu'il faut deviner le type ou c'était juste un dinosaure ?;Do you have to guess the guy or was it just a dinosaur?;;;;;;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;child;C'était juste un dinosaure.;It was just a dinosaur.;;;;;;;;;
+ID_2;7;A dinosaur;un dinosaure;parent;parent;Ah d'accord, ok.;Oh okay, okay.;;;;;;;;;
+ID_2;7;A bump;Une bosse;child;parent;Bon, ça va.;That's OK.;;;;;;;;;
+ID_2;7;A bump;Une bosse;child;parent;J'en ai un qui est hyper dur.;I have one that is super hard.;;;;;;;;;
+ID_2;7;A bump;Une bosse;child;child;Ooooh;Ooooh;;;;;;;;;
+ID_2;7;A bump;Une bosse;child;parent;Mais vas-y, tu vas trouver.;But go ahead, you'll find it.;;;;;;;;;
+ID_2;7;A bump;Une bosse;child;parent;Allez, vas-y.;Just go.;;;;;;;;;
+ID_2;7;A bump;Une bosse;child;child;Est-ce que c'est vivant ?;Is it alive?;;;;1.0;1.0;;;;
+ID_2;7;A bump;Une bosse;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Non.;No.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Est-ce que c'est un objet ?;Is it an object?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A bump;Une bosse;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Est-ce qu'on le mange ?;Do we eat it?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A bump;Une bosse;child;parent;Non;No;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Est-ce que ça a un rapport avec manger ?;Does this have anything to do with eating?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A bump;Une bosse;child;parent;Pas avec manger, mais c'est un rapport avec le corps humain.;Not with eating, but it is a relationship with the human body.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;parent;Ou pas humain, mais en général humain.;Or not human, but generally human.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Est-ce que c'est tes lunettes ?;Are those your glasses?;;;;;1.0;1.0;0.0;0.0;1,4
+ID_2;7;A bump;Une bosse;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Est-ce que c'est sur la tête ?;Is it on the head?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A bump;Une bosse;child;parent;Ça peut arriver que ce soit sur la tête.;It could happen that it's on the head.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Des cheveux.;Hair.;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A bump;Une bosse;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;parent;C'est pas quelque chose qu'on a tout le temps.;It's not something we have all the time.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Des boucles d'oreilles.;Earings.;;;;;1.0;1.0;0.0;1.0;1,4
+ID_2;7;A bump;Une bosse;child;parent;Non, c'est pas quelque chose qu'on met.;No, it's not something you wear.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;parent;C'est quelque chose qui peut arriver.;This is something that can happen.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;parent;Sur notre corps.;On our body.;;;;;1.0;;;;
+ID_2;7;A bump;Une bosse;child;child;Une bosse.;A bump.;;;;;1.0;1.0;1.0;0.0;1,6
+ID_2;7;A bump;Une bosse;child;parent;Ouais !;Yeah !;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;À toi.;Yours.;;;;;;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;C'est bon.;It's good.;;;;;;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Est-ce que c'est vivant ?;Is it alive?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Est-ce que c'est un objet ?;Is it an object?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;C'est quelque chose qu'on peut tenir dans sa main ?;Is it something you can hold in your hand?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Est-ce que ça se mange ?;Is it edible?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Est-ce que c'est quelque chose qu'on utilise ?;Is this something we use?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Des fois.;Sometimes.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Des fois ?;Sometimes ?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Pour travailler ?;To work ?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;À l'école ?;At school ?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Des fois, mais pour certaines personnes.;Sometimes, but for certain people.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Pour certaines personnes à l'école.;For some people at school.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Et moi, tu penses que j'en utilise à mon travail aussi ?;And me, do you think I use it at my work too?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Non, c'est sûr que non ?;No, of course not?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;C'est un truc que les enfants utilisent ?;Is this something kids use?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Et pas les adultes ?;And not adults?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Y'a des adultes qui en ont;There are adults who have them;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Ah, d'accord, mais moi non.;Ah, okay, but I don't.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Et papa ?;And dad?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Et toi ?;And you ?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;T'en as pas ?;Don't you have any?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Ah, d'accord.;Ah OK.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;T'as des copains qui ont un nom ?;Do you have any friends with names?;;;;1.0;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;C'est un jouet ?;Is it a toy?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;C'est pour les aider ?;Is it to help them?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Euh oui c'est pour les aider..;Um yes it's to help them..;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;C'est pour les aider à mieux travailler ?;Is it to help them work better?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Peut-être ?;Maybe ?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;À mieux voir ?;To see better?;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;parent;Des lunettes.;Glasses.;;;;;1.0;;;;
+ID_2;7;eye-glasses;Des lunettes.;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;cactus;Des cactus;child;child;A toi.;Yours.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;A moi.;To me.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Ouh, ça y est.;Ooh, that's it.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Non, touche pas, touche pas, touche pas.;No, don't touch, don't touch, don't touch.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Je crois qu'il faut laisser tout.;I believe in leaving everything behind.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Non, non, mais c'est pas grave.;No, no, but it doesn't matter.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Jane.;Jane.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;J'espère que t'as rien fait de...;hope you didn't do anything...;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que… C'est vivant ?;Is... Is it alive?;;;;1.0;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Ouais.;Yeah.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est un mammifère ?;Is it a mammal?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Ah non;Oh no;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est un animal ?;Is it an animal?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est une plante ?;Is it a plant?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que ça vient d'une plante ou c'est un plantain ?;Does it come from a plant or is it a plantain?;;;;1.0;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;C'est une plante.;It's a plant.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est du romarin ?;Is it rosemary?;;;;;1.0;1.0;1.0;0.0;1,7
+ID_2;7;cactus;Des cactus;child;parent;Ben non.;Well no.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que ça fait des fruits ?;Does it produce fruit?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que ça fait des fleurs ?;Does it make flowers?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Très rarement.;Very rarely.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Genre.;Gender.;Typically;;;1.0;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Des fois je crois que ça fleurit peut-être une fois par an ou peut-être même pas tous les ans.;Sometimes I think it blooms maybe once a year or maybe not even every year.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que ça fait des légumes ?;Does it make vegetables?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Je crois que tu peux en manger, par exemple au Mexique tu peux en manger, mais ici t'en manges pas.;I think you can eat it, for example in Mexico you can eat it, but here you don't eat it.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que ça tombe ?;Does it fall?;;;;;1.0;1.0;1.0;0.0;1,3
+ID_2;7;cactus;Des cactus;child;parent;Ça tombe ?;It falls ?;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Je veux dire, est-ce que c'est une plante qui retombe comme ça, là ?;I mean, is that a plant that hangs over like that?;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Ou est-ce que... Non, ça grimpe comme ça, ça monte.;Or is it... No, it goes up like that, it goes up.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Ça pousse vers le haut, quoi.;It pushes upwards.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;T'as un truc comme ça, et après ça tombe ?;You have something like that, and then it falls?;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Non.;No.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;T'as un truc comme ça, et après ça fait des fois un peu comme ça.;You have something like that, and then sometimes it's a bit like that.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;child;Comme ça, et après ça fait ça ?;Like that, and then it does this?;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Bon, en tout cas, ça pousse tout droit, quoi.;Well, in any case, it grows straight on.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;child;Ah, ok !;Ah OK !;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est un champignon ?;Is it a mushroom?;;;;;1.0;1.0;0.0;1.0;1,4
+ID_2;7;cactus;Des cactus;child;parent;Ah non, un champignon, c'est pas une plante, en vrai.;Oh no, a mushroom is not a plant, really.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est du chou ?;Is it cabbage?;;;;;1.0;1.0;0.0;1.0;1,4
+ID_2;7;cactus;Des cactus;child;parent;Non, ça se mange pas.;No, you can't eat it.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Je te dis, ça se mange dans certains pays, mais... Tu peux essayer.;I tell you, it's eaten in some countries, but... You can try.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est vert ?;Is it green?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Ouais, c'est vert.;Yeah, it's green.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est... Je sais pas.;Is it... I don't know.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est un peu dur ?;Is it a bit hard?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Oui, sauf quand ça pourrit, ça devient tout mou.;Yes, except when it rots, it becomes very soft.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;C'est dur et surtout ça a une caractéristique spéciale.;It's hard and above all it has a special characteristic.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que ça sent bon ?;Does it smell good?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Non, pas particulièrement.;No, not particularly.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est dur ?;Is it hard?;;;;;1.0;1.0;0.0;0.0;1,4
+ID_2;7;cactus;Des cactus;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que ça... Je sais pas.;Is that... I don't know.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Je sais pas, demande si on en a ou est-ce que ça pousse, je sais pas moi.;I don't know, ask if we have any or does it grow, I don't know.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce qu'on en a ? Est-ce qu'on en a ?;Do we have any? Do we have any?;;;;;1.0;1.0;1.0;0.0;2
+ID_2;7;cactus;Des cactus;child;parent;On en a un tout... Dans une des jardinières, il y en a des tout petits.;We have a whole one... In one of the planters, there are some very small ones.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Et puis je crois qu'au fond du jardin, j'en avais mis un.;And then I think that at the bottom of the garden, I put one.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Mais qu'on voit pas.;But we can't see.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;child;Est-ce que c'est un palmier ?;Is it a palm tree?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;cactus;Des cactus;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;De tout petits comme ça.;Little ones like that.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;parent;Et toi, t'en as eu, mais qui sont morts, je crois.;And you had some, but they died, I think.;;;;;;;;;
+ID_2;7;cactus;Des cactus;child;child;Les orchidées.;Orchids.;;;;;1.0;1.0;0.0;1.0;1,4
+ID_2;7;cactus;Des cactus;child;parent;Mais non.;But no.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;C'est pas petit comme ça.;It's not that small.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Et sinon, ça pousse pas ici, normalement.;And otherwise, it doesn't normally grow here.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Ça pousse plutôt dans les endroits qui sont désertiques.;It mostly grows in places that are desert.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Si ça peut t'aider.;If that helps you.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;parent;Ça... ça a vraiment pas beaucoup besoin d'eau.;It... it really doesn't need much water.;;;;;1.0;;;;
+ID_2;7;cactus;Des cactus;child;child;Des cactus !;Cacti!;;;;;1.0;1.0;1.0;0.0;1,6
+ID_2;7;cactus;Des cactus;child;parent;Oui !;Yes !;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;A toi.;Yours.;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;child;Euh… C'est bon.;Um... It's okay.;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;parent;Alors, est-ce que c'est vivant ?;So, is it alive?;So, is it a living thing?;;;1.0;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est un objet ?;Is it an object?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est...;Is it...;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;child;Tu vas pas trouver…;You're not going to find...;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;parent;Je vais pas trouver…;I won't find...;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est quelque chose qu'on peut prendre ?;Is this something we can take?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est quelque chose qu'on peut toucher ?;Is this something we can touch?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Oui ?;Yes ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est quelque chose qu'on voit tous les jours ?;Is this something we see every day?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est à l'intérieur ?;Is it inside?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;À l'extérieur ?;Outside ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Il y en a dans le jardin ?;Are there any in the garden?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Mais c'est pas vivant.;But it's not alive.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Il y en a dans la rue ?;Are there any in the street?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Ah bon ?;Ah good ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Il y en a dans tous les jardins en général ?;Are there some in all gardens in general?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Ok.;OK.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Il y en a dans tous les jardins.;There are some in every garden.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce qu'on marche dessus ?;Are we walking on it?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Euh non.;Uh no.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce qu'on peut les... T'as dit qu'on pouvait pas les prendre.;Can we... You said we couldn't take them.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Ok.;OK.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est utile à quelque chose ?;Is it useful for anything?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Non ?;No ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;C'est fait pour faire joli ?;Is it made to look pretty?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Ah, c'est décoratif.;Ah, it's decorative.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Ouais non c'est pas vrai, c'est pas fait pour faire joli;Yeah no it's not true, it's not made to look pretty;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;C'est pas fait pour faire joli ?;Isn't it meant to look pretty?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que là t'en vois quand tu regardes dehors ?;Do you see any there when you look outside?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui;Yes;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est une matière très dure ?;Is it a very hard material?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;C'est mou ?;It's soft ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non plus.;Neither.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;C'est ni dur ni mou ?;Is it neither hard nor soft?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;À des endroits, si c'est un peu dur.;In places, if a little hard.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;OK;OK;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;À des endroits c'est dur, à des endroits c'est mou, ça dépend.;In places it's hard, in places it's soft, it depends.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;child;La terre ?;Earth ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;À des endroits c'est dur.;In places it's hard.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est fait en... Est-ce que c'est fait en bois ?;Is it made of... Is it made of wood?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Tu peux me donner un indice, me dire faut que tu demandes ça et du coup…;You can give me a clue, tell me you have to ask that and so...;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;T'as dit quoi ?;What did you say ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Tu peux me donner un indice ?;Can you give me a clue?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est fait en bois ?;Is it made of wood?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est fabriqué par les humains ?;Is it made by humans?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est... Quoi ?;Is this... What?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est fait pour s'asseoir ?;Is it made for sitting?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Pour se tenir debout ?;To stand up?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Pour s'allonger ?;To lie down?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Pour regarder ?;To watch ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que ça nous sert à quelque chose particulièrement ?;Does it serve us any particular purpose?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est fait pour clôturer ?;Is this meant for closure?;;;;1.0;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non;No;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Donne ta langue au chat.;Give your tongue to the cat.;;;;1.0;;;;;
+ID_2;7;A garden;un jardin;parent;parent;T'as vraiment envie que je donne ma langue au chat ?;Do you really want me to give my tongue to the cat?;;;;1.0;;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est blanc ?;Is it white?;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que ça a une couleur particulière ?;Does it have a particular color?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Est-ce que c'est vert ?;Is it green?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui… Non.;Yes No.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;À des endroits c'est vert, à des endroits c'est pas vert.;In places it's green, in places it's not green.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Ok, marron ?;Ok, brown?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Oui, à des endroits.;Yes, in places.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Noir ?;Black ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Bon, bah... À des endroits c'est vert, à des endroits c'est marron, à des endroits c'est blanc, non c'est pas blanc.;Well, well... In places it's green, in places it's brown, in places it's white, no it's not white.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;À des endroits c'est gris.;In places it's gray.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Euh... ouais.;Well yes.;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;parent;Des dalles ?;Slabs?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Des portes ?;Doors ?;;;;;1.0;;;;
+ID_2;7;A garden;un jardin;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Euh... Bah franchement je crois que je donne ma langue au chat;Uh... Well honestly I think I'm giving my tongue to the cat;;;;1.0;;;;;
+ID_2;7;A garden;un jardin;parent;child;C'était un jardin.;It was a garden.;;;;;1.0;1.0;;;
+ID_2;7;A garden;un jardin;parent;parent;Ah !;Ah!;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;parent;En fait, t'as...;In fact, you have...;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;child;T'as dit est-ce que c'est dans le jardin ?;Did you say is it in the garden?;;;;;;;;;
+ID_2;7;A garden;un jardin;parent;child;Mais oui parce que c'est un jardin !;But yes because it’s a garden!;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;parent;Bon, est-ce que... Il faut qu'on en fasse un dernier pour qu'on soit à égalité de mots ou pas ?;Well, do we... Do we have to do one last one so that we're on equal terms or not?;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;parent;Parce que c'est lui qui a commencé.;Because he started it.;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;parent;Oui, alors…;Yes so…;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;(INV);Oui, parce qu'effectivement à la fin il faut qu'on décide qui a gagné.;Yes, because in the end we have to decide who won.;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;parent;Eh oui.;Eh yes.;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;parent;Bon, allez j'en fais un.;Okay, come on, I'll make one.;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;parent;Allez j'en fais un, c'est bon.;Come on, I'll make one, it's good.;;;;;;;;;
+ID_2;7;A mammoth;un mammouth;child;child;Est-ce que c'est vivant ?;Is it alive?;;;;1.0;1.0;;;;
+ID_2;7;A mammoth;un mammouth;child;parent;C'était vivant.;It was alive.;;;;;1.0;;;;
+ID_2;7;A mammoth;un mammouth;child;child;OK.;OK.;;;;;1.0;;;;
+ID_2;7;A mammoth;un mammouth;child;child;Est-ce que ça a vécu dans l'eau ?;Did it live in water?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A mammoth;un mammouth;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;A mammoth;un mammouth;child;child;Est-ce que c'est un mammifère ?;Is it a mammal?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A mammoth;un mammouth;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;A mammoth;un mammouth;child;child;Est-ce que c'est un tigre à dents de sabre ?;Is it a saber-toothed tiger?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A mammoth;un mammouth;child;parent;Non.;No.;;;;;1.0;;;;
+ID_2;7;A mammoth;un mammouth;child;child;Est-ce que ça a des défenses ?;Does it have defenses?;;;;;1.0;1.0;1.0;0.0;1
+ID_2;7;A mammoth;un mammouth;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;A mammoth;un mammouth;child;child;C'est un mammouth.;It's a mammoth.;;;;;1.0;1.0;1.0;0.0;1,6
+ID_2;7;A mammoth;un mammouth;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_2;7;;;;parent;OK.;OK.;;;;;;;;;
+ID_2;7;;;;parent;Bon.;Good.;;;;;;;;;
+ID_2;7;;;;child;J'ai gagné.;I won.;;;;;;;;;
+ID_2;7;;;;parent;Ouais, t'as gagné du coup.;Yeah, you win.;;;;;;;;;
+ID_2;7;;;;child;Allez, c'est bon.;Come on, it's okay.;;;;;;;;;
+ID_2;7;;;;child;Il faut arrêter.;It has to stop.;;;;;;;;;
+ID_2;7;;;;(INV);Arrêter ça.;Stop this.;;;;;;;;;
+ID_2;7;;;;child;Je croyais qu'il fallait que tu fasses prendre un stop.;I thought you had to get a stop sign.;;;;;;;;;

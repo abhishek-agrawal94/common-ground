@@ -1,302 +1,302 @@
-file_id,child_age,target_word,guesser_type,speaker,original_text,auto_translation,manual_translation,missing_transcript,useful_context,is_dubious,is_relevant,validity_check,is_valid,initiate_repair,error_type,gemma:7b,mistral,llama3,phi3:medium,gpt4o,gpt4o:def,mistral-masked,mistral-fewshot
-ID_17,11,,,parent,"Alors, c'est moi qui commence à deviner, d'accord ?","So, I'm the one who starts guessing, okay?",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,C'est ça ou tu préfères que je commence moi à choisir un mot ?,Is that that or would you prefer that I start choosing a word?,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,C'est pareil ?,It's the same ?,,,,,,,,,,,,,,,,,
-ID_17,11,,,child,"Vas-y, commence.","Go ahead, start.",,,,,,,,,,,,,,,,,
-ID_17,11,,,child,Je commence à deviner.,I'm starting to guess.,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Ah, tu commences à deviner.","Ah, you're starting to guess.",,,,,,,,,,,,,,,,,
-ID_17,11,Arbor,child,parent,C'est bon.,It's good.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce que c'est un animal ?,Is it an animal?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce que c'est un objet ?,Is it an object?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Arbor,child,parent,"C'est un objet, oui.","It's an object, yes.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce qu'il est dans notre maison ?,Is he in our house?,,,,,1.0,1.0,1.0,0.0,2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_17,11,Arbor,child,parent,"On en a dans notre maison, oui.","We have some in our house, yes.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Dans le salon ?,In the living room ?,,,,,1.0,1.0,1.0,0.0,2,0.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Dans le jardin ?,In the garden ?,,,,,1.0,1.0,1.0,0.0,2,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce que c'est dans la partie avec le gazon ?,Is it in the part with the grass?,,,,,1.0,1.0,1.0,0.0,2,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Dans la terrasse ?,On the terrace?,,,,,1.0,1.0,1.0,0.0,2,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce que c'est dans l'abri ?,Is it in the shelter?,,,,,1.0,1.0,1.0,0.0,2,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Sur l'endroit en synthétique ?,On the synthetic side?,,,,,1.0,1.0,1.0,0.0,2,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
-ID_17,11,Arbor,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,C'est en bois ?,Is it made of wood?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Y'a de l'eau à l'intérieur ?,Is there water inside?,,,,,1.0,1.0,1.0,0.0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,C'est... C'est en plastique ?,It's... Is it plastic?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,"C'est là où il y a le [FURNITURE-1], ce synthétique là ?","Is that where the [FURNITURE-1] is, that synthetic one?",,,,,1.0,1.0,1.0,0.0,2,0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0
-ID_17,11,Arbor,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce que c'est avec la matière d'où était fait le couvercle du [FURNITURE-1] ?,Is this the material the [FURNITURE-1] cover was made from?,,,,,1.0,1.0,1.0,0.0,2,1.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Il y a quelque chose à l'intérieur ?,Is there something inside?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0
-ID_17,11,Arbor,child,parent,C'est difficile à dire ça.,It's difficult to say that.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,parent,"On peut dire que oui, on peut dire que non, ça dépend de notre point de vue.","We can say yes, we can say no, it depends on our point of view.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce que c'est en métal ?,Is it metal?,,,,,1.0,1.0,1.0,0.0,1,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0
-ID_17,11,Arbor,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Est-ce que c'est les barres qu'on peut recouvrir avec du tissu pour coucher le soleil ?,Are these the bars that can be covered with fabric for sunset?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,C'est ça ?,That's it ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0
-ID_17,11,Arbor,child,parent,Oui mais ça s'appelle comment ?,Yes but what is it called?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Des poutres ?,Beams?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_17,11,Arbor,child,parent,"Alors c'est pas les barres, c'est tout l'ensemble.","So it's not the bars, it's the whole thing.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,parent,On appelle ça des...,We call them...,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,parent,"Tu as deviné, mais donc c'est des to..nne...","You guessed, but so it's tons...",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Arbor,child,child,Tonnelles !,Arbors!,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,1.0,1.0,1.0,0.0,1.0,1.0,1.0
-ID_17,11,Arbor,child,parent,"Tonnelles ! Bon, très bien, bravo, c'était assez rapide.","Arbors! Okay, very good, well done, that was pretty quick.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,,,parent,"Alors, ça y est, tu réfléchis, tu me dis quand t'es prêt, c'est bon ?","So, that's it, you think about it, you tell me when you're ready, is that good?",,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Alors, est-ce qu'il s'agit d'un objet ?","So, is this an object?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est un être vivant ?,Is it a living being?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est un animal ?,Is it an animal?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est un végétal ?,Is it a plant?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Alors, est-ce qu'on en a dans le jardin ?","So, do we have any in the garden?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Sur la question d'avant qu'il y a posé, un végétal, oui, en quelque sorte, pas spécialement.","On the question before that he asked, a plant, yes, in a way, not particularly.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Un végétal ou c'est pas un végétal ?,A plant or is it not a plant?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non mais c'est des végétaux.,"No, but it's plants.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Oui d'accord mais donc ça fait partie du monde végétal.,"Yes, okay, but so it’s part of the plant world.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Donc c'est des végétaux, d'accord.","So it's plants, okay.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Et est-ce qu'on en a dans le jardin, je te demandais ?","And do we have any in the garden, I asked you?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,On n'en a pas dans le jardin.,We don't have any in the garden.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce qu'il y en a dans la forêt ?,Are there any in the forest?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je pense que non.,I think not.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce qu'il y en a...,Are there any...,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Est-ce que autour de nous, il y en a, pas dans le jardin, mais autour de nous, dans... Est-ce qu'à [PLACE-1], il y en a ?","Are there any around us, not in the garden, but around us, in... Are there any in [PLACE-1]?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je sais pas.,I don't know.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Tu sais pas ?,You do not know ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Je sais pas si les voisins, ils en ont ou pas.",I don't know if the neighbors have them or not.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Je sais pas, mais est-ce que c'est un arbuste ?","I don't know, but is it a shrub?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Un arbre ?,A tree ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Une plante ?,A plant ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Une fleur ?,A flower ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est par terre ?,Is it on the floor?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Attends, vivant, je ne suis pas sûre.","Wait, alive, I'm not sure.",,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Attends, vivant, oui, je pense.","Wait, alive, yes, I think so.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Donc ça pousse par terre ?,So it grows on the ground?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"D'accord, ça pousse aussi sur les murs ou sur les arbres ?","Okay, does it also grow on walls or trees?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Ce n'est pas un seul végétal.,It’s not just one plant.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Oui, d'accord.",Yes OK.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Donc ça pousse par terre, tu m'as dit.","So it grows on the ground, you told me.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Donc, est-ce que ça se mange ?","So, is it edible?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui et non.,Yes and no.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Un champignon ?,A fungus ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Non ?,No ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ça se mange.,It can be eaten.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Mais donc, du coup, ça fait partie des légumes quand on le mange ?","But then, is it part of vegetables when we eat it?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Des fruits ?,Fruits ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Et ça pousse par terre ?,And does it grow on the ground?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Je ne sais pas trop, je ne suis pas sûre.","I don't really know, I'm not sure.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Tu n'es pas sûre à 100% ?,You're not 100% sure?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Mais ça pousse sur un petit arbre, sur un petit arbuste ?","But does it grow on a small tree, on a small shrub?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Ça dépend.,It depends.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ça dépend ?,It depends ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Ça dépend de quel végétal.,It depends on which plant.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Alors, tu dis que ça se mange, que ça pousse par terre ou sur des...","So, you say that it can be eaten, that it grows on the ground or on...",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Ça peut se manger.,It can be eaten.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,C'est de l'herbe ?,Is it weed?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Du gazon ?,Grass?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est haut ou est-ce que c'est au ras du sol quand ça pousse ?,Is it tall or is it low to the ground when it grows?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Quand il y en a c'est haut ou c'est au ras du sol ?,"When there is, is it high or is it at ground level?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je sais pas,I don't know,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Il y a beaucoup de choses que tu ne sais pas sur ce truc que tu as choisi.,There's a lot you don't know about this thing you've chosen.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Aussi, tu n'as pas dit une question qui... Je t'ai donné pas mal d'indices sur ça.","Also, you didn't say a question that... I gave you quite a few clues about that.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Oui, mais bon, tu me dis que ça se mange... Des fois ça se mange, des fois non.","Yes, but hey, you tell me that it can be eaten... Sometimes it can be eaten, sometimes not.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ça pousse par terre.,It grows on the ground.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"J'ai dit selon les végataux, ça peut se manger.","I said depending on the plants, it can be eaten.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Oui, d'accord, mais bon.","Yes, okay, but hey.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est des feuilles ?,Is it leaves?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est quelque chose qui est considéré comme une noix ?,Is this something that is considered a nut?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Non ?,No ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Est-ce qu'on en mange, nous, ça nous arrive d'en manger ?",Do we ever eat it?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Oui, nous ça nous arrive d'en manger.","Yes, we sometimes eat it.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce qu'on en mange souvent ?,Do we eat it often?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Est-ce que c'est quelque chose qui se cultive, du coup ?",So is it something that can be cultivated?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui,Yes,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Les agriculteurs, il y en a qui cultivent et qui le vendent en magasin, après ?",Are there some farmers who grow it and then sell it in stores?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ah.,Oh.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Alors, est-ce que c'est en forme de graines ?","So, is it seed-shaped?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Non ?,No ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Ce n'est pas des lentilles, du coup ?","They're not lentils, then?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ça ne fait pas partie des fruits secs ?,Isn't that part of dried fruit?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ça fait partie des légumes verts ?,Is that part of the green vegetables?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"C'est pas un légume, j'ai dit.","It's not a vegetable, I said.",,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,C'est un fruit.,It's a fruit.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Ah oui, c'est un fruit, oui, pardon.","Ah yes, it's a fruit, yes, sorry.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est un fruit exotique ?,Is it an exotic fruit?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que ça fait partie des fruits exotiques ?,Is this one of the exotic fruits?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Exotiques, c'est de où ?","Exotics, where is it from?",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Bah, des pays exotiques, c'est-à-dire des pays qui sont pas occidentaux, quoi, pas des pays européens.","Well, exotic countries, that is to say countries that are not Western, not European countries.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Non ?,No ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je pense pas.,I do not think so.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Euh...,Uh...,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Est-ce qu'il y en a qui... Est-ce qu'au [SHOP-1] ou au [SHOP-2], ils en vendent ?",Are there any... Do they sell them at the [SHOP-1] or at the [SHOP-2]?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je ne sais pas.,I don't know.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Je ne sais pas.,I don't know.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je ne regarde pas tous les rayons.,I don't look at every department.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Oui, d'accord, mais... Oui, d'accord, mais bon... Un fruit... Est-ce que c'est un fruit... de couleur marron ?","Yes, okay, but... Yes, okay, but hey... A fruit... Is it a fruit... brown in color?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Non, mais je te dis, c'est des...","No, but I tell you, it's...",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Des fruits, c'est ça ?","Fruit, right?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,C'est pas des avocats ?,Aren't they lawyers?,Aren’t they avocados?,,,1.0,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Non, c'est pas des avocats.","No, it's not lawyers.","No, it’s not avocados.",,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que tu aurais pu confondre ?,Could you have confused it?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Des fruits.,Fruits.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que ce sont des fruits qui ont une coque ?,Do these fruits have a shell?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,C'est-à-dire ?,That's to say ?,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Autour, quelque chose de dur autour.","Around, something hard around.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,C'est pas une peau ?,Isn't that a skin?,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,comme une noix de coco ou comme une noix.,like a coconut or like a walnut.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Ah non, un truc dur où tu ne manges pas ça.","Oh no, something hard where you don't eat that.",,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Voilà.,So.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Ah, il y a ça autour ?","Ah, is there that around?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Oui, mais je pense que c'est exotique.","Yes, but I think it's exotic.",,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Tu penses que c'est un fruit exotique.,You think it's an exotic fruit.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Alors, tu as dit que ce n'était pas des noix.",So you said it wasn't nuts.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Des pistaches ?,Pistachios?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Ce n'est pas un fruit les pistaches.,Pistachios are not a fruit.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Je ne sais pas, comme tu n'es pas très sûre de toi, je préfère proposer plusieurs choses.","I don't know, as you're not very sure of yourself, I prefer to suggest several things.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce que c'est des kiwis ?,Are these kiwis?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ce n'est pas dur.,It's not hard.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Ce n'est pas un seul type de fruit.,It's not just one type of fruit.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Plusieurs.,Several.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Des fruits secs ?,Dried fruit?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Non, je t'ai déjà dit non.","No, I already told you no.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Plusieurs fruits.,Several fruits.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Vous avez une idée ?,You have an idea ?,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je lui ai dit ce que c'était.,I told him what it was.,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Tu ne poses pas la question qui peut te faire trouver.,You don't ask the question that can help you find it.,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Ce n'est pas évident.,This is not obvious.,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Alors, c'est des fruits.","So, it's fruit.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Les agrumes ?,Citrus fruits?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Non, tu m'as dit que ce n'était pas sur les arbres.","No, you told me it wasn't on the trees.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Je cherche les catégories de fruits.,I'm looking for fruit categories.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Est-ce qu'il existe des jus ?,Are there any juices?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Je sais pas, mais je pense.","I don't know, but I think so.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Tu penses ?,You think ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Mais ça peut se faire, mais j'en ai jamais bu.","But it can be done, but I've never drunk it.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Tu penses que ça peut se faire, donc si on les presse, ces fruits, ça fait du liquide ?","Do you think it can be done, so if we squeeze them, these fruits make liquid?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Ah oui, ça oui, mais j'en ai jamais bu.","Oh yes, yes, but I've never drunk it.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Des kiwis ?,Kiwis?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Non, des litchis ?","No, lychees?",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Je sens quand tu vas me dire... Ah ouais, tu peux me donner un indice du coup.","I can feel when you're going to tell me... Oh yeah, you can give me a clue then.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,C'est une famille.,It's a family.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Oui, une famille.","Yes, a family.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Donc je t'ai demandé les agrumes, les fruits des bois.","So I asked you for citrus fruits, forest fruits.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,(Mother),Tu peux peut-être donner un indice comme quoi c'est pas des fruits.,Maybe you can give a clue that it's not fruit.,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Mais c'est sûr que c'est pas des fruits.,But it’s definitely not fruit.,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Je cherche le plus longtemps pour rien.,I've been looking for the longest time for nothing.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Alors, c'est pas des fruits.","So, it's not fruit.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Mais c'est des légumes alors du coup ?,But it’s vegetables then?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Je sais pas.. C'est entre les deux !,I don't know... It's between the two!,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,C'est pas que des fruits.,It's not just fruit.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Mais il y a des fruits dedans.,But there is fruit in it.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Les légumineuses ?,Legumes?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Non.,No.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Les familles de fruits.,Fruit families.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Je me rends compte que je connais pas grand chose en famille de fruits.,I realize that I don't know much about the fruit family.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,"Maman quand je lui ai dit, elle a dit ah oui ça c'est bon.","Mom when I told her, she said oh yes that's good.",,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,Mais elle a dit que c'était pas sûr que toi tu savais.,But she said you weren't sure you knew.,,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"Ah oui, c'est pas sûr que je le sache.","Oh yes, I'm not sure I know.",,,,,,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,"J'avoue que des familles de fruits ou de quelque chose qui peut être des fruits, je sèche un peu là, à part les fruits exotiques.","I admit that families of fruits or something that can be fruit, I am a little dry there, apart from exotic fruits.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,parent,Bon alors peut-être que je vais donner ma langue au chat et t'as gagné du coup.,Okay so maybe I'll give the cat my tongue and you win.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Cucurbits,parent,child,C'est les cucurbitacées.,It's the cucurbits.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,,,parent,Ah bah oui mais là je veux jamais... Et bah oui.,Ah well yes but then I never want... And well yes.,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"D'accord, oui bah ça je risquais pas de le dire, d'accord oui, ça c'est sûr.","Okay, yes well I wouldn't risk saying that, okay yes, that's for sure.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,Ça c'est sûr.,That's for sure.,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Bon d'accord, bravo, mais en même temps c'est un mot, donc c'est très bien.","Okay, well done, but at the same time it's a word, so it's very good.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,Sauf qu'il faut quand même être sûr de la définition du mot avant de le choisir.,Except that you still have to be sure of the definition of the word before choosing it.,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,Il ne s'agit pas d'aller choisir un mot compliqué dans le dictionnaire et de ne pas savoir de quoi on parle.,It's not about choosing a complicated word from the dictionary and not knowing what you're talking about.,,,,,,,,,,,,,,,,,
-ID_17,11,,,child,"Non, mais c'est un professeur qui me l'a dit.","No, but a teacher told me that.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,D'accord.,All right.,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Et alors, il a dit que c'était quoi ce type de truc ?",And then he said what was this type of thing?,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,C'est quoi ?,It's what ?,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,C'est un exemple ?,It's an example ?,,,,,,,,,,,,,,,,,
-ID_17,11,,,child,Des melons.,Melons.,,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Des melons, d'accord.","Melons, okay.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"parce qu'on avait regardé un documentaire sur les fruits et les légumes et à un moment ils avaient dit ça, elle a dit qu'il y avait des melons dans cette famille.","because we watched a documentary about fruits and vegetables and at one point they said that, she said there were melons in this family.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"D'accord, cucurbitaceae.","Okay, cucurbitaceae.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Très bien, donc ok, et bien écoute, bravo.","Very good, so ok, well listen, well done.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Alors, à moi maintenant.","So, over to me now.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Ouais, dans mon sens et dans son sens.","Yeah, in my sense and in his sense.",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,"Voilà, alors moi j'ai choisi un qui n'est pas trop dur.","There you go, so I chose one that is not too hard.",,,,,,,,,,,,,,,,,
-ID_17,11,,,child,"Et après ce sera facile, c'est ça ?","And then it will be easy, right?",,,,,,,,,,,,,,,,,
-ID_17,11,,,(INV),"Pas trop facile, mais pas aussi compliqué que cucurbitacé","Not too easy, but not as complicated as cucurbit",,,,,,,,,,,,,,,,,
-ID_17,11,,,parent,Je vais choisir...,I am going to choose...,,,,,,,,,,,,,,,,,
-ID_17,11,,,child,"Des mots simples, par exemple.","Simple words, for example.",,,,,,,,,,,,,,,,,
-ID_17,11,Giraffe,child,parent,"Je vais choisir... Allez, c'est bon, je l'ai choisi.","I'm going to choose... Come on, it's okay, I chose it.",,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,C'est un animal ?,It's an animal ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,C'est un carnivore ?,Is it a carnivore?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,C'est un herbivore ?,Is it a herbivore?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,Il vit maintenant ?,Is he alive now?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,0.0,1.0,1.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,Il vit dans la savane ?,Does he live in the savannah?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,Que dans la savane ?,What in the savannah?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,Il est grand ?,He is tall ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,Il est gris ?,He is grey ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,Il a un long cou ?,Does he have a long neck?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,Giraffe,child,child,C'est la giraffe,It's the giraffe,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_17,11,Giraffe,child,parent,Là c'était facile.,There it was easy.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,,,child,À moi d'en faire un facile.,It's up to me to make it easy.,,,,,,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,C'est bon tu as ?,Is that good?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,Alors est-ce que tu es un animal ?,So are you an animal?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,Un objet ?,An object ?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,Un objet qu'on a dans la maison ?,An object we have in the house?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,child,En ce moment il y en a plein.,There are plenty of them at the moment.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,Il y en a plein en ce moment.,There are plenty of them at the moment.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,child,Plus que d'habitude.,More than usual.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,Plus que d'habitude.,More than usual.,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,C'est un objet électrique ?,Is it an electrical object?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,Qui sert à téléphoner ?,Who uses the phone?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,child,"Oui, pas que..","Yes, not only...",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,A smartphone,parent,parent,Donc c'est un smartphone ?,So it's a smartphone?,,,,,1.0,,,,,,,,,,,,
-ID_17,11,A smartphone,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_17,11,,,parent,"Oui, là c'était vraiment facile.","Yes, that was really easy.",,,,,,,,,,,,,,,,,
-ID_17,11,,,child,Bravo.,Well done.,,,,,,,,,,,,,,,,,
-ID_17,11,,,(INV),C'était un match très serré.,It was a very close match.,,,,,,,,,,,,,,,,,
+file_id;child_age;target_word;original_target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;agreement;initiate_repair;error_type
+ID_17;11;;;;parent;Alors, c'est moi qui commence à deviner, d'accord ?;So, I'm the one who starts guessing, okay?;;;;;;;;;
+ID_17;11;;;;parent;C'est ça ou tu préfères que je commence moi à choisir un mot ?;Is that that or would you prefer that I start choosing a word?;;;;;;;;;
+ID_17;11;;;;parent;C'est pareil ?;It's the same ?;;;;;;;;;
+ID_17;11;;;;child;Vas-y, commence.;Go ahead, start.;;;;;;;;;
+ID_17;11;;;;child;Je commence à deviner.;I'm starting to guess.;;;;;;;;;
+ID_17;11;;;;parent;Ah, tu commences à deviner.;Ah, you're starting to guess.;;;;;;;;;
+ID_17;11;Arbor;Tonnelles;child;parent;C'est bon.;It's good.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce que c'est un animal ?;Is it an animal?;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce que c'est un objet ?;Is it an object?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;C'est un objet, oui.;It's an object, yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce qu'il est dans notre maison ?;Is he in our house?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;On en a dans notre maison, oui.;We have some in our house, yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Dans le salon ?;In the living room ?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Dans le jardin ?;In the garden ?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce que c'est dans la partie avec le gazon ?;Is it in the part with the grass?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Dans la terrasse ?;On the terrace?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce que c'est dans l'abri ?;Is it in the shelter?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Sur l'endroit en synthétique ?;On the synthetic side?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;C'est en bois ?;Is it made of wood?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Y'a de l'eau à l'intérieur ?;Is there water inside?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;C'est... C'est en plastique ?;It's... Is it plastic?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;C'est là où il y a le jacuzzi, ce synthétique là ?;Is that where the jacuzzi is, that synthetic one?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce que c'est avec la matière d'où était fait le couvercle du jacuzzi ?;Is this the material the jacuzzi cover was made from?;;;;;1.0;1.0;1.0;0.0;2
+ID_17;11;Arbor;Tonnelles;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Il y a quelque chose à l'intérieur ?;Is there something inside?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;C'est difficile à dire ça.;It's difficult to say that.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;parent;On peut dire que oui, on peut dire que non, ça dépend de notre point de vue.;We can say yes, we can say no, it depends on our point of view.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce que c'est en métal ?;Is it metal?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Est-ce que c'est les barres qu'on peut recouvrir avec du tissu pour coucher le soleil ?;Are these the bars that can be covered with fabric for sunset?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;C'est ça ?;That's it ?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;Oui mais ça s'appelle comment ?;Yes but what is it called?;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Des poutres ?;Beams?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Arbor;Tonnelles;child;parent;Alors c'est pas les barres, c'est tout l'ensemble.;So it's not the bars, it's the whole thing.;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;parent;On appelle ça des...;We call them...;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;parent;Tu as deviné, mais donc c'est des to..nne...;You guessed, but so it's tons...;;;;;1.0;;;;
+ID_17;11;Arbor;Tonnelles;child;child;Tonnelles !;Arbors!;;;;;1.0;1.0;1.0;0.0;1,6
+ID_17;11;Arbor;Tonnelles;child;parent;Tonnelles ! Bon, très bien, bravo, c'était assez rapide.;Arbors! Okay, very good, well done, that was pretty quick.;;;;;1.0;;;;
+ID_17;11;;;;parent;Alors, ça y est, tu réfléchis, tu me dis quand t'es prêt, c'est bon ?;So, that's it, you think about it, you tell me when you're ready, is that good?;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Alors, est-ce qu'il s'agit d'un objet ?;So, is this an object?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est un être vivant ?;Is it a living being?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est un animal ?;Is it an animal?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est un végétal ?;Is it a plant?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Alors, est-ce qu'on en a dans le jardin ?;So, do we have any in the garden?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Sur la question d'avant qu'il y a posé, un végétal, oui, en quelque sorte, pas spécialement.;On the question before that he asked, a plant, yes, in a way, not particularly.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Un végétal ou c'est pas un végétal ?;A plant or is it not a plant?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non mais c'est des végétaux.;No, but it's plants.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Oui d'accord mais donc ça fait partie du monde végétal.;Yes, okay, but so it’s part of the plant world.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Donc c'est des végétaux, d'accord.;So it's plants, okay.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Et est-ce qu'on en a dans le jardin, je te demandais ?;And do we have any in the garden, I asked you?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;On n'en a pas dans le jardin.;We don't have any in the garden.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce qu'il y en a dans la forêt ?;Are there any in the forest?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je pense que non.;I think not.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce qu'il y en a...;Are there any...;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que autour de nous, il y en a, pas dans le jardin, mais autour de nous, dans... Est-ce qu'à Manchester, il y en a ?;Are there any around us, not in the garden, but around us, in... Are there any in Manchester?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je sais pas.;I don't know.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Tu sais pas ?;You do not know ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je sais pas si les voisins, ils en ont ou pas.;I don't know if the neighbors have them or not.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Je sais pas, mais est-ce que c'est un arbuste ?;I don't know, but is it a shrub?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Un arbre ?;A tree ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Une plante ?;A plant ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Une fleur ?;A flower ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est par terre ?;Is it on the floor?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Attends, vivant, je ne suis pas sûre.;Wait, alive, I'm not sure.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Attends, vivant, oui, je pense.;Wait, alive, yes, I think so.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Donc ça pousse par terre ?;So it grows on the ground?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;D'accord, ça pousse aussi sur les murs ou sur les arbres ?;Okay, does it also grow on walls or trees?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ce n'est pas un seul végétal.;It’s not just one plant.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Oui, d'accord.;Yes OK.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Donc ça pousse par terre, tu m'as dit.;So it grows on the ground, you told me.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Donc, est-ce que ça se mange ?;So, is it edible?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui et non.;Yes and no.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Un champignon ?;A fungus ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Non ?;No ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ça se mange.;It can be eaten.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Mais donc, du coup, ça fait partie des légumes quand on le mange ?;But then, is it part of vegetables when we eat it?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Des fruits ?;Fruits ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Et ça pousse par terre ?;And does it grow on the ground?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je ne sais pas trop, je ne suis pas sûre.;I don't really know, I'm not sure.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Tu n'es pas sûre à 100% ?;You're not 100% sure?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Mais ça pousse sur un petit arbre, sur un petit arbuste ?;But does it grow on a small tree, on a small shrub?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ça dépend.;It depends.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ça dépend ?;It depends ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ça dépend de quel végétal.;It depends on which plant.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Alors, tu dis que ça se mange, que ça pousse par terre ou sur des...;So, you say that it can be eaten, that it grows on the ground or on...;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ça peut se manger.;It can be eaten.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;C'est de l'herbe ?;Is it weed?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Du gazon ?;Grass?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est haut ou est-ce que c'est au ras du sol quand ça pousse ?;Is it tall or is it low to the ground when it grows?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Quand il y en a c'est haut ou c'est au ras du sol ?;When there is, is it high or is it at ground level?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je sais pas;I don't know;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Il y a beaucoup de choses que tu ne sais pas sur ce truc que tu as choisi.;There's a lot you don't know about this thing you've chosen.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Aussi, tu n'as pas dit une question qui... Je t'ai donné pas mal d'indices sur ça.;Also, you didn't say a question that... I gave you quite a few clues about that.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Oui, mais bon, tu me dis que ça se mange... Des fois ça se mange, des fois non.;Yes, but hey, you tell me that it can be eaten... Sometimes it can be eaten, sometimes not.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ça pousse par terre.;It grows on the ground.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;J'ai dit selon les végataux, ça peut se manger.;I said depending on the plants, it can be eaten.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Oui, d'accord, mais bon.;Yes, okay, but hey.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est des feuilles ?;Is it leaves?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est quelque chose qui est considéré comme une noix ?;Is this something that is considered a nut?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Non ?;No ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce qu'on en mange, nous, ça nous arrive d'en manger ?;Do we ever eat it?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Oui, nous ça nous arrive d'en manger.;Yes, we sometimes eat it.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce qu'on en mange souvent ?;Do we eat it often?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est quelque chose qui se cultive, du coup ?;So is it something that can be cultivated?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui;Yes;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Les agriculteurs, il y en a qui cultivent et qui le vendent en magasin, après ?;Are there some farmers who grow it and then sell it in stores?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ah.;Oh.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Alors, est-ce que c'est en forme de graines ?;So, is it seed-shaped?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Non ?;No ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ce n'est pas des lentilles, du coup ?;They're not lentils, then?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ça ne fait pas partie des fruits secs ?;Isn't that part of dried fruit?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ça fait partie des légumes verts ?;Is that part of the green vegetables?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;C'est pas un légume, j'ai dit.;It's not a vegetable, I said.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;C'est un fruit.;It's a fruit.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ah oui, c'est un fruit, oui, pardon.;Ah yes, it's a fruit, yes, sorry.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est un fruit exotique ?;Is it an exotic fruit?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que ça fait partie des fruits exotiques ?;Is this one of the exotic fruits?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Exotiques, c'est de où ?;Exotics, where is it from?;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Bah, des pays exotiques, c'est-à-dire des pays qui sont pas occidentaux, quoi, pas des pays européens.;Well, exotic countries, that is to say countries that are not Western, not European countries.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Non ?;No ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je pense pas.;I do not think so.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Euh...;Uh...;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce qu'il y en a qui... Est-ce qu'au Tesco ou au Sainsbury’s, ils en vendent ?;Are there any... Do they sell them at the Tesco or at the Sainsbury’s?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je ne sais pas.;I don't know.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Je ne sais pas.;I don't know.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je ne regarde pas tous les rayons.;I don't look at every department.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Oui, d'accord, mais... Oui, d'accord, mais bon... Un fruit... Est-ce que c'est un fruit... de couleur marron ?;Yes, okay, but... Yes, okay, but hey... A fruit... Is it a fruit... brown in color?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non, mais je te dis, c'est des...;No, but I tell you, it's...;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Des fruits, c'est ça ?;Fruit, right?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;C'est pas des avocats ?;Aren't they lawyers?;Aren’t they avocados?;;;1.0;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non, c'est pas des avocats.;No, it's not lawyers.;No, it’s not avocados.;;;1.0;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que tu aurais pu confondre ?;Could you have confused it?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Des fruits.;Fruits.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que ce sont des fruits qui ont une coque ?;Do these fruits have a shell?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;C'est-à-dire ?;That's to say ?;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Autour, quelque chose de dur autour.;Around, something hard around.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;C'est pas une peau ?;Isn't that a skin?;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;comme une noix de coco ou comme une noix.;like a coconut or like a walnut.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ah non, un truc dur où tu ne manges pas ça.;Oh no, something hard where you don't eat that.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Voilà.;So.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ah, il y a ça autour ?;Ah, is there that around?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Oui, mais je pense que c'est exotique.;Yes, but I think it's exotic.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Tu penses que c'est un fruit exotique.;You think it's an exotic fruit.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Alors, tu as dit que ce n'était pas des noix.;So you said it wasn't nuts.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Des pistaches ?;Pistachios?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ce n'est pas un fruit les pistaches.;Pistachios are not a fruit.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Je ne sais pas, comme tu n'es pas très sûre de toi, je préfère proposer plusieurs choses.;I don't know, as you're not very sure of yourself, I prefer to suggest several things.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce que c'est des kiwis ?;Are these kiwis?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ce n'est pas dur.;It's not hard.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ce n'est pas un seul type de fruit.;It's not just one type of fruit.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Plusieurs.;Several.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Des fruits secs ?;Dried fruit?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non, je t'ai déjà dit non.;No, I already told you no.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Plusieurs fruits.;Several fruits.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Vous avez une idée ?;You have an idea ?;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je lui ai dit ce que c'était.;I told him what it was.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Tu ne poses pas la question qui peut te faire trouver.;You don't ask the question that can help you find it.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ce n'est pas évident.;This is not obvious.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Alors, c'est des fruits.;So, it's fruit.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Les agrumes ?;Citrus fruits?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Non, tu m'as dit que ce n'était pas sur les arbres.;No, you told me it wasn't on the trees.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Je cherche les catégories de fruits.;I'm looking for fruit categories.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Est-ce qu'il existe des jus ?;Are there any juices?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je sais pas, mais je pense.;I don't know, but I think so.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Tu penses ?;You think ?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Mais ça peut se faire, mais j'en ai jamais bu.;But it can be done, but I've never drunk it.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Tu penses que ça peut se faire, donc si on les presse, ces fruits, ça fait du liquide ?;Do you think it can be done, so if we squeeze them, these fruits make liquid?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Ah oui, ça oui, mais j'en ai jamais bu.;Oh yes, yes, but I've never drunk it.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Des kiwis ?;Kiwis?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Non, des litchis ?;No, lychees?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Je sens quand tu vas me dire... Ah ouais, tu peux me donner un indice du coup.;I can feel when you're going to tell me... Oh yeah, you can give me a clue then.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;C'est une famille.;It's a family.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Oui, une famille.;Yes, a family.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Donc je t'ai demandé les agrumes, les fruits des bois.;So I asked you for citrus fruits, forest fruits.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;(Mother);Tu peux peut-être donner un indice comme quoi c'est pas des fruits.;Maybe you can give a clue that it's not fruit.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Mais c'est sûr que c'est pas des fruits.;But it’s definitely not fruit.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Je cherche le plus longtemps pour rien.;I've been looking for the longest time for nothing.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Alors, c'est pas des fruits.;So, it's not fruit.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Mais c'est des légumes alors du coup ?;But it’s vegetables then?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Je sais pas.. C'est entre les deux !;I don't know... It's between the two!;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;C'est pas que des fruits.;It's not just fruit.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Mais il y a des fruits dedans.;But there is fruit in it.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Les légumineuses ?;Legumes?;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Les familles de fruits.;Fruit families.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Je me rends compte que je connais pas grand chose en famille de fruits.;I realize that I don't know much about the fruit family.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Maman quand je lui ai dit, elle a dit ah oui ça c'est bon.;Mom when I told her, she said oh yes that's good.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;Mais elle a dit que c'était pas sûr que toi tu savais.;But she said you weren't sure you knew.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Ah oui, c'est pas sûr que je le sache.;Oh yes, I'm not sure I know.;;;;;;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;J'avoue que des familles de fruits ou de quelque chose qui peut être des fruits, je sèche un peu là, à part les fruits exotiques.;I admit that families of fruits or something that can be fruit, I am a little dry there, apart from exotic fruits.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;parent;Bon alors peut-être que je vais donner ma langue au chat et t'as gagné du coup.;Okay so maybe I'll give the cat my tongue and you win.;;;;;1.0;;;;
+ID_17;11;Cucurbits;cucurbitacées;parent;child;C'est les cucurbitacées.;It's the cucurbits.;;;;;1.0;1.0;;;
+ID_17;11;;;;parent;Ah bah oui mais là je veux jamais... Et bah oui.;Ah well yes but then I never want... And well yes.;;;;;;;;;
+ID_17;11;;;;parent;D'accord, oui bah ça je risquais pas de le dire, d'accord oui, ça c'est sûr.;Okay, yes well I wouldn't risk saying that, okay yes, that's for sure.;;;;;;;;;
+ID_17;11;;;;parent;Ça c'est sûr.;That's for sure.;;;;;;;;;
+ID_17;11;;;;parent;Bon d'accord, bravo, mais en même temps c'est un mot, donc c'est très bien.;Okay, well done, but at the same time it's a word, so it's very good.;;;;;;;;;
+ID_17;11;;;;parent;Sauf qu'il faut quand même être sûr de la définition du mot avant de le choisir.;Except that you still have to be sure of the definition of the word before choosing it.;;;;;;;;;
+ID_17;11;;;;parent;Il ne s'agit pas d'aller choisir un mot compliqué dans le dictionnaire et de ne pas savoir de quoi on parle.;It's not about choosing a complicated word from the dictionary and not knowing what you're talking about.;;;;;;;;;
+ID_17;11;;;;child;Non, mais c'est un professeur qui me l'a dit.;No, but a teacher told me that.;;;;;;;;;
+ID_17;11;;;;parent;D'accord.;All right.;;;;;;;;;
+ID_17;11;;;;parent;Et alors, il a dit que c'était quoi ce type de truc ?;And then he said what was this type of thing?;;;;;;;;;
+ID_17;11;;;;parent;C'est quoi ?;It's what ?;;;;;;;;;
+ID_17;11;;;;parent;C'est un exemple ?;It's an example ?;;;;;;;;;
+ID_17;11;;;;child;Des melons.;Melons.;;;;;;;;;
+ID_17;11;;;;parent;Des melons, d'accord.;Melons, okay.;;;;;;;;;
+ID_17;11;;;;parent;parce qu'on avait regardé un documentaire sur les fruits et les légumes et à un moment ils avaient dit ça, elle a dit qu'il y avait des melons dans cette famille.;because we watched a documentary about fruits and vegetables and at one point they said that, she said there were melons in this family.;;;;;;;;;
+ID_17;11;;;;parent;D'accord, cucurbitaceae.;Okay, cucurbitaceae.;;;;;;;;;
+ID_17;11;;;;parent;Très bien, donc ok, et bien écoute, bravo.;Very good, so ok, well listen, well done.;;;;;;;;;
+ID_17;11;;;;parent;Alors, à moi maintenant.;So, over to me now.;;;;;;;;;
+ID_17;11;;;;parent;Ouais, dans mon sens et dans son sens.;Yeah, in my sense and in his sense.;;;;;;;;;
+ID_17;11;;;;parent;Voilà, alors moi j'ai choisi un qui n'est pas trop dur.;There you go, so I chose one that is not too hard.;;;;;;;;;
+ID_17;11;;;;child;Et après ce sera facile, c'est ça ?;And then it will be easy, right?;;;;;;;;;
+ID_17;11;;;;(INV);Pas trop facile, mais pas aussi compliqué que cucurbitacé;Not too easy, but not as complicated as cucurbit;;;;;;;;;
+ID_17;11;;;;parent;Je vais choisir...;I am going to choose...;;;;;;;;;
+ID_17;11;;;;child;Des mots simples, par exemple.;Simple words, for example.;;;;;;;;;
+ID_17;11;Giraffe;Giraffe;child;parent;Je vais choisir... Allez, c'est bon, je l'ai choisi.;I'm going to choose... Come on, it's okay, I chose it.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;C'est un animal ?;It's an animal ?;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;C'est un carnivore ?;Is it a carnivore?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;C'est un herbivore ?;Is it a herbivore?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;Il vit maintenant ?;Is he alive now?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;Il vit dans la savane ?;Does he live in the savannah?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;Que dans la savane ?;What in the savannah?;Only in the savanah?;;;1.0;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;Il est grand ?;He is tall ?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;Il est gris ?;He is grey ?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Non.;No.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;Il a un long cou ?;Does he have a long neck?;;;;;1.0;1.0;1.0;0.0;1
+ID_17;11;Giraffe;Giraffe;child;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_17;11;Giraffe;Giraffe;child;child;C'est la giraffe;It's the giraffe;;;;;1.0;1.0;1.0;0.0;1,6
+ID_17;11;Giraffe;Giraffe;child;parent;Là c'était facile.;There it was easy.;;;;;1.0;;;;
+ID_17;11;;;;child;À moi d'en faire un facile.;It's up to me to make it easy.;;;;;;;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;C'est bon tu as ?;Is that good?;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;Alors est-ce que tu es un animal ?;So are you an animal?;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;Un objet ?;An object ?;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;Un objet qu'on a dans la maison ?;An object we have in the house?;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;child;En ce moment il y en a plein.;There are plenty of them at the moment.;;;;;1.0;1.0;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;Il y en a plein en ce moment.;There are plenty of them at the moment.;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;child;Plus que d'habitude.;More than usual.;;;;;1.0;1.0;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;Plus que d'habitude.;More than usual.;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;C'est un objet électrique ?;Is it an electrical object?;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;Qui sert à téléphoner ?;Who uses the phone?;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;child;Oui, pas que..;Yes, not only...;;;;;1.0;1.0;;;
+ID_17;11;A smartphone;un smartphone;parent;parent;Donc c'est un smartphone ?;So it's a smartphone?;;;;;1.0;;;;
+ID_17;11;A smartphone;un smartphone;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_17;11;;;;parent;Oui, là c'était vraiment facile.;Yes, that was really easy.;;;;;;;;;
+ID_17;11;;;;child;Bravo.;Well done.;;;;;;;;;
+ID_17;11;;;;(INV);C'était un match très serré.;It was a very close match.;;;;;;;;;

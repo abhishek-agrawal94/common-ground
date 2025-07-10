@@ -1,300 +1,300 @@
-file_id,child_age,target_word,guesser_type,speaker,original_text,auto_translation,manual_translation,missing_transcript,useful_context,is_dubious,is_relevant,validity_check,is_valid,initiate_repair,error_type,gemma:7b,mistral,llama3,phi3:medium,gpt4o,gpt4o:def,mistral-masked,mistral-fewshot
-ID_5,7,,,(INV),"3, 2, 1, c'est parti !","3, 2, 1, here we go!",,,,,,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,Je sais,I know,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,parent,"Alors, est-ce que c'est un objet de la maison ?","So, is this a household item?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The sun,parent,parent,Est-ce que ça se trouve dehors ?,Is it outside?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The sun,parent,parent,"Alors, tu peux me donner un indice ?","So, can you give me a hint?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,C'est dans l'espace.,It's in space.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The sun,parent,parent,"Dans l'espace, ah oui, c'est dehors.","In space, oh yes, it's outside.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,parent,Est-ce que c'est la Lune ?,Is it the Moon?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The sun,parent,parent,C'est une étoile ?,Is it a star?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,Non.,No.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_5,7,The sun,parent,child,Ah oui !,Oh yes !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,parent,Le soleil !,The sun !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,Oui !,Yes !,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The sun,parent,parent,C'est le soleil ?,Is it the sun?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The sun,parent,child,Oui ! [l'enfant applaudit],Yes ! [child applauds],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A T-shirt,child,parent,"A moi, j'ai trouvé.","For me, I found it.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,C'est un animal ?,It's an animal ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,Tu peux me donner un indice ?,Can you give me a clue?,,,,,1.0,1.0,1.0,0.0,"1,9",0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0
-ID_5,7,A T-shirt,child,parent,C'est quelque chose qu'on porte sur soi.,It's something you carry with you.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,Un sac ?,A bag ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0
-ID_5,7,A T-shirt,child,parent,Presque.,Almost.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,Un sac à dos ?,A backpack ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0
-ID_5,7,A T-shirt,child,parent,"Non, enfin, c'est...","No, finally, it's...",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,parent,"Oui, on peut le porter, mais ce n'est pas un sac.","Yes, you can carry it, but it's not a bag.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,Une valise ?,A suitcase ?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,A T-shirt,child,parent,On peut le mettre sur soi.,You can put it on yourself.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,Une casquette ?,A cap ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
-ID_5,7,A T-shirt,child,parent,"Ouais, presque.","Yeah, almost.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,Tu peux me donner un indice ?,Can you give me a clue?,,,,,1.0,1.0,1.0,0.0,"1,9",1.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0
-ID_5,7,A T-shirt,child,parent,C'est un habit.,It's a piece of clothing.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A T-shirt,child,child,Un T-shirt.,A T-shirt.,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0
-ID_5,7,A T-shirt,child,parent,"Ouais, un T-shirt.","Yeah, a T-shirt.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,child,J'ai trouvé !,I've found !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,parent,"Alors, est-ce que c'est un animal ?","So, is it an animal?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,child,Ouais.,Yeah.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A Panda,parent,parent,"Un animal, c'est un animal domestique comme un chat, un chien…","An animal is a domestic animal like a cat, a dog…",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,child,… Non…,… Nope…,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A Panda,parent,parent,"… une souris, un animal sauvage ?","…a mouse, a wild animal?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,parent,Où est-ce qu'il vit ?,Where does he live?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,child,Dans les bambous.,In the bamboos.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A Panda,parent,parent,Dans les bambous !,In the bamboos!,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,parent,"Ah, c'est le poma !","Ah, it’s the poma!","Ah, it’s the panda!",,,1.0,1.0,,,,,,,,,,,,
-ID_5,7,A Panda,parent,child,Oui !,Yes !,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,,,parent,Attends…,Hold on…,,,,,,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,parent,"Qu'est-ce que... Ah ouais, c'est bon.","What the... Oh yeah, it's okay.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,C'est un animal ?,It's an animal ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Tu peux me donner un indice ?,Can you give me a clue?,,,,,1.0,1.0,1.0,0.0,"1,9",1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
-ID_5,7,An electric scooter,child,parent,Déjà ?,Already ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,parent,C'est un moyen de transport.,It is a means of transportation.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Une voiture ?,A car ?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0
-ID_5,7,An electric scooter,child,child,Il y a un moteur ?,Is there a motor?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_5,7,An electric scooter,child,parent,"Il y a un moteur, ouais, un petit moteur.","There's a motor, yeah, a little motor.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Un bus ?,A bus ?,,,,,1.0,1.0,1.0,0.0,1,0.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0
-ID_5,7,An electric scooter,child,parent,C'est plus petit qu'un bus.,It's smaller than a bus.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Un quad ?,A quad ?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0
-ID_5,7,An electric scooter,child,parent,Plus petit qu'un quad.,Smaller than a quad.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Un vélo ?,A bike ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0
-ID_5,7,An electric scooter,child,parent,Plus petit qu'un vélo.,Smaller than a bicycle.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Une souris ?,A mouse ?,,,,,1.0,1.0,0.0,1.0,"1,4",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,An electric scooter,child,parent,"Une souris, mais non, c'est pas un moyen de transport, une souris.","A mouse, but no, it's not a means of transport, a mouse.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,parent,Bientôt on ira au travail avec des souris.,Soon we will go to work with mice.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,parent,Pas encore.,Not yet.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Un sac à dos.,A backpack.,,,,,1.0,1.0,0.0,0.0,"1,4",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,An electric scooter,child,parent,Non j'en ai une.,No I have one.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Donne un indice.,Give a hint.,,,,,1.0,1.0,1.0,0.0,"1,9",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_5,7,An electric scooter,child,parent,Ben j'en ai une et ça a deux roues.,Well I have one and it has two wheels.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,Une trottinette !,A scooter !,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_5,7,An electric scooter,child,parent,Une trottinette…,scooter…,,,,,1.0,,,,,,,,,,,,
-ID_5,7,An electric scooter,child,child,… électrique !,…electric!,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_5,7,An electric scooter,child,parent,"Ouais, une trottinette électrique.","Yep, an electric scooter.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,child,C'est bon !,It's good !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,parent,"Alors, est-ce que c'est un animal ?","So, is it an animal?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The number three,parent,parent,Est-ce que ça se mange ?,Is it edible?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The number three,parent,parent,Est-ce que c'est un moyen de transport ?,Is it a means of transportation?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The number three,parent,parent,Est-ce que c'est un objet de la maison ?,Is it a household item?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The number three,parent,parent,"Vas-y, donne-moi un indice.","Go ahead, give me a hint.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,child,C'est un nombre.,It's a number.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,The number three,parent,parent,"C'est un chiffre, un nombre ?","Is it a number, a number?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,parent,Trois.,Three.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,The number three,parent,child,Ouais.,Yeah.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,,,parent,C'était dur.,It was hard.,,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,Juste que tu regardes.,Just watch.,,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,"Bah ouais, mais si tu m'avais pas... Si t'avais pas regardé où tu regardais, j'aurais pas deviné.","Well yeah, but if you hadn't seen me... If you hadn't looked where you were looking, I wouldn't have guessed.",,,,,,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,"C'est bon, j'ai trouvé.",It's good I found.,,,,,,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Une voiture ?,A car ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,"Mais cherche un peu plus large, demande...","But look a little wider, ask...",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,C'est un animal ?,It's an animal ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_5,7,Pikachu,child,parent,Ouais.,Yeah.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Un panda ?,A panda ?,,,,,1.0,1.0,1.0,0.0,"1,7",1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0
-ID_5,7,Pikachu,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,"Bah non, tu l'as déjà fait.","Well no, you already did it.",,,,,,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Un papillon ?,A butterfly ?,,,,,1.0,1.0,1.0,0.0,"1,7",1.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0
-ID_5,7,Pikachu,child,child,C'est un animal.,It's an animal.,,,,,,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Ouais.,Yeah.,,,,,,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Une baleine ?,A whale ?,,,,,1.0,1.0,1.0,0.0,"1,7",0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
-ID_5,7,Pikachu,child,child,Donne-moi un indice,Give me a clue,,,,,1.0,1.0,1.0,0.0,"1,9",1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,C'est pas un animal qui existe vraiment.,It's not an animal that really exists.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Il existe dans... Une fiction,It exists in... A fiction,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,A quelle époque ?,At what time ?,,,,,1.0,1.0,1.0,0.0,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,"C'est récent, l'époque.",It's recent times.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,L'époque des dinosaures ?,The age of dinosaurs?,,,,,1.0,1.0,0.0,1.0,"1,4",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,"Non, c'est moi quand j'étais plus petite.","No, that's me when I was younger.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Il n'existe pas mais on peut le voir dans des dessins animés ou des jeux vidéo.,He doesn't exist but we can see him in cartoons or video games.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Tu peux me donner un indice ?,Can you give me a clue?,,,,,1.0,1.0,1.0,0.0,"1,9",1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0
-ID_5,7,Pikachu,child,parent,Ils ont des pouvoirs des attaques.,They have attack powers.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Mammouth.,Mammoth.,,,,,1.0,1.0,0.0,0.0,"1,4",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,Non… Tu peux te battre avec.,No… You can fight with it.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Des os.,Bones.,,,,,1.0,1.0,0.0,1.0,"1,4",0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,"Mais non, c'est un animal.","But no, it's an animal.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,C'est un animal que tu trouves dans des dessins animés ou jeux vidéo.,It's an animal that you find in cartoons or video games.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,"Oui, mais où ça habite ? Où ça habite ?","Yes, but where does it live? Where does it live?",,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0
-ID_5,7,Pikachu,child,parent,"Ah, où ça habite ?","Ah, where does it live?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,"Ben, dans la forêt, plutôt.","Well, in the forest, rather.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Un loup ?,A wolf ?,,,,,1.0,1.0,0.0,1.0,"1,4",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,Il n'existe pas.,He does not exist.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Mais tu peux te battre avec.,But you can fight with it.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Dans un dessin animé ou un jeu vidéo.,In a cartoon or video game.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Tu peux l'attraper.,You can catch it.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Un sanglier ?,A boar ?,,,,,1.0,1.0,0.0,0.0,"1,4",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,Il y en a qui ont des formes de sanglier.,There are some that have the shape of a wild boar.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Euh... Un... Un... Un... Un... Un... Un mamoute !,Uh... A... A... A... A... A... A mamoute!,,,,,1.0,1.0,0.0,1.0,"1,4",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,child,Hiiiiiaaa !,Hiiiiiaaa!,,,,,,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Ils ont des attaques !,They are having attacks!,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,"Type eau, feu...","Type water, fire...",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Donne-moi un indice !,Give me a clue !,,,,,1.0,1.0,1.0,0.0,"1,9",1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,"Bah, je t'en ai donné plein !","Well, I gave you plenty!",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,Euh... Il y en a un que t'adores qui est orange.,Um... There's one that you love that's orange.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Salamèche ?,Charmander?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
-ID_5,7,Pikachu,child,parent,Ouais !,Yeah !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,C'est quoi Salamèche ?,What is Charmander?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Un dragon ?,A dragon ?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,"Oui, mais comme espèce !","Yes, but as a species!",,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,T'en souviens plus le mot ?,Do you remember the word anymore?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,parent,C'est qui le copain de Salamèche ?,Who is Charmander's friend?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Dragonfeu ?,Dragonfire?,,,,,1.0,1.0,1.0,1.0,1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,Il est jaune.,It is yellow.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,Pikachu ?,Pikachu ?,,,,,1.0,1.0,1.0,0.0,"1,6",1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
-ID_5,7,Pikachu,child,parent,Voilà !,So !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,Pikachu,child,child,C'est Pikachu !,It's Pikachu!,,,,,1.0,,,,,,,,,,,,
-ID_5,7,,,parent,"La dernière fois qu'on a fait le jeux, on dit","The last time we played the game, we said",,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,C'est un animal ?,It's an animal ?,,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,"Oui, c'est un Pokémon à chaque fois !","Yes, it's a Pokémon every time!",,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,T'as pas trouvé ?,Didn't you find it?,,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,Bah t'as presque trouvé.,"Well, you almost found it.",,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,T'as trouvé.,Did you find it.,,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,"Ah vas-y, à toi.","Ah go ahead, over to you.",,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,T'as une idée de mot ?,Do you have an idea for a word?,,,,,,,,,,,,,,,,,
-ID_5,7,,,child,Réfléchis.,Think.,,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,J'ai...,I have...,,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Alors, est-ce que c'est vivant ?","So, is it alive?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,C'est un objet de la maison ?,Is it a household item?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,C'est un moyen de transport ?,Is it a means of transportation?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Oui.,Yes.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Est-ce qu'il a des roues ?,Does it have wheels?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Est-ce que c'est un bateau ?,Is it a boat?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,C'est un bateau ?,Is it a boat?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"Enfin, non.",Actually no.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"En vrai, non.","Actually, no.",,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Ce n'est pas un bateau.,It's not a boat.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Mais ça n'a pas de roues.,But it doesn't have wheels.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Une fusée ?,A rocket ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Si t'as changé de mot en cours…,If you changed words in class...,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Non ! Non !,No ! No !,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Alors, ça n'a pas de roue, mais c'est pas une fusée, un aéroglisseur ?","So, it doesn't have wheels, but it's not a rocket, a hovercraft?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Non.,No.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,C'est un truc qui existe encore.,It's something that still exists.,,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un truc qui existe encore.,Something that still exists.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Et on se déplace avec ?,And we move with it?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Oui.,Yes.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Et ça n'a pas de roue ?,And it doesn't have a wheel?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"Et par contre, ça peut attaquer.","And on the other hand, it can attack.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Mais c'est un moyen de transport ?,But is it a means of transport?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Hmm ! [L'enfant hoche la tête],Hmm ! [The child nods],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un tractopelle ?,A backhoe loader?,,,,1.0,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Non !,No !,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Où il y a plein de gens dedans.,Where there are lots of people in it.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un tank ?,A tank?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant secoue la tête],[The child shakes his head],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Vas-y donne moi un indice.,Go ahead and give me a hint.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Ça fait la guerre ?,Is it war?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant hoche la tête],[The child nods],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,C'est un moyen de transport pour la guerre ?,Is this a means of transportation for war?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant hoche la tête],[The child nods],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Ben alors un char d'assaut ?,Well then an assault tank?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant secoue la tête],[The child shakes his head],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Ben attends.,Well wait.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Il n'y a pas de roues, c'est un moyen de transport, on fait la guerre avec.","There are no wheels, it's a means of transport, we wage war with it.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un avion de chasse ?,Fighter jet ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,C'est sur la mer.,It's on the sea.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,C'est sur la mer ?,Is it on the sea?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un porte-avions ?,An aircraft carrier?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant secoue la tête],[The child shakes his head],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un sous-marin ?,A submarine ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,C'est un poids.,It's a weight.,,,,1.0,1.0,1.0,0.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Une barque ?,A boat?,,,,1.0,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant secoue la tête],[The child shakes his head],,,,,1.0,1.0,0.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un radeau ?,A raft ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant secoue la tête],[The child shakes his head],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Et c'est gros.,And it's big.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Si c'est pas un bateau, c'est sur la mer, ça peut être quoi ?","If it's not a boat, it's on the sea, what could it be?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"Bah.. C'est un bateau, mais en bois.","Well... It's a boat, but made of wood.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Aaah ! C'est ça ?,Aaah! That's it ?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,C'est un bateau en bois ?,Is it a wooden boat?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Et gros.,And big.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,D'accord.,All right.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Mais j'avais dit bateau.,But I said boat.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Vu que tu m'as dit non, je cherchais autre chose.","Since you said no, I was looking for something else.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Ah !,Ah!,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Fallait me dire oui, c'est un bateau, mais... Bon, c'est pas grave.","You had to tell me yes, it's a boat, but... Well, it doesn't matter.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Un bateau en bois.,A wooden boat.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Il est gros.,He's fat.,He is big.,,,1.0,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"C'est bon, j'en ai un.","It's okay, I have one.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"T'as pas choisi, hein..","You didn't choose, did you?",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Si j'ai choisi un mot,If I chose a word,,,,1.0,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Non mais enfaite c'était pas fini.,"No, but in fact it wasn't over.",,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Ah, c'est un gros bateau en bois ?","Ah, is it a big wooden boat?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,[L'enfant hoche la tête],[The child nods],,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,C'est ça le mot ?,Is that the word?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"Allez, tu donnes ta langue au chat ?","Come on, will you give your tongue to the cat?",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Bah oui.,Yeah.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,Un bateau pirate.,A pirate ship.,,,,,1.0,1.0,1.0,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Ah, foula !","Ah, foula!",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Vu que tu m'as dit non pour le bateau, moi je croyais que c'était fini après.","Since you told me no for the boat, I thought it was over after that.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Oui, un bateau pirate, ouais.","Yes, a pirate ship, yeah.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,D'accord.,All right.,,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"Mais oui j'tai, j'tai dit… j'tai…","But yes I was, I said… I was…",,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Oui, quand je t'ai dit un bateau, tu m'as dit non et du coup ça m'a perdu.","Yes, when I told you a boat, you told me no and so it lost me.",,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,"Mais en fait, sans faire exprès, tu savais pas mais t'as dit non","But in fact, without knowing it, you didn't know but you said no",,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,Ouais.,Yeah.,,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,T'avais dit non mais ensuite j'me suis trompé,You said no but then I was wrong,,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Bon, c'est pas grave.",OK its not a big deal.,,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,child,J'ai dit un bateau…,I said a boat...,,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Fallait me dire… oui, c'est un bateau mais une sorte de bateau.","You had to tell me... yes, it's a boat but a kind of boat.",,,,,,,,,,,,,,,,,
-ID_5,7,A pirate ship,parent,parent,"Enfin, c'est pas que un bateau.","Well, it's not just a boat.",,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,"Tu vois, j'aurais continué.","You see, I would have continued.",,,,,,,,,,,,,,,,,
-ID_5,7,,,(INV),Un dernier mot.,One last word.,,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,"Ah, c'est bon, j'en ai un.","Ah, it's okay, I have one.",,,,,,,,,,,,,,,,,
-ID_5,7,,,child,Monsieur ?,Sir ?,,,,,,,,,,,,,,,,,
-ID_5,7,,,(INV),Oui ?,Yes ?,,,,,,,,,,,,,,,,,
-ID_5,7,,,child,"Vous savez, en tout cas, j'avais une idée et ma maman, elle a pris plein de temps parce que c'était un bateau pirate.","You know, anyway, I had an idea and my mom took a lot of time because it was a pirate ship.",,,,,,,,,,,,,,,,,
-ID_5,7,,,(INV),Ah ! Ca c'est pas…,Ah! That’s not…,,,,,,,,,,,,,,,,,
-ID_5,7,,,child,Je dis en bois et c'est gros.,I say wooden and it's big.,,,,,,,,,,,,,,,,,
-ID_5,7,,,child,Je comprends pas.,I don't understand.,,,,,,,,,,,,,,,,,
-ID_5,7,,,(INV),J'avoue que c'est franchement...,I admit that it's frankly...,,,,,,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,"Vas-y, j'en ai un.","Go ahead, I have one.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,"C'est un animal, je le sais !","It's an animal, I know it!",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,"Oui, c'est un animal !","Yes, it's an animal!",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,"C'est ce que j'aime dire, les animaux.","That's what I like to say, animals.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Ça existe ?,It exists ?,,,,,1.0,1.0,1.0,0.0,1,1.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0
-ID_5,7,A dragon,child,parent,Non.,No.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,"Ça existe, à cette année ?",Does it exist this year?,,,,,1.0,1.0,0.0,1.0,"1,4",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,A dragon,child,parent,Ça fait longtemps.,It's been a long time.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,"Non, c'est un animal imaginaire.","No, it's an imaginary animal.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,Il n'existe pas.,He does not exist.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Ça habite où ?,Where does it live?,,,,,1.0,1.0,1.0,0.0,1,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
-ID_5,7,A dragon,child,child,Ça habite où ?,Where does it live?,,,,,,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,Plutôt dans une grotte.,More like in a cave.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Chauve-souris.,Bat.,,,,,1.0,1.0,0.0,1.0,"1,4",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-ID_5,7,A dragon,child,parent,"Ah non, c'est pas un animal imaginaire, une chauve-souris.","Oh no, it's not an imaginary animal, a bat.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,Ça existe.,It exists.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Encore un indice.,Another clue.,,,,,1.0,1.0,1.0,0.0,"1,9",1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_5,7,A dragon,child,parent,Ça peut voler.,It can fly.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,"Ça vole, ça marche.","It flies, it works.","It flies, it walks",,,1.0,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,C'est carnivore.,It's carnivorous.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Ah connais !,Ah know!,Ah I know!,,,1.0,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,"C'est... c'est... c'est comme un ours, mais... mais... et c'est Yakari !","It's... it's... it's like a bear, but... but... and it's Yakari!",,,,,1.0,1.0,0.0,1.0,"2,4",0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0
-ID_5,7,A dragon,child,parent,Ah non !,Oh no !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,Ça... ça crache du feu.,It... it breathes fire.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Ah !,Ah!,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,"Ben là, attends, ça vole, ça vit dans une grotte, ça crache du feu, ça marche...","Well, wait, it flies, it lives in a cave, it breathes fire, it works...","Well, wait, it flies, it lives in a cave, it breathes fire, it walks…",,,1.0,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,"Ouais, mais…","Yeah, but…",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,".. C'est imaginaire, je pense que t'as tout là.",".. It's imaginary, I think you have everything there.",,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,"Non, mais allez !","No, but come on!",,,,,1.0,1.0,0.0,0.0,"1,9",0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
-ID_5,7,A dragon,child,child,"Allez, allez !",Come on !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Dis !,Say !,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,Tu donnes ta langue au chat ?,Do you give your tongue to the cat?,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Ouais.,Yeah.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,parent,Un dragon.,A dragon.,,,,,1.0,,,,,,,,,,,,
-ID_5,7,A dragon,child,child,Ah !,Ah!,,,,,1.0,,,,,,,,,,,,
-ID_5,7,,,parent,C'est fini!,It's finish!,,,,,,,,,,,,,,,,,
-ID_5,7,,,parent,"[NAME-1], je t'ai tout dit!","[NAME-1], I told you everything!",,,,,,,,,,,,,,,,,
-ID_5,7,,,(INV),T'as fini?,You've finished?,,,,,,,,,,,,,,,,,
-ID_5,7,,,(INV),Ok.,OK.,,,,,,,,,,,,,,,,,
-ID_5,7,,,1,C'est fini!,It's finish!,,,,,,,,,,,,,,,,,
+file_id;child_age;target_word;original_target_word;guesser_type;speaker;original_text;auto_translation;manual_translation;missing_transcript;useful_context;is_dubious;is_relevant;validity_check;agreement;initiate_repair;error_type
+ID_5;7;;;;(INV);3, 2, 1, c'est parti !;3, 2, 1, here we go!;;;;;;;;;
+ID_5;7;The sun;le soleil;parent;child;Je sais;I know;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;parent;Alors, est-ce que c'est un objet de la maison ?;So, is this a household item?;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;The sun;le soleil;parent;parent;Est-ce que ça se trouve dehors ?;Is it outside?;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_5;7;The sun;le soleil;parent;parent;Alors, tu peux me donner un indice ?;So, can you give me a hint?;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;child;C'est dans l'espace.;It's in space.;;;;;1.0;1.0;;;
+ID_5;7;The sun;le soleil;parent;parent;Dans l'espace, ah oui, c'est dehors.;In space, oh yes, it's outside.;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;parent;Est-ce que c'est la Lune ?;Is it the Moon?;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;The sun;le soleil;parent;parent;C'est une étoile ?;Is it a star?;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;The sun;le soleil;parent;child;Ah oui !;Oh yes !;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;parent;Le soleil !;The sun !;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;child;Oui !;Yes !;;;;;1.0;1.0;;;
+ID_5;7;The sun;le soleil;parent;parent;C'est le soleil ?;Is it the sun?;;;;;1.0;;;;
+ID_5;7;The sun;le soleil;parent;child;Oui ! [l'enfant applaudit];Yes ! [child applauds];;;;;1.0;1.0;;;
+ID_5;7;A T-shirt;Un T-shirt;child;parent;A moi, j'ai trouvé.;For me, I found it.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;C'est un animal ?;It's an animal ?;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;parent;Non.;No.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;Tu peux me donner un indice ?;Can you give me a clue?;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;A T-shirt;Un T-shirt;child;parent;C'est quelque chose qu'on porte sur soi.;It's something you carry with you.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;Un sac ?;A bag ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;A T-shirt;Un T-shirt;child;parent;Presque.;Almost.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;Un sac à dos ?;A backpack ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;A T-shirt;Un T-shirt;child;parent;Non, enfin, c'est...;No, finally, it's...;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;parent;Oui, on peut le porter, mais ce n'est pas un sac.;Yes, you can carry it, but it's not a bag.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;Une valise ?;A suitcase ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;A T-shirt;Un T-shirt;child;parent;On peut le mettre sur soi.;You can put it on yourself.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;Une casquette ?;A cap ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;A T-shirt;Un T-shirt;child;parent;Ouais, presque.;Yeah, almost.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;Tu peux me donner un indice ?;Can you give me a clue?;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;A T-shirt;Un T-shirt;child;parent;C'est un habit.;It's a piece of clothing.;;;;;1.0;;;;
+ID_5;7;A T-shirt;Un T-shirt;child;child;Un T-shirt.;A T-shirt.;;;;;1.0;1.0;1.0;0.0;1,6
+ID_5;7;A T-shirt;Un T-shirt;child;parent;Ouais, un T-shirt.;Yeah, a T-shirt.;;;;;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;child;J'ai trouvé !;I've found !;;;;;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;parent;Alors, est-ce que c'est un animal ?;So, is it an animal?;;;;;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;child;Ouais.;Yeah.;;;;;1.0;1.0;;;
+ID_5;7;A Panda;Le panda;parent;parent;Un animal, c'est un animal domestique comme un chat, un chien…;An animal is a domestic animal like a cat, a dog…;;;;;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;child;… Non…;… Nope…;;;;;1.0;1.0;;;
+ID_5;7;A Panda;Le panda;parent;parent;… une souris, un animal sauvage ?;…a mouse, a wild animal?;;;;;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;parent;Où est-ce qu'il vit ?;Where does he live?;;;;;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;child;Dans les bambous.;In the bamboos.;;;;;1.0;1.0;;;
+ID_5;7;A Panda;Le panda;parent;parent;Dans les bambous !;In the bamboos!;;;;;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;parent;Ah, c'est le panda !;Ah, it’s the poma!;Ah, it’s the panda!;;;1.0;1.0;;;;
+ID_5;7;A Panda;Le panda;parent;child;Oui !;Yes !;;;;;1.0;1.0;;;
+ID_5;7;;;;parent;Attends…;Hold on…;;;;;;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Qu'est-ce que... Ah ouais, c'est bon.;What the... Oh yeah, it's okay.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;C'est un animal ?;It's an animal ?;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Non.;No.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Tu peux me donner un indice ?;Can you give me a clue?;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Déjà ?;Already ?;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;C'est un moyen de transport.;It is a means of transportation.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Une voiture ?;A car ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Il y a un moteur ?;Is there a motor?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Il y a un moteur, ouais, un petit moteur.;There's a motor, yeah, a little motor.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Un bus ?;A bus ?;;;;;1.0;1.0;0.0;0.0;1
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;C'est plus petit qu'un bus.;It's smaller than a bus.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Un quad ?;A quad ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Plus petit qu'un quad.;Smaller than a quad.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Un vélo ?;A bike ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Plus petit qu'un vélo.;Smaller than a bicycle.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Une souris ?;A mouse ?;;;;;1.0;1.0;0.0;1.0;1,4
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Une souris, mais non, c'est pas un moyen de transport, une souris.;A mouse, but no, it's not a means of transport, a mouse.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Bientôt on ira au travail avec des souris.;Soon we will go to work with mice.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Pas encore.;Not yet.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Un sac à dos.;A backpack.;;;;;1.0;1.0;0.0;0.0;1,4
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Non j'en ai une.;No I have one.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Donne un indice.;Give a hint.;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Ben j'en ai une et ça a deux roues.;Well I have one and it has two wheels.;;;;;1.0;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;Une trottinette !;A scooter !;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Une trottinette…;scooter…;;;;;;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;child;… électrique !;…electric!;;;;;;;;;
+ID_5;7;An electric scooter;une trottinette électrique;child;parent;Ouais, une trottinette électrique.;Yep, an electric scooter.;;;;;;;;;
+ID_5;7;The number three;Trois;parent;child;C'est bon !;It's good !;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;parent;Alors, est-ce que c'est un animal ?;So, is it an animal?;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;The number three;Trois;parent;parent;Est-ce que ça se mange ?;Is it edible?;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;The number three;Trois;parent;parent;Est-ce que c'est un moyen de transport ?;Is it a means of transportation?;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;The number three;Trois;parent;parent;Est-ce que c'est un objet de la maison ?;Is it a household item?;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;The number three;Trois;parent;parent;Vas-y, donne-moi un indice.;Go ahead, give me a hint.;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;child;C'est un nombre.;It's a number.;;;;;1.0;1.0;;;
+ID_5;7;The number three;Trois;parent;parent;C'est un chiffre, un nombre ?;Is it a number, a number?;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;parent;Trois.;Three.;;;;;1.0;;;;
+ID_5;7;The number three;Trois;parent;child;Ouais.;Yeah.;;;;;1.0;1.0;;;
+ID_5;7;;;;parent;C'était dur.;It was hard.;;;;;;;;;
+ID_5;7;;;;parent;Juste que tu regardes.;Just watch.;;;;;;;;;
+ID_5;7;;;;parent;Bah ouais, mais si tu m'avais pas... Si t'avais pas regardé où tu regardais, j'aurais pas deviné.;Well yeah, but if you hadn't seen me... If you hadn't looked where you were looking, I wouldn't have guessed.;;;;;;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;C'est bon, j'ai trouvé.;It's good I found.;;;;;;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Une voiture ?;A car ?;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Non.;No.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Mais cherche un peu plus large, demande...;But look a little wider, ask...;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;C'est un animal ?;It's an animal ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;Pikachu;Pikachu;child;parent;Ouais.;Yeah.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Un panda ?;A panda ?;;;;;1.0;1.0;1.0;0.0;1,7
+ID_5;7;Pikachu;Pikachu;child;parent;Non.;No.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Bah non, tu l'as déjà fait.;Well no, you already did it.;;;;;;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Un papillon ?;A butterfly ?;;;;;1.0;1.0;1.0;0.0;1,7
+ID_5;7;Pikachu;Pikachu;child;child;C'est un animal.;It's an animal.;;;;;;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Ouais.;Yeah.;;;;;;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Une baleine ?;A whale ?;;;;;1.0;1.0;1.0;0.0;1,7
+ID_5;7;Pikachu;Pikachu;child;child;Donne-moi un indice;Give me a clue;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;Pikachu;Pikachu;child;parent;C'est pas un animal qui existe vraiment.;It's not an animal that really exists.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Il existe dans... Une fiction;It exists in... A fiction;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;A quelle époque ?;At what time ?;;;;;1.0;1.0;0.0;0.0;1
+ID_5;7;Pikachu;Pikachu;child;parent;C'est récent, l'époque.;It's recent times.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;L'époque des dinosaures ?;The age of dinosaurs?;;;;;1.0;1.0;0.0;1.0;1,4
+ID_5;7;Pikachu;Pikachu;child;parent;Non, c'est moi quand j'étais plus petite.;No, that's me when I was younger.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Il n'existe pas mais on peut le voir dans des dessins animés ou des jeux vidéo.;He doesn't exist but we can see him in cartoons or video games.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Tu peux me donner un indice ?;Can you give me a clue?;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;Pikachu;Pikachu;child;parent;Ils ont des pouvoirs des attaques.;They have attack powers.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Mammouth.;Mammoth.;;;;;1.0;1.0;0.0;0.0;1,4
+ID_5;7;Pikachu;Pikachu;child;parent;Non… Tu peux te battre avec.;No… You can fight with it.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Des os.;Bones.;;;;;1.0;1.0;0.0;1.0;1,4
+ID_5;7;Pikachu;Pikachu;child;parent;Mais non, c'est un animal.;But no, it's an animal.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;C'est un animal que tu trouves dans des dessins animés ou jeux vidéo.;It's an animal that you find in cartoons or video games.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Oui, mais où ça habite ? Où ça habite ?;Yes, but where does it live? Where does it live?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;Pikachu;Pikachu;child;parent;Ah, où ça habite ?;Ah, where does it live?;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Ben, dans la forêt, plutôt.;Well, in the forest, rather.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Un loup ?;A wolf ?;;;;;1.0;1.0;0.0;1.0;1,4
+ID_5;7;Pikachu;Pikachu;child;parent;Il n'existe pas.;He does not exist.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Mais tu peux te battre avec.;But you can fight with it.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Dans un dessin animé ou un jeu vidéo.;In a cartoon or video game.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Tu peux l'attraper.;You can catch it.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Un sanglier ?;A boar ?;;;;;1.0;1.0;0.0;0.0;1,4
+ID_5;7;Pikachu;Pikachu;child;parent;Il y en a qui ont des formes de sanglier.;There are some that have the shape of a wild boar.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Euh... Un... Un... Un... Un... Un... Un mamoute !;Uh... A... A... A... A... A... A mamoute!;;;;;1.0;1.0;0.0;1.0;1,4
+ID_5;7;Pikachu;Pikachu;child;child;Hiiiiiaaa !;Hiiiiiaaa!;;;;;;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Ils ont des attaques !;They are having attacks!;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Type eau, feu...;Type water, fire...;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Donne-moi un indice !;Give me a clue !;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;Pikachu;Pikachu;child;parent;Bah, je t'en ai donné plein !;Well, I gave you plenty!;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;Euh... Il y en a un que t'adores qui est orange.;Um... There's one that you love that's orange.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Salamèche ?;Charmander?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;Pikachu;Pikachu;child;parent;Ouais !;Yeah !;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;C'est quoi Salamèche ?;What is Charmander?;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Un dragon ?;A dragon ?;;;;;1.0;1.0;0.0;0.0;1
+ID_5;7;Pikachu;Pikachu;child;parent;Oui, mais comme espèce !;Yes, but as a species!;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;T'en souviens plus le mot ?;Do you remember the word anymore?;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;parent;C'est qui le copain de Salamèche ?;Who is Charmander's friend?;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Dragonfeu ?;Dragonfire?;;;;;1.0;1.0;0.0;1.0;1
+ID_5;7;Pikachu;Pikachu;child;parent;Il est jaune.;It is yellow.;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;Pikachu ?;Pikachu ?;;;;;1.0;1.0;1.0;0.0;1,6
+ID_5;7;Pikachu;Pikachu;child;parent;Voilà !;So !;;;;;1.0;;;;
+ID_5;7;Pikachu;Pikachu;child;child;C'est Pikachu !;It's Pikachu!;;;;;1.0;;;;
+ID_5;7;;;;parent;La dernière fois qu'on a fait le jeux, on dit;The last time we played the game, we said;;;;;;;;;
+ID_5;7;;;;parent;C'est un animal ?;It's an animal ?;;;;;;;;;
+ID_5;7;;;;parent;Oui, c'est un Pokémon à chaque fois !;Yes, it's a Pokémon every time!;;;;;;;;;
+ID_5;7;;;;parent;T'as pas trouvé ?;Didn't you find it?;;;;;;;;;
+ID_5;7;;;;parent;Bah t'as presque trouvé.;Well, you almost found it.;;;;;;;;;
+ID_5;7;;;;parent;T'as trouvé.;Did you find it.;;;;;;;;;
+ID_5;7;;;;parent;Ah vas-y, à toi.;Ah go ahead, over to you.;;;;;;;;;
+ID_5;7;;;;parent;T'as une idée de mot ?;Do you have an idea for a word?;;;;;;;;;
+ID_5;7;;;;child;Réfléchis.;Think.;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;J'ai...;I have...;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Alors, est-ce que c'est vivant ?;So, is it alive?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Non.;No.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est un objet de la maison ?;Is it a household item?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est un moyen de transport ?;Is it a means of transportation?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Oui.;Yes.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Est-ce qu'il a des roues ?;Does it have wheels?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Est-ce que c'est un bateau ?;Is it a boat?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est un bateau ?;Is it a boat?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Enfin, non.;Actually no.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;En vrai, non.;Actually, no.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Ce n'est pas un bateau.;It's not a boat.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Mais ça n'a pas de roues.;But it doesn't have wheels.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Une fusée ?;A rocket ?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Si t'as changé de mot en cours…;If you changed words in class...;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Non ! Non !;No ! No !;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Alors, ça n'a pas de roue, mais c'est pas une fusée, un aéroglisseur ?;So, it doesn't have wheels, but it's not a rocket, a hovercraft?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Non.;No.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;C'est un truc qui existe encore.;It's something that still exists.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un truc qui existe encore.;Something that still exists.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Et on se déplace avec ?;And we move with it?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Oui.;Yes.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Et ça n'a pas de roue ?;And it doesn't have a wheel?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Et par contre, ça peut attaquer.;And on the other hand, it can attack.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Mais c'est un moyen de transport ?;But is it a means of transport?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Hmm ! [L'enfant hoche la tête];Hmm ! [The child nods];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un tractopelle ?;A backhoe loader?;;;;1.0;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Non !;No !;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Où il y a plein de gens dedans.;Where there are lots of people in it.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un tank ?;A tank?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant secoue la tête];[The child shakes his head];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Vas-y donne moi un indice.;Go ahead and give me a hint.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Ça fait la guerre ?;Is it war?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant hoche la tête];[The child nods];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est un moyen de transport pour la guerre ?;Is this a means of transportation for war?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant hoche la tête];[The child nods];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Ben alors un char d'assaut ?;Well then an assault tank?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant secoue la tête];[The child shakes his head];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Ben attends.;Well wait.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Il n'y a pas de roues, c'est un moyen de transport, on fait la guerre avec.;There are no wheels, it's a means of transport, we wage war with it.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un avion de chasse ?;Fighter jet ?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;C'est sur la mer.;It's on the sea.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est sur la mer ?;Is it on the sea?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un porte-avions ?;An aircraft carrier?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant secoue la tête];[The child shakes his head];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un sous-marin ?;A submarine ?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;C'est un poids.;It's a weight.;;;;1.0;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Une barque ?;A boat?;;;;1.0;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant secoue la tête];[The child shakes his head];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un radeau ?;A raft ?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant secoue la tête];[The child shakes his head];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Et c'est gros.;And it's big.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Si c'est pas un bateau, c'est sur la mer, ça peut être quoi ?;If it's not a boat, it's on the sea, what could it be?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Bah.. C'est un bateau, mais en bois.;Well... It's a boat, but made of wood.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Aaah ! C'est ça ?;Aaah! That's it ?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est un bateau en bois ?;Is it a wooden boat?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Et gros.;And big.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;D'accord.;All right.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Mais j'avais dit bateau.;But I said boat.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Vu que tu m'as dit non, je cherchais autre chose.;Since you said no, I was looking for something else.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Ah !;Ah!;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Fallait me dire oui, c'est un bateau, mais... Bon, c'est pas grave.;You had to tell me yes, it's a boat, but... Well, it doesn't matter.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Un bateau en bois.;A wooden boat.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Il est gros.;He's fat.;He is big.;;;1.0;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est bon, j'en ai un.;It's okay, I have one.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;T'as pas choisi, hein..;You didn't choose, did you?;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Si j'ai choisi un mot;If I chose a word;;;;1.0;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Non mais enfaite c'était pas fini.;No, but in fact it wasn't over.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Ah, c'est un gros bateau en bois ?;Ah, is it a big wooden boat?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;[L'enfant hoche la tête];[The child nods];;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;C'est ça le mot ?;Is that the word?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Allez, tu donnes ta langue au chat ?;Come on, will you give your tongue to the cat?;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Bah oui.;Yeah.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Un bateau pirate.;A pirate ship.;;;;;1.0;1.0;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Ah, foula !;Ah, foula!;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Vu que tu m'as dit non pour le bateau, moi je croyais que c'était fini après.;Since you told me no for the boat, I thought it was over after that.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Oui, un bateau pirate, ouais.;Yes, a pirate ship, yeah.;;;;;1.0;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;D'accord.;All right.;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Mais oui j'tai, j'tai dit… j'tai…;But yes I was, I said… I was…;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Oui, quand je t'ai dit un bateau, tu m'as dit non et du coup ça m'a perdu.;Yes, when I told you a boat, you told me no and so it lost me.;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;Mais en fait, sans faire exprès, tu savais pas mais t'as dit non;But in fact, without knowing it, you didn't know but you said no;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Ouais.;Yeah.;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;T'avais dit non mais ensuite j'me suis trompé;You said no but then I was wrong;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Bon, c'est pas grave.;OK its not a big deal.;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;child;J'ai dit un bateau…;I said a boat...;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Fallait me dire… oui, c'est un bateau mais une sorte de bateau.;You had to tell me... yes, it's a boat but a kind of boat.;;;;;;;;;
+ID_5;7;A pirate ship;Un bateau pirate;parent;parent;Enfin, c'est pas que un bateau.;Well, it's not just a boat.;;;;;;;;;
+ID_5;7;;;;parent;Tu vois, j'aurais continué.;You see, I would have continued.;;;;;;;;;
+ID_5;7;;;;(INV);Un dernier mot.;One last word.;;;;;;;;;
+ID_5;7;;;;parent;Ah, c'est bon, j'en ai un.;Ah, it's okay, I have one.;;;;;;;;;
+ID_5;7;;;;child;Monsieur ?;Sir ?;;;;;;;;;
+ID_5;7;;;;(INV);Oui ?;Yes ?;;;;;;;;;
+ID_5;7;;;;child;Vous savez, en tout cas, j'avais une idée et ma maman, elle a pris plein de temps parce que c'était un bateau pirate.;You know, anyway, I had an idea and my mom took a lot of time because it was a pirate ship.;;;;;;;;;
+ID_5;7;;;;(INV);Ah ! Ca c'est pas…;Ah! That’s not…;;;;;;;;;
+ID_5;7;;;;child;Je dis en bois et c'est gros.;I say wooden and it's big.;;;;;;;;;
+ID_5;7;;;;child;Je comprends pas.;I don't understand.;;;;;;;;;
+ID_5;7;;;;(INV);J'avoue que c'est franchement...;I admit that it's frankly...;;;;;;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Vas-y, j'en ai un.;Go ahead, I have one.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;C'est un animal, je le sais !;It's an animal, I know it!;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Oui, c'est un animal !;Yes, it's an animal!;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;C'est ce que j'aime dire, les animaux.;That's what I like to say, animals.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ça existe ?;It exists ?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;A dragon;Un dragon;child;parent;Non.;No.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ça existe, à cette année ?;Does it exist this year?;;;;;1.0;1.0;0.0;1.0;1,4
+ID_5;7;A dragon;Un dragon;child;parent;Ça fait longtemps.;It's been a long time.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Non, c'est un animal imaginaire.;No, it's an imaginary animal.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Il n'existe pas.;He does not exist.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ça habite où ?;Where does it live?;;;;;1.0;1.0;1.0;0.0;1
+ID_5;7;A dragon;Un dragon;child;child;Ça habite où ?;Where does it live?;;;;;;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Plutôt dans une grotte.;More like in a cave.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Chauve-souris.;Bat.;;;;;1.0;1.0;0.0;1.0;1,4
+ID_5;7;A dragon;Un dragon;child;parent;Ah non, c'est pas un animal imaginaire, une chauve-souris.;Oh no, it's not an imaginary animal, a bat.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Ça existe.;It exists.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Encore un indice.;Another clue.;;;;;1.0;1.0;1.0;0.0;1,9
+ID_5;7;A dragon;Un dragon;child;parent;Ça peut voler.;It can fly.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Ça vole, ça marche.;It flies, it works.;It flies, it walks;;;1.0;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;C'est carnivore.;It's carnivorous.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ah connais !;Ah know!;Ah I know!;;;1.0;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;C'est... c'est... c'est comme un ours, mais... mais... et c'est Yakari !;It's... it's... it's like a bear, but... but... and it's Yakari!;;;;;1.0;1.0;0.0;1.0;2,4
+ID_5;7;A dragon;Un dragon;child;parent;Ah non !;Oh no !;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Ça... ça crache du feu.;It... it breathes fire.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ah !;Ah!;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Ben là, attends, ça vole, ça vit dans une grotte, ça crache du feu, ça marche...;Well, wait, it flies, it lives in a cave, it breathes fire, it works...;Well, wait, it flies, it lives in a cave, it breathes fire, it walks…;;;1.0;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ouais, mais…;Yeah, but…;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;.. C'est imaginaire, je pense que t'as tout là.;.. It's imaginary, I think you have everything there.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Non, mais allez !;No, but come on!;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Allez, allez !;Come on !;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Dis !;Say !;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Tu donnes ta langue au chat ?;Do you give your tongue to the cat?;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ouais.;Yeah.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;parent;Un dragon.;A dragon.;;;;;1.0;;;;
+ID_5;7;A dragon;Un dragon;child;child;Ah !;Ah!;;;;;1.0;;;;
+ID_5;7;;;;parent;C'est fini!;It's finish!;;;;;;;;;
+ID_5;7;;;;parent;Arthur, je t'ai tout dit!;Arthur, I told you everything!;;;;;;;;;
+ID_5;7;;;;(INV);T'as fini?;You've finished?;;;;;;;;;
+ID_5;7;;;;(INV);Ok.;OK.;;;;;;;;;
+ID_5;7;;;;1;C'est fini!;It's finish!;;;;;;;;;
